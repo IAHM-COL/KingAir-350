@@ -171,7 +171,7 @@
 
 	<propulsion>
 
-		<engine file="PW_PT6A_60">
+		<engine file="PW_PT6A-60">
 			<location unit="IN">
 				<x> 338.52 </x>
 				<y> -115.90 </y>
@@ -183,7 +183,7 @@
 				<yaw>   0.00 </yaw>
 			</orient>
 			<feed>0</feed>
-			<thruster file="direct">
+			<thruster file="Prop_L10">
 				<location unit="IN">
 					<x> 338.52 </x>
 					<y> -115.90 </y>
@@ -197,7 +197,7 @@
 			</thruster>
 		</engine>
 
-		<engine file="PW_PT6A_60">
+		<engine file="PW_PT6A-60">
 			<location unit="IN">
 				<x> 338.52 </x>
 				<y> 115.90 </y>
@@ -209,7 +209,7 @@
 				<yaw>   0.00 </yaw>
 			</orient>
 			<feed>1</feed>
-			<thruster file="direct">
+			<thruster file="Prop_L10">
 				<location unit="IN">
 					<x> 338.52 </x>
 					<y> 115.90 </y>
@@ -239,8 +239,8 @@
 				<y>   0.00 </y>
 				<z> -14.00 </z>
 			</location>
-			<capacity unit="LBS"> 1270.00 </capacity>
-			<contents unit="LBS"> 635.00 </contents>
+			<capacity unit="LBS"> 786.65 </capacity>
+			<contents unit="LBS"> 786.65 </contents>
 		</tank>
 
 		<tank type="FUEL" number="2">
@@ -249,8 +249,18 @@
 				<y>   0.00 </y>
 				<z> -14.00 </z>
 			</location>
-			<capacity unit="LBS"> 1270.00 </capacity>
-			<contents unit="LBS"> 635.00 </contents>
+			<capacity unit="LBS"> 786.65 </capacity>
+			<contents unit="LBS"> 786.65 </contents>
+		</tank>
+
+		<tank type="FUEL" number="3">
+			<location unit="IN">
+				<x> 338.52 </x>
+				<y>   0.00 </y>
+				<z> -14.00 </z>
+			</location>
+			<capacity unit="LBS"> 786.65 </capacity>
+			<contents unit="LBS"> 786.65 </contents>
 		</tank>
 
 	</propulsion>
