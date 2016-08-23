@@ -30,7 +30,7 @@
 			<FDM type="int">     0 </FDM>
 			<systems type="int"> 0 </systems>
 			<cockpit type="int"> 0 </cockpit>
-			<model type="int">   2 </model>
+			<model type="int">   0 </model>
 		</rating>
 
 		<flight-model>jsb</flight-model>
