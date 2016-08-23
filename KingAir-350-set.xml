@@ -2,39 +2,39 @@
 
 <PropertyList include="Aircraft/JPack/Interface.xml">
 
-  <!-- 
-  ************************************************************************
-  Flightgear's Beechcraft Super King Air 350
-  it0uchpods and IAHM-COL, 2016
+	<!-- 
+	************************************************************************
+	Flightgear's Beechcraft Super King Air 350
+	it0uchpods and IAHM-COL, 2016
   
+	based on:
+	3D model taken from 3ds directory from FGDATA
+	************************************************************************
+	-->
 
-  based on:
-  3D model taken from 3ds directory from FGDATA
-  ************************************************************************
-  -->
+	<sim>
 
-  <sim>
+		<description>Beechraft Super King Air 350</description>
+		<author>it0uchpods, IAHM-COL</author>
 
-    <description>Beechraft Super King Air 350</description>
-    <author>it0uchpods, IAHM-COL</author>
+		<aircraft-version>V0.00.00</aircraft-version>
+		<status>Alpha</status>
+		<!-- 
 
-    <aircraft-version>V0.00.00</aircraft-version>
-    <status>Alpha</status>
-    <!-- 
-    Currently: 
-    Multiply via FG-MP-Network cancelled, integration of Voodoomaster and SkyNet planned
-    -->
+		Currently: 
+		WIP for USA Tour
 
-    <rating>
-      <FDM type="int">     0 </FDM>
-      <systems type="int"> 0 </systems>
-      <cockpit type="int"> 0 </cockpit>
-      <model type="int">   2 </model>
-    </rating>
+		-->
 
-    <flight-model>jsb</flight-model>
-    <aero>KingAir-350</aero>
-    <engine>PW_R-985</engine>
+		<rating>
+			<FDM type="int">     0 </FDM>
+			<systems type="int"> 0 </systems>
+			<cockpit type="int"> 0 </cockpit>
+			<model type="int">   2 </model>
+		</rating>
+
+		<flight-model>jsb</flight-model>
+		<aero>Aero/KingAir-350</aero>
 
     <!-- Splash screen while loading -->
     <startup>
