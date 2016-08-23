@@ -7,6 +7,7 @@ License: GPL version 2+<br>
 :copyright: 2016 it0uchpods <br>
 :copyright: 2016 IAHM-COL <br>
 :copyright: 2015 JWocky <br>
+:copyright: 2016 SM <br>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
