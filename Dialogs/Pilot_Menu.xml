@@ -2,32 +2,45 @@
 
 <PropertyList>
 
-  <!--
-      Flightgear's Beechcraft Super King Air 350
-      :copyright: 2016, it0uchpods
-      :copyright: 2016, IAHM-COL
-      License: GPL2. See ./COPYING
-  -->
+	<!--
+		Flightgear's Beechcraft Super King Air 350
+		:copyright: 2016, it0uchpods
+		:copyright: 2016, IAHM-COL
+		License: GPL2. See ./COPYING
+	-->
   
-  <default>
-    <menu n="10">
-      <label>Super KingAir 350 </label>
-      <enabled type="bool">true</enabled>
-      <item>
-        <label>Select Livery</label>
-        <binding>
-          <command>nasal</command>
-          <script>aircraft.livery.dialog.toggle()</script>
-        </binding>
-      </item>
-      <item>
-        <label>Immatriculation</label>
-        <binding>
-          <command>nasal</command>
-          <script>immat.immat_dialog.toggle()</script>
-        </binding>
-      </item>
-    </menu>
-  </default>
+	<default>
+
+		<menu n="10">
+			<label>Super KingAir 350 </label>
+			<enabled type="bool">true</enabled>
+
+			<item>
+				<label>Autostart</label>
+				<binding>
+					<command>property-toggle</command>
+					<property>sim/model/start-idling</property>
+				</binding>
+			</item>
+
+			<item>
+				<label>Select Livery</label>
+				<binding>
+					<command>nasal</command>
+					<script>aircraft.livery.dialog.toggle()</script>
+				</binding>
+			</item>
+
+			<item>
+				<label>Immatriculation</label>
+				<binding>
+					<command>nasal</command>
+					<script>immat.immat_dialog.toggle()</script>
+				</binding>
+			</item>
+
+		</menu>
+
+	</default>
 
 </PropertyList>

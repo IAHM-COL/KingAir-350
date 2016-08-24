@@ -36,24 +36,24 @@
 		<flight-model>jsb</flight-model>
 		<aero>Aero/KingAir-350</aero>
 
-    <!-- Splash screen while loading -->
-    <startup>
-      <splash-texture>Aircraft/KingAir-350/splashScreen/KingAir-350-splash1.png</splash-texture>
-    </startup>
+		<!-- Splash screen while loading -->
+		<startup>
+			<splash-texture>Aircraft/KingAir-350/splashScreen/KingAir-350-splash1.png</splash-texture>
+		</startup>
 
-    <!-- Settings for model -->
-    <model>
-      <!-- Path to main model file -->
-      <path>Aircraft/KingAir-350/Models/KingAir.xml</path>
+		<!-- Settings for model -->
+		<model>
+			<!-- Path to main model file -->
+			<path>Aircraft/KingAir-350/Models/KingAir.xml</path>
 
-      <!-- JPack: push forces for Voodoomaster Pushback -->
-      <pushback>
-	<kp type="double">300</kp>
-	<ki type="double">0</ki>
-	<kd type="double">0</kd>
-	<position-norm type="double">0</position-norm>
-	<enabled type="bool">false</enabled>
-      </pushback>
+			<!-- JPack: push forces for Voodoomaster Pushback -->
+			<pushback>
+				<kp type="double">300</kp>
+				<ki type="double">0</ki>
+				<kd type="double">0</kd>
+				<position-norm type="double">0</position-norm>
+				<enabled type="bool">false</enabled>
+			</pushback>
 
       <!-- String variable to hold current livery -->
       <livery>
@@ -239,43 +239,45 @@
     <menubar include="Dialogs/Pilot_Menu.xml"/>
   </sim>
 
-  <!-- Fuel and what anything else can be consumed, but normally fuel tanks -->
-  <consumables>
-    <fuel>
-      <tank n="0">
-	<name>Left wing</name>
-	<tank-num type="int">0</tank-num>
-	<level-gal_us archive="y">97</level-gal_us>
-      </tank>
-      <tank n="1">
-	<name>Right wing</name>
-	<tank-num type="int">1</tank-num>
-	<level-gal_us archive="y">97</level-gal_us>
-      </tank>
-    </fuel>
-  </consumables>
+	<!-- Fuel and what anything else can be consumed, but normally fuel tanks -->
+	<consumables>
+		<fuel>
 
-  <!-- Payload section: Whatever weights -->
-  <payload>
-    <weight n="0">
-      <name>Crew</name>
-      <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]" />
-      <min-lb type="double">200</min-lb>
-      <max-lb type="double">400</max-lb>
-    </weight>
-    <weight n="1">
-      <name>Passengers</name>
-      <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]" />
-      <min-lb type="double">0</min-lb>
-      <max-lb type="double">2000</max-lb>
-    </weight>
-    <weight n="2">
-      <name>Freight</name>
-      <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[2]" />
-      <min-lb type="double">0</min-lb>
-      <max-lb type="double">482</max-lb>
-    </weight>
-  </payload>
+			<tank n="0">
+				<name>outer Left wing</name>
+				<tank-num type="int">0</tank-num>
+				<level-gal_us archive="y">118</level-gal_us>
+			</tank>
+
+			<tank n="1">
+				<name>inner Left wing</name>
+				<tank-num type="int">1</tank-num>
+				<level-gal_us archive="y">118</level-gal_us>
+			</tank>
+
+			<tank n="2">
+				<name>inner right wing</name>
+				<tank-num type="int">2</tank-num>
+				<level-gal_us archive="y">118</level-gal_us>
+			</tank>
+
+			<tank n="3">
+				<name>outer right wing</name>
+				<tank-num type="int">0</tank-num>
+				<level-gal_us archive="y">118</level-gal_us>
+			</tank>
+		</fuel>
+	</consumables>
+
+	<!-- Payload section: Whatever weights -->
+	<payload>
+		<weight n="0">
+			<name>Payload</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]" />
+			<min-lb type="double">0.00</min-lb>
+			<max-lb type="double">652.5</max-lb>
+		</weight>
+	</payload>
 
   <controls>
     <engines>
@@ -371,16 +373,17 @@
     </pushback>
   </voodoomaster>
 
-  <!-- all the nasal files in their namespaces -->
-  <nasal>
-    <voodoomaster>
-      <file>Aircraft/KingAir-350/Nasal/Pushback.nas</file>
-      <file>Aircraft/KingAir-350/Nasal/ground_handling.nas</file>
-      <file>Aircraft/KingAir-350/Nasal/mp-network.nas</file>
-    </voodoomaster>
-    <kingair>
-      <file>Aircraft/KingAir-350/Nasal/liveries.nas</file>
-    </kingair>
-  </nasal>
+	<!-- all the nasal files in their namespaces -->
+	<nasal>
+		<!-- voodoomaster>
+			<file>Aircraft/KingAir-350/Nasal/Pushback.nas</file>
+			<file>Aircraft/KingAir-350/Nasal/ground_handling.nas</file>
+			<file>Aircraft/KingAir-350/Nasal/mp-network.nas</file>
+		</voodoomaster -->
+		<kingair>
+			<file>Aircraft/KingAir-350/Nasal/kingair.nas</file>
+			<!-- file>Aircraft/KingAir-350/Nasal/liveries.nas</file -->
+		</kingair>
+	</nasal>
 
 </PropertyList>
