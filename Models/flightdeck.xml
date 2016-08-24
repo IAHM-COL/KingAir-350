@@ -4,7 +4,7 @@
     <path>flightdeck.ac</path>
 
     <model><!-- reg label-->
-        <path>Aircraft/b1900d/Models/registration.xml</path>
+        <path>Aircraft/KingAir-350/Models/registration.xml</path>
         <offsets>
             <x-m>-4.918</x-m>
             <y-m>0.153</y-m>
@@ -28,7 +28,7 @@
 
     <model>
         <name>EFIS84 EHSI-pilot</name>
-        <path>Aircraft/b1900d/Models/Instruments/EFIS-84/ehsi.xml</path>
+        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
         <offsets>
             <x-m>-4.916</x-m>
             <y-m>-0.366</y-m>
@@ -38,7 +38,7 @@
 
     <model>
         <name>EFIS84 EHSI-copilot</name>
-        <path>Aircraft/b1900d/Models/Instruments/EFIS-84/ehsi.xml</path>
+        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
         <offsets>
             <x-m>-4.916</x-m>
             <y-m>0.366</y-m>
@@ -48,7 +48,7 @@
 
     <model>
         <name>EFIS84 EADI-pilot</name>
-        <path>Aircraft/b1900d/Models/Instruments/EFIS-84/eadi.xml</path>
+        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/eadi.xml</path>
         <offsets>
             <x-m>-4.916</x-m>
             <y-m>-0.366</y-m>
