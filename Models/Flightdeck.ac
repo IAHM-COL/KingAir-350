@@ -15,7 +15,7 @@ name "AC-volts"
 loc 0 0.0444388 0
 data 9
 Plane.471
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.5154 0.5054 -0.0585
@@ -104,7 +104,7 @@ name "ADF1.frq-high"
 loc 0 0.0444388 0
 data 12
 Cylinder.040
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9164 -0.1675 0.0545
@@ -475,7 +475,7 @@ name "ADF1.frq-low"
 loc 0 0.0444388 0
 data 12
 Cylinder.039
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9103 -0.1695 0.0565
@@ -846,7 +846,7 @@ name "ADF1.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.015
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 77
 -4.9147 -0.1744 0.086
@@ -1427,7 +1427,7 @@ name "ADF1.knob2"
 loc 0 0.0444388 0
 data 8
 Tube.014
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9095 -0.1727 0.0887
@@ -1805,7 +1805,7 @@ name "ALT.btn"
 loc 0 0.0444388 0
 data 9
 Plane.595
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0455 0.403
@@ -1873,7 +1873,7 @@ name "ALTS.btn"
 loc 0 0.0444388 0
 data 9
 Plane.596
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0455 0.3839
@@ -1941,7 +1941,7 @@ name "ALTneedle1"
 loc 0 0.0444388 0
 data 8
 Mesh.567
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 8
 -4.9113 0.016 0.2709
@@ -1973,7 +1973,7 @@ name "ALTneedle2"
 loc 0 0.0444388 0
 data 8
 Mesh.583
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 8
 -4.9094 0.0160999 -0.4616
@@ -2327,7 +2327,7 @@ name "AP-fail"
 loc 0 0.0444388 0
 data 8
 Mesh.597
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8873 0.1606 -0.0149
@@ -2348,7 +2348,7 @@ name "AP-toggle"
 loc 0 0.0444388 0
 data 8
 Cube.006
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4068 -0.5154 0.1017
@@ -2494,7 +2494,7 @@ name "AP.A"
 loc 0 0.0444388 0
 data 9
 Plane.386
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0668
@@ -2515,7 +2515,7 @@ name "AP.E"
 loc 0 0.0444388 0
 data 9
 Plane.388
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0522
@@ -2536,7 +2536,7 @@ name "AP.R"
 loc 0 0.0444388 0
 data 9
 Plane.387
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0593
@@ -2557,7 +2557,7 @@ name "AP.T"
 loc 0 0.0444388 0
 data 9
 Plane.384
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0842
@@ -2578,7 +2578,7 @@ name "AP.ap"
 loc 0 0.0444388 0
 data 9
 Plane.383
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.098
@@ -2599,7 +2599,7 @@ name "AP.apdis"
 loc 0 0.0444388 0
 data 9
 Plane.382
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0909
@@ -2620,7 +2620,7 @@ name "AP.apfail"
 loc 0 0.0444388 0
 data 9
 Plane.385
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0756
@@ -2641,7 +2641,7 @@ name "AP.bank"
 loc 0 0.0444388 0
 data 9
 Plane.389
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0428
@@ -2662,7 +2662,7 @@ name "AP.sr"
 loc 0 0.0444388 0
 data 9
 Plane.390
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0345
@@ -2683,7 +2683,7 @@ name "AP.trimctn"
 loc 0 0.0444388 0
 data 9
 Plane.391
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0236
@@ -2704,7 +2704,7 @@ name "AP.trimfail"
 loc 0 0.0444388 0
 data 9
 Plane.392
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.0115
@@ -2725,7 +2725,7 @@ name "AP.yaw"
 loc 0 0.0444388 0
 data 9
 Plane.379
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.1161
@@ -2746,7 +2746,7 @@ name "AP.yawdis"
 loc 0 0.0444388 0
 data 9
 Plane.381
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.4289 -0.5181 0.1081
@@ -2767,7 +2767,7 @@ name "APPR.btn"
 loc 0 0.0444388 0
 data 9
 Plane.592
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0604999 0.3648
@@ -2842,7 +2842,7 @@ name "APtrim-fail"
 loc 0 0.0444388 0
 data 8
 Mesh.589
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8873 0.1606 0.0408
@@ -2863,7 +2863,7 @@ name "ARMlites"
 loc 0 0.0444388 0
 data 8
 Mesh.599
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8873 0.1607 0.0134
@@ -2884,7 +2884,7 @@ name "ASI1.needle"
 loc 0 0.0444388 0
 data 10
 Circle.302
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 32
 -4.9157 -0.0197001 0.4567
@@ -3123,7 +3123,7 @@ name "ASI1.needle1"
 loc 0 0.0444388 0
 data 10
 Circle.306
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 32
 -4.9159 -0.0197001 0.4613
@@ -3362,7 +3362,7 @@ name "ASI2.needle"
 loc 0 0.0444388 0
 data 10
 Circle.308
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 32
 -4.9157 -0.0202 -0.2733
@@ -3601,7 +3601,7 @@ name "ASI2.needle1"
 loc 0 0.0444388 0
 data 10
 Circle.307
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 32
 -4.9159 -0.0202 -0.2687
@@ -4890,7 +4890,7 @@ name "Atrim"
 loc 0 0.0444388 0
 data 8
 Mesh.011
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 36
 -4.6204 -0.4487 0.0454
@@ -14549,7 +14549,7 @@ name "BC.btn"
 loc 0 0.0444388 0
 data 9
 Plane.593
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0604999 0.3456
@@ -14617,7 +14617,7 @@ name "BNK-toggle"
 loc 0 0.0444388 0
 data 8
 Cube.011
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4011 -0.5158 0.0371
@@ -15400,7 +15400,7 @@ name "BaroKnob"
 loc 0 0.0444388 0
 data 8
 Cylinder
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 24
 -4.911 -0.043 0.24
@@ -15553,7 +15553,7 @@ name "BaroKnob.001"
 loc 0 0.0444388 0
 data 12
 Cylinder.013
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 24
 -4.8968 -0.0411999 -0.4888
@@ -15706,7 +15706,7 @@ name "Batt-amp"
 loc 0 0.0444388 0
 data 9
 Plane.173
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.5165 0.5035 0.047
@@ -15736,7 +15736,7 @@ name "Batt-volt"
 loc 0 0.0444388 0
 data 9
 Plane.172
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.5216 0.4948 0.0623
@@ -17106,7 +17106,7 @@ name "BrgPtr11"
 loc 0 0.0444388 0
 data 8
 Cube.026
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4493 -0.5154 0.0895
@@ -17245,7 +17245,7 @@ name "BrgPtr12"
 loc 0 0.0444388 0
 data 8
 Cube.027
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4493 -0.5154 0.07
@@ -17384,7 +17384,7 @@ name "BrgPtr21"
 loc 0 0.0444388 0
 data 8
 Cube.010
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4493 -0.5154 -0.0537
@@ -17523,7 +17523,7 @@ name "BrgPtr22"
 loc 0 0.0444388 0
 data 8
 Cube.009
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4493 -0.5154 -0.0731
@@ -17662,7 +17662,7 @@ name "CALT-hi"
 loc 0 0.0444388 0
 data 8
 Mesh.586
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8897 0.1878 0.0407
@@ -17683,7 +17683,7 @@ name "CBN-door"
 loc 0 0.0444388 0
 data 8
 Mesh.590
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.889 0.1788 0.0131
@@ -17704,7 +17704,7 @@ name "CDIFF-hi"
 loc 0 0.0444388 0
 data 8
 Mesh.592
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8897 0.1878 -0.0149
@@ -17725,7 +17725,7 @@ name "CLIMB.btn"
 loc 0 0.0444388 0
 data 9
 Plane.594
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0604999 0.3264
@@ -17852,7 +17852,7 @@ name "COMM1.frq-high"
 loc 0 0.0444388 0
 data 12
 Cylinder.018
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9161 -0.0404999 0.0575
@@ -18223,7 +18223,7 @@ name "COMM1.frq-low"
 loc 0 0.0444388 0
 data 12
 Cylinder.019
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9103 -0.0425 0.0595
@@ -18594,7 +18594,7 @@ name "COMM1.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.021
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 77
 -4.9147 -0.0481 0.089
@@ -19175,7 +19175,7 @@ name "COMM1.knob2"
 loc 0 0.0444388 0
 data 8
 Tube.023
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9099 -0.0467 0.0917
@@ -19605,7 +19605,7 @@ name "COMM2.frq-high"
 loc 0 0.0444388 0
 data 12
 Cylinder.038
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9161 -0.0404999 -0.2045
@@ -19976,7 +19976,7 @@ name "COMM2.frq-low"
 loc 0 0.0444388 0
 data 12
 Cylinder.037
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9103 -0.0425 -0.2025
@@ -20347,7 +20347,7 @@ name "COMM2.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.013
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 77
 -4.915 -0.0453999 -0.1716
@@ -20928,7 +20928,7 @@ name "COMM2.knob2"
 loc 0 0.0444388 0
 data 8
 Tube.012
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9099 -0.0467 -0.1703
@@ -21687,7 +21687,7 @@ name "CRG-door"
 loc 0 0.0444388 0
 data 8
 Mesh.591
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8882 0.1699 0.0133
@@ -21708,7 +21708,7 @@ name "CRS.center"
 loc 0 0.0444388 0
 data 10
 Circle.216
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 17
 -4.4492 -0.5013 0.0214
@@ -21831,7 +21831,7 @@ name "CRS.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.003
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 67
 -4.445 -0.5178 0.0181
@@ -22352,7 +22352,7 @@ name "CRS.knob1.001"
 loc 0 0.0444388 0
 data 8
 Tube.057
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 67
 -4.4452 -0.5178 -0.1249
@@ -22873,7 +22873,7 @@ name "CRS1.center"
 loc 0 0.0444388 0
 data 10
 Circle.218
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 17
 -4.4494 -0.5013 -0.1215
@@ -22996,7 +22996,7 @@ name "CRSR.btn"
 loc 0 0.0444388 0
 data 10
 Circle.244
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 18
 -4.9169 -0.0874 -0.1955
@@ -23120,7 +23120,7 @@ name "CRSset1.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.053
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 33
 -4.4484 -0.5104 0.0207
@@ -23371,7 +23371,7 @@ name "CRSset2.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.005
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 33
 -4.4487 -0.5104 -0.1223
@@ -23622,7 +23622,7 @@ name "CTN.batt"
 loc 0 0.0444388 0
 data 9
 Plane.486
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8961 -0.2146 0.0091
@@ -23643,7 +23643,7 @@ name "CTN.lfuel"
 loc 0 0.0444388 0
 data 9
 Plane.485
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8959 -0.2152 0.064
@@ -23664,7 +23664,7 @@ name "CTN.lfuel.col"
 loc 0 0.0444388 0
 data 9
 Plane.525
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8903 -0.2209 0.0637
@@ -23685,7 +23685,7 @@ name "CTN.lgen"
 loc 0 0.0444388 0
 data 9
 Plane.484
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8962 -0.2148 0.0912
@@ -23706,7 +23706,7 @@ name "CTN.lign"
 loc 0 0.0444388 0
 data 9
 Plane.496
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8611 -0.2525 0.0635
@@ -23727,7 +23727,7 @@ name "CTN.panel"
 loc 0 0.0444388 0
 data 8
 Mesh.052
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9021 -0.2087 -0.073
@@ -23748,7 +23748,7 @@ name "CTN.rfuel"
 loc 0 0.0444388 0
 data 9
 Plane.487
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8961 -0.2146 -0.0452
@@ -23769,7 +23769,7 @@ name "CTN.rfuel.col"
 loc 0 0.0444388 0
 data 9
 Plane.526
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8905 -0.2207 -0.0451
@@ -23790,7 +23790,7 @@ name "CTN.rgen"
 loc 0 0.0444388 0
 data 9
 Plane.488
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8962 -0.2144 -0.0723
@@ -23811,7 +23811,7 @@ name "CTN.rign"
 loc 0 0.0444388 0
 data 9
 Plane.497
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8613 -0.2523 -0.0456
@@ -23832,7 +23832,7 @@ name "CTN.taxi"
 loc 0 0.0444388 0
 data 9
 Plane.490
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8612 -0.2523 0.009
@@ -23853,7 +23853,7 @@ name "CTN.xfer"
 loc 0 0.0444388 0
 data 9
 Plane.489
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.85 -0.2646 0.0365
@@ -23874,7 +23874,7 @@ name "Circle.109"
 loc 0 0.0444388 0
 data 10
 Circle.256
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 83
 -4.3008 -0.5183 -0.1199
@@ -27957,7 +27957,7 @@ name "Circle.282"
 loc 0 0.0444388 0
 data 10
 Circle.447
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 1152
 -4.9199 0.1001 0.1839
@@ -35923,7 +35923,7 @@ name "Cond0"
 loc 0 0.0444388 0
 data 8
 Mesh.835
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 130
 -4.6395 -0.3164 -0.0095
@@ -37011,7 +37011,7 @@ name "Cond1"
 loc 0 0.0444388 0
 data 8
 Mesh.836
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 130
 -4.6395 -0.3164 -0.0766
@@ -38887,7 +38887,7 @@ name "CrsSel.btn2"
 loc 0 0.0444388 0
 data 8
 Cube.008
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 42
 -4.4493 -0.5154 0.0504
@@ -44172,7 +44172,7 @@ name "CurveCircle.049"
 loc 0 0.0444388 0
 data 9
 Mesh.1080
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 50
 -4.9108 -0.0713999 -0.3505
@@ -48556,7 +48556,7 @@ name "Cylinder.001"
 loc 0 0.0444388 0
 data 12
 Cylinder.003
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.8721 -0.2644 0.3241
@@ -48935,7 +48935,7 @@ name "Cylinder.002"
 loc 0 0.0444388 0
 data 12
 Cylinder.017
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.8721 -0.2644 0.4015
@@ -49314,7 +49314,7 @@ name "Cylinder.011"
 loc 0 0.0444388 0
 data 12
 Cylinder.026
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.8746 -0.2601 -0.3279
@@ -49693,7 +49693,7 @@ name "Cylinder.012"
 loc 0 0.0444388 0
 data 12
 Cylinder.027
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.8746 -0.2601 -0.4054
@@ -50072,7 +50072,7 @@ name "Cylinder.013"
 loc 0 0.0444388 0
 data 12
 Cylinder.028
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.8861 -0.2397 -0.2991
@@ -50451,7 +50451,7 @@ name "Cylinder.014"
 loc 0 0.0444388 0
 data 12
 Cylinder.029
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.8831 -0.2451 -0.2561
@@ -50830,7 +50830,7 @@ name "Cylinder.015"
 loc 0 0.0444388 0
 data 12
 Cylinder.030
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 65
 -4.8411 -0.3267 -0.1006
@@ -51281,7 +51281,7 @@ name "Cylinder.016"
 loc 0 0.0444388 0
 data 12
 Cylinder.031
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 65
 -4.8411 -0.3267 0.4007
@@ -51732,7 +51732,7 @@ name "Cylinder.017"
 loc 0 0.0444388 0
 data 12
 Cylinder.032
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 65
 -4.8411 -0.3267 0.5772
@@ -52183,7 +52183,7 @@ name "DC-load1"
 loc 0 0.0444388 0
 data 9
 Plane.168
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.515 0.5058 0.1821
@@ -52213,7 +52213,7 @@ name "DC-load2"
 loc 0 0.0444388 0
 data 9
 Plane.169
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.515 0.5062 0.125
@@ -52805,7 +52805,7 @@ name "DSC.btn"
 loc 0 0.0444388 0
 data 9
 Plane.599
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0455 0.3264
@@ -53620,7 +53620,7 @@ name "Eng.gauges"
 loc 0 0.0444388 0
 data 10
 Circle.017
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 156
 -4.9201 -0.1625 0.1825
@@ -55051,7 +55051,7 @@ name "Etrim"
 loc 0 0.0444388 0
 data 8
 Tube.006
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 217
 -4.8318 -0.3726 0.1374
@@ -59020,7 +59020,7 @@ name "FD.alt"
 loc 0 0.0444388 0
 data 9
 Plane.365
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739999 0.4067
@@ -59041,7 +59041,7 @@ name "FD.ap"
 loc 0 0.0444388 0
 data 9
 Plane.372
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739999 0.3218
@@ -59062,7 +59062,7 @@ name "FD.apdis"
 loc 0 0.0444388 0
 data 9
 Plane.373
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739 0.3151
@@ -59083,7 +59083,7 @@ name "FD.apfail"
 loc 0 0.0444388 0
 data 9
 Plane.363
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3087
@@ -59104,7 +59104,7 @@ name "FD.appr"
 loc 0 0.0444388 0
 data 9
 Plane.357
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3598
@@ -59125,7 +59125,7 @@ name "FD.apprarm"
 loc 0 0.0444388 0
 data 9
 Plane.358
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3506
@@ -59146,7 +59146,7 @@ name "FD.bank"
 loc 0 0.0444388 0
 data 9
 Plane.361
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3225
@@ -59167,7 +59167,7 @@ name "FD.bc"
 loc 0 0.0444388 0
 data 9
 Plane.359
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3421
@@ -59188,7 +59188,7 @@ name "FD.clm"
 loc 0 0.0444388 0
 data 9
 Plane.360
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3327
@@ -59209,7 +59209,7 @@ name "FD.dr"
 loc 0 0.0444388 0
 data 9
 Plane.356
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3709
@@ -59230,7 +59230,7 @@ name "FD.ga"
 loc 0 0.0444388 0
 data 9
 Plane.371
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0738001 0.3469
@@ -59251,7 +59251,7 @@ name "FD.gs"
 loc 0 0.0444388 0
 data 9
 Plane.368
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739 0.3764
@@ -59272,7 +59272,7 @@ name "FD.gsarm"
 loc 0 0.0444388 0
 data 9
 Plane.369
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739 0.3697
@@ -59293,7 +59293,7 @@ name "FD.hdg"
 loc 0 0.0444388 0
 data 9
 Plane.353
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3956
@@ -59314,7 +59314,7 @@ name "FD.ias"
 loc 0 0.0444388 0
 data 9
 Plane.370
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739 0.3574
@@ -59335,7 +59335,7 @@ name "FD.nav"
 loc 0 0.0444388 0
 data 9
 Plane.354
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3862
@@ -59356,7 +59356,7 @@ name "FD.navarm"
 loc 0 0.0444388 0
 data 9
 Plane.355
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3779
@@ -59377,7 +59377,7 @@ name "FD.sr"
 loc 0 0.0444388 0
 data 9
 Plane.362
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.3157
@@ -59398,7 +59398,7 @@ name "FD.trim"
 loc 0 0.0444388 0
 data 9
 Plane.350
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.4138
@@ -59419,7 +59419,7 @@ name "FD.trimfail"
 loc 0 0.0444388 0
 data 9
 Plane.352
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0783 0.4044
@@ -59440,7 +59440,7 @@ name "FD.vs"
 loc 0 0.0444388 0
 data 9
 Plane.367
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739999 0.3838
@@ -59461,7 +59461,7 @@ name "FD.yaw"
 loc 0 0.0444388 0
 data 9
 Plane.351
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9175 0.0739999 0.4225
@@ -60126,7 +60126,7 @@ name "FQneedle.1"
 loc 0 0.0444388 0
 data 9
 Plane.099
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.585 -0.0992999 0.6031
@@ -60156,7 +60156,7 @@ name "FQneedle.2"
 loc 0 0.0444388 0
 data 9
 Plane.100
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.6928 -0.0994 0.5937
@@ -60259,7 +60259,7 @@ name "Fdeck_1"
 loc 0 -2.31059 0
 data 8
 Mesh.349
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 50.000000
 numvert 2609
 -4.5293 0.4789 -0.0353
@@ -78763,7 +78763,7 @@ name "Fdeck.floor"
 loc 0 0.0444388 0
 data 8
 Mesh.020
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 50.000000
 numvert 82
 -5.148 -0.731 0.5757
@@ -79215,7 +79215,7 @@ name "FlapIndicator"
 loc 0 0.0444388 0
 data 12
 Cylinder.001
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 60.000000
 numvert 17
 -4.6466 -0.4036 0.0051
@@ -79346,7 +79346,7 @@ name "FlapLever"
 loc 0 0.0444388 0
 data 8
 Mesh.093
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 18
 -4.6363 -0.3926 -0.0677
@@ -79526,7 +79526,7 @@ name "Flapneedle"
 loc 0 0.0444388 0
 data 8
 Mesh.094
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 5
 -4.8342 -0.2891 0.0759
@@ -81507,7 +81507,7 @@ name "GPS-apr"
 loc 0 0.0444388 0
 data 10
 Circle.026
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 18
 -4.9184 0.0592999 -0.2553
@@ -81631,7 +81631,7 @@ name "GPS-apr.001"
 loc 0 0.0444388 0
 data 10
 Circle.011
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9167 -0.1714 0.5443
@@ -81698,7 +81698,7 @@ name "GPS-apr.002"
 loc 0 0.0444388 0
 data 10
 Circle.035
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9167 -0.1714 -0.5444
@@ -81765,7 +81765,7 @@ name "GPS-crs"
 loc 0 0.0444388 0
 data 10
 Circle.027
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 18
 -4.9184 0.0592999 -0.2713
@@ -81889,7 +81889,7 @@ name "GPWS.APsteep"
 loc 0 0.0444388 0
 data 9
 Plane.508
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9181 -0.1612 0.2382
@@ -81910,7 +81910,7 @@ name "GPWS.FlapOV"
 loc 0 0.0444388 0
 data 9
 Plane.505
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9185 -0.142 0.245
@@ -81931,7 +81931,7 @@ name "GPWS.Inhibit"
 loc 0 0.0444388 0
 data 9
 Plane.217
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9183 -0.0743001 -0.0013
@@ -81952,7 +81952,7 @@ name "GPWS.Pcaution"
 loc 0 0.0444388 0
 data 9
 Plane.506
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9179 0.0508001 0.4485
@@ -81973,7 +81973,7 @@ name "GPWS.Pwarn"
 loc 0 0.0444388 0
 data 9
 Plane.214
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 12
 -4.9179 0.0508001 -0.4654
@@ -82016,7 +82016,7 @@ name "GPWS.TrnInh"
 loc 0 0.0444388 0
 data 9
 Plane.219
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9183 -0.0743001 -0.0193
@@ -82037,7 +82037,7 @@ name "GPWS.annun"
 loc 0 0.0444388 0
 data 9
 Plane.507
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 12
 -4.9186 -0.142 0.2629
@@ -82080,7 +82080,7 @@ name "GPWS.flapOVRD"
 loc 0 0.0444388 0
 data 8
 Mesh.285
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9171 -0.142 0.245
@@ -82101,7 +82101,7 @@ name "GPWS.gscancel"
 loc 0 0.0444388 0
 data 8
 Mesh.282
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 8
 -4.9167 0.0508001 0.4485
@@ -82133,7 +82133,7 @@ name "GPWS.inhibit-on"
 loc 0 0.0444388 0
 data 8
 Mesh.287
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.917 -0.0743001 -0.0174
@@ -82154,7 +82154,7 @@ name "GPWS.inop"
 loc 0 0.0444388 0
 data 8
 Mesh.284
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9172 -0.142 0.2629
@@ -82175,7 +82175,7 @@ name "GPWS.stpapr"
 loc 0 0.0444388 0
 data 8
 Mesh.286
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9168 -0.1612 0.2382
@@ -82518,7 +82518,7 @@ name "GS.cancld"
 loc 0 0.0444388 0
 data 8
 Mesh.283
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.9172 -0.142 0.2805
@@ -82668,7 +82668,7 @@ name "Gearlever.alarm"
 loc 0 0.0444388 0
 data 10
 Sphere.040
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 144
 -4.847 -0.2099 0.188
@@ -83882,7 +83882,7 @@ name "Gearlever.dn"
 loc 0 0.0444388 0
 data 10
 Sphere.038
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 144
 -4.8192 -0.2572 0.188
@@ -85096,7 +85096,7 @@ name "Gearlever.up"
 loc 0 0.0444388 0
 data 10
 Sphere.039
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 144
 -4.847 -0.2099 0.188
@@ -86310,7 +86310,7 @@ name "HDG.btn"
 loc 0 0.0444388 0
 data 9
 Plane.590
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0604999 0.403
@@ -86378,7 +86378,7 @@ name "HDG.center"
 loc 0 0.0444388 0
 data 10
 Circle.215
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 34
 -4.4488 -0.5014 -0.0324
@@ -86614,7 +86614,7 @@ name "HDGset.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.052
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 64
 -4.4488 -0.5103 -0.0324
@@ -86912,7 +86912,7 @@ name "HrHand1"
 loc 0 0.0444388 0
 data 8
 Mesh.796
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 5
 -4.9194 -0.00990009 0.5277
@@ -86940,7 +86940,7 @@ name "HrHand2"
 loc 0 0.0444388 0
 data 8
 Mesh.801
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 5
 -4.9194 -0.0122001 -0.5333
@@ -86968,7 +86968,7 @@ name "IAS.btn"
 loc 0 0.0444388 0
 data 9
 Plane.598
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 15
 -4.9171 0.0455 0.3456
@@ -87065,7 +87065,7 @@ name "ITT.needle"
 loc 0 0.0444388 0
 data 9
 Plane.017
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 0.0834 0.1839
@@ -87095,7 +87095,7 @@ name "ITT1.needle"
 loc 0 0.0444388 0
 data 9
 Plane.020
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 0.0834 0.1301
@@ -87519,7 +87519,7 @@ name "KLN90B.lhknob"
 loc 0 0.0444388 0
 data 9
 Mesh.1067
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 48
 -4.917 -0.099 -0.0894
@@ -87801,7 +87801,7 @@ name "KLN90B.lhknob1"
 loc 0 0.0444388 0
 data 9
 Mesh.1068
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 32
 -4.9082 -0.1002 -0.0858
@@ -88004,7 +88004,7 @@ name "KLN90B.pwr"
 loc 0 0.0444388 0
 data 9
 Mesh.1069
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 32
 -4.914 -0.0757 -0.1927
@@ -88207,7 +88207,7 @@ name "KLN90B.rhknob"
 loc 0 0.0444388 0
 data 9
 Mesh.1077
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 48
 -4.917 -0.099 -0.1965
@@ -88489,7 +88489,7 @@ name "KLN90B.rhknob1"
 loc 0 0.0444388 0
 data 9
 Mesh.1076
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 32
 -4.9082 -0.1002 -0.1929
@@ -88713,7 +88713,7 @@ name "LAC-bus"
 loc 0 0.0444388 0
 data 8
 Mesh.588
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8881 0.1698 0.041
@@ -89725,7 +89725,7 @@ name "LAIR-fail"
 loc 0 0.0444388 0
 data 8
 Mesh.585
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8873 0.1606 0.0688
@@ -90068,7 +90068,7 @@ name "LENV-fail"
 loc 0 0.0444388 0
 data 8
 Mesh.587
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.889 0.1788 0.0407
@@ -90089,7 +90089,7 @@ name "LFP-lo"
 loc 0 0.0444388 0
 data 8
 Mesh.130
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8897 0.1878 0.0688
@@ -91101,7 +91101,7 @@ name "LHfirehandle"
 loc 0 0.0444388 0
 data 8
 Mesh.138
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 60.000000
 numvert 48
 -4.9053 0.0966001 0.0423
@@ -91481,7 +91481,7 @@ name "LHgear.lamp"
 loc 0 0.0444388 0
 data 8
 Mesh.142
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 4
 -4.8931 -0.2336 0.1602
@@ -91502,7 +91502,7 @@ name "LHpedal"
 loc 0 0.0444388 0
 data 8
 Mesh.145
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 92
 -5.0774 -0.4977 0.4273
@@ -92024,7 +92024,7 @@ name "LHpropAmps"
 loc 0 0.0444388 0
 data 9
 Plane.170
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.5208 0.4961 -0.1158
@@ -92054,7 +92054,7 @@ name "LOP-lo"
 loc 0 0.0444388 0
 data 8
 Mesh.584
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8889 0.1788 0.0689
@@ -95966,7 +95966,7 @@ name "Masterpanel.off"
 loc 0 0.0444388 0
 data 9
 Mesh.1123
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 10
 -4.4085 0.5826 0.154
@@ -96057,7 +96057,7 @@ name "Masterpanel.on"
 loc 0 0.0444388 0
 data 9
 Mesh.1053
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 10
 -4.4085 0.5826 0.164
@@ -96148,7 +96148,7 @@ name "MnHand1"
 loc 0 0.0444388 0
 data 8
 Mesh.797
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 5
 -4.9192 -0.0072 0.5282
@@ -96176,7 +96176,7 @@ name "MnHand2"
 loc 0 0.0444388 0
 data 8
 Mesh.800
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 5
 -4.9192 -0.00830007 -0.5328
@@ -96204,7 +96204,7 @@ name "Mstr.Ctn"
 loc 0 0.0444388 0
 data 8
 Mesh.168
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 8
 -4.8803 0.1497 -0.3397
@@ -96236,7 +96236,7 @@ name "Mstr.Ctnoff"
 loc 0 0.0444388 0
 data 9
 Mesh.1086
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 50.000000
 numvert 8
 -4.8808 0.1544 0.2977
@@ -96268,7 +96268,7 @@ name "Mstr.Warning"
 loc 0 0.0444388 0
 data 8
 Mesh.170
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 8
 -4.8804 0.1518 -0.3137
@@ -96300,7 +96300,7 @@ name "Mstr.Warningoff"
 loc 0 0.0444388 0
 data 9
 Mesh.1085
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 50.000000
 numvert 8
 -4.8806 0.1523 0.3239
@@ -96332,7 +96332,7 @@ name "NAV.btn"
 loc 0 0.0444388 0
 data 9
 Plane.591
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0604999 0.3839
@@ -96459,7 +96459,7 @@ name "NAV1.frq-high"
 loc 0 0.0444388 0
 data 12
 Cylinder.034
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9161 -0.0404999 -0.0075
@@ -96830,7 +96830,7 @@ name "NAV1.frq-low"
 loc 0 0.0444388 0
 data 12
 Cylinder.033
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9103 -0.0425 -0.0055
@@ -97201,7 +97201,7 @@ name "NAV1.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.009
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 77
 -4.9147 -0.0480001 0.024
@@ -97782,7 +97782,7 @@ name "NAV1.knob2"
 loc 0 0.0444388 0
 data 8
 Tube.008
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9096 -0.0467 0.0267
@@ -98212,7 +98212,7 @@ name "NAV2.frq-high"
 loc 0 0.0444388 0
 data 12
 Cylinder.035
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9164 -0.0404999 -0.1385
@@ -98583,7 +98583,7 @@ name "NAV2.frq-low"
 loc 0 0.0444388 0
 data 12
 Cylinder.036
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9103 -0.0425 -0.1365
@@ -98954,7 +98954,7 @@ name "NAV2.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.010
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 77
 -4.9147 -0.0486 -0.1072
@@ -99535,7 +99535,7 @@ name "NAV2.knob2"
 loc 0 0.0444388 0
 data 8
 Tube.011
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9096 -0.0469999 -0.1043
@@ -100570,7 +100570,7 @@ name "Navdata1.knob"
 loc 0 0.0444388 0
 data 8
 Tube.001
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 82
 -4.4475 -0.5178 0.106
@@ -101122,7 +101122,7 @@ name "Navdata1.knob.001"
 loc 0 0.0444388 0
 data 8
 Tube.054
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 67
 -4.3687 -0.5181 -0.0359
@@ -101643,7 +101643,7 @@ name "Navdata1.knob.003"
 loc 0 0.0444388 0
 data 8
 Tube.059
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 67
 -4.4171 -0.5179 -0.0398
@@ -102164,7 +102164,7 @@ name "Navdata1.knob.004"
 loc 0 0.0444388 0
 data 8
 Tube.060
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 67
 -4.4171 -0.5179 -0.1278
@@ -102685,7 +102685,7 @@ name "Navdata2.knob"
 loc 0 0.0444388 0
 data 8
 Tube.058
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 82
 -4.4475 -0.5178 -0.0368
@@ -103237,7 +103237,7 @@ name "Nosegear.lamp"
 loc 0 0.0444388 0
 data 8
 Mesh.173
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 4
 -4.8942 -0.2317 0.16
@@ -103652,7 +103652,7 @@ name "Oil.needle1"
 loc 0 0.0444388 0
 data 9
 Plane.028
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.1925 0.1902
@@ -103682,7 +103682,7 @@ name "Oil.needle2"
 loc 0 0.0444388 0
 data 9
 Plane.029
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.1904 0.2116
@@ -103712,7 +103712,7 @@ name "Oil1.needle1"
 loc 0 0.0444388 0
 data 9
 Plane.031
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.1925 0.1365
@@ -103742,7 +103742,7 @@ name "Oil1.needle2"
 loc 0 0.0444388 0
 data 9
 Plane.030
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.1904 0.1578
@@ -103792,7 +103792,7 @@ name "PPH.needle"
 loc 0 0.0444388 0
 data 9
 Plane.026
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.1356 0.1864
@@ -103822,7 +103822,7 @@ name "PPH1.needle"
 loc 0 0.0444388 0
 data 9
 Plane.027
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.1356 0.1326
@@ -104858,7 +104858,7 @@ name "Panel"
 loc 0 0.0444388 0
 data 9
 Plane.153
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 5209
 -4.9164 0.0494001 -0.4085
@@ -139431,7 +139431,7 @@ name "Panel.002"
 loc 0 0.0444388 0
 data 9
 Plane.589
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 373
 -4.9069 -0.2117 0.1171
@@ -142230,7 +142230,7 @@ name "Panel.005"
 loc 0 0.0444388 0
 data 9
 Plane.600
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 603
 -4.9167 -0.1411 -0.4368
@@ -144995,7 +144995,7 @@ name "Panel.gauges_1"
 loc 0 -2.31059 0
 data 10
 Circle.063
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 355
 -4.4014 0.5863 0.1565
@@ -146853,7 +146853,7 @@ name "Panel.gauges_2"
 loc 0 -2.31059 0
 data 10
 Circle.063
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 289
 -4.9207 -0.0862999 -0.5314
@@ -148371,7 +148371,7 @@ name "Pbrake.off"
 loc 0 0.0444388 0
 data 8
 Tube.064
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 170
 -4.3357 -0.4955 -0.0309
@@ -149511,7 +149511,7 @@ name "Pbrake.on"
 loc 0 0.0444388 0
 data 8
 Tube.065
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 182
 -4.3357 -0.4853 -0.0309
@@ -151141,7 +151141,7 @@ name "Pitch.dn"
 loc 0 0.0444388 0
 data 8
 Cube.029
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.423 -0.5177 0.0229
@@ -151208,7 +151208,7 @@ name "Pitch.up"
 loc 0 0.0444388 0
 data 8
 Cube.007
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 8
 -4.4065 -0.5166 0.0088
@@ -151357,7 +151357,7 @@ name "Plane.258"
 loc 0 0.0444388 0
 data 9
 Plane.498
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 8
 -4.8899 0.1894 -0.07
@@ -151805,7 +151805,7 @@ name "PropP0"
 loc 0 0.0444388 0
 data 8
 Mesh.019
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 134
 -4.6069 -0.289 0.0337
@@ -152925,7 +152925,7 @@ name "PropP1"
 loc 0 0.0444388 0
 data 8
 Mesh.018
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 134
 -4.6069 -0.2891 0.0109
@@ -154045,7 +154045,7 @@ name "Pullup.test"
 loc 0 0.0444388 0
 data 8
 Mesh.281
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 8
 -4.9167 0.0508001 0.4666
@@ -154077,7 +154077,7 @@ name "RAC-bus"
 loc 0 0.0444388 0
 data 8
 Mesh.596
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8881 0.1697 -0.0149
@@ -155089,7 +155089,7 @@ name "RAIR-fail"
 loc 0 0.0444388 0
 data 8
 Mesh.598
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8873 0.1606 -0.0425
@@ -155432,7 +155432,7 @@ name "RENV-fail"
 loc 0 0.0444388 0
 data 8
 Mesh.594
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8889 0.1788 -0.0149
@@ -155453,7 +155453,7 @@ name "RFP-lo"
 loc 0 0.0444388 0
 data 8
 Mesh.593
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8897 0.1878 -0.0424
@@ -156465,7 +156465,7 @@ name "RHfirehandle"
 loc 0 0.0444388 0
 data 8
 Mesh.547
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 60.000000
 numvert 48
 -4.9053 0.0966001 -0.1041
@@ -156845,7 +156845,7 @@ name "RHgear.lamp"
 loc 0 0.0444388 0
 data 8
 Mesh.216
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 4
 -4.8844 -0.2481 0.1601
@@ -156866,7 +156866,7 @@ name "RHpedal"
 loc 0 0.0444388 0
 data 8
 Mesh.219
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 92
 -5.0774 -0.4977 0.1973
@@ -157388,7 +157388,7 @@ name "RHpropAmps"
 loc 0 0.0444388 0
 data 9
 Plane.171
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.5203 0.497 -0.1359
@@ -157418,7 +157418,7 @@ name "RMI.adf1"
 loc 0 0.0444388 0
 data 9
 Plane.226
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.1128 0.4839
@@ -157439,7 +157439,7 @@ name "RMI.adf1.002"
 loc 0 0.0444388 0
 data 9
 Plane.324
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.1079 -0.2424
@@ -157460,7 +157460,7 @@ name "RMI.adf2"
 loc 0 0.0444388 0
 data 9
 Plane.224
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.108 0.432
@@ -157481,7 +157481,7 @@ name "RMI.adf2.002"
 loc 0 0.0444388 0
 data 9
 Plane.326
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.1129 -0.2943
@@ -157502,7 +157502,7 @@ name "RMI.btn1"
 loc 0 0.0444388 0
 data 8
 Cube.013
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 12
 -4.9169 -0.1222 0.4828
@@ -157587,7 +157587,7 @@ name "RMI.btn1.002"
 loc 0 0.0444388 0
 data 8
 Cube.001
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 12
 -4.9141 -0.125 -0.2454
@@ -157672,7 +157672,7 @@ name "RMI.btn2"
 loc 0 0.0444388 0
 data 8
 Cube.014
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 12
 -4.9169 -0.1171 0.4328
@@ -157757,7 +157757,7 @@ name "RMI.btn2.002"
 loc 0 0.0444388 0
 data 8
 Cube.004
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 12
 -4.9141 -0.1202 -0.3012
@@ -157842,7 +157842,7 @@ name "RMI.compass"
 loc 0 0.0444388 0
 data 8
 Mesh.507
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 18
 -4.9177 -0.0697999 -0.2946
@@ -157966,7 +157966,7 @@ name "RMI.flag"
 loc 0 0.0444388 0
 data 10
 Circle.150
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 8
 -4.917 -0.0695 -0.2957
@@ -157998,7 +157998,7 @@ name "RMI.vor1"
 loc 0 0.0444388 0
 data 9
 Plane.227
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.122 0.4748
@@ -158019,7 +158019,7 @@ name "RMI.vor1.002"
 loc 0 0.0444388 0
 data 9
 Plane.323
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.117 -0.2515
@@ -158040,7 +158040,7 @@ name "RMI.vor2"
 loc 0 0.0444388 0
 data 9
 Plane.225
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.1171 0.4412
@@ -158061,7 +158061,7 @@ name "RMI.vor2.002"
 loc 0 0.0444388 0
 data 9
 Plane.325
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.917 -0.1221 -0.2851
@@ -158082,7 +158082,7 @@ name "RMI1.needle1adf"
 loc 0 0.0444388 0
 data 8
 Mesh.831
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 16
 -4.9169 -0.0739 0.4627
@@ -158136,7 +158136,7 @@ name "RMI1.needle1vor"
 loc 0 0.0444388 0
 data 8
 Mesh.005
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 16
 -4.9169 -0.0739 0.4627
@@ -158190,7 +158190,7 @@ name "RMI1.needle2adf"
 loc 0 0.0444388 0
 data 8
 Mesh.009
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 20
 -4.9175 -0.1183 0.46
@@ -158269,7 +158269,7 @@ name "RMI1.needle2vor"
 loc 0 0.0444388 0
 data 8
 Mesh.510
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 20
 -4.9175 -0.1183 0.46
@@ -158348,7 +158348,7 @@ name "RMI2.needle1adf"
 loc 0 0.0444388 0
 data 8
 Mesh.830
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 16
 -4.9169 -0.0739 -0.2685
@@ -158402,7 +158402,7 @@ name "RMI2.needle1vor"
 loc 0 0.0444388 0
 data 8
 Mesh.828
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 16
 -4.9169 -0.0739 -0.2685
@@ -158456,7 +158456,7 @@ name "RMI2.needle2adf"
 loc 0 0.0444388 0
 data 8
 Mesh.010
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 20
 -4.9175 -0.1183 -0.2712
@@ -158535,7 +158535,7 @@ name "RMI2.needle2vor"
 loc 0 0.0444388 0
 data 8
 Mesh.829
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 20
 -4.9175 -0.1183 -0.2712
@@ -158614,7 +158614,7 @@ name "ROP-lo"
 loc 0 0.0444388 0
 data 8
 Mesh.595
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.8889 0.1788 -0.0424
@@ -158635,7 +158635,7 @@ name "RPM.needle"
 loc 0 0.0444388 0
 data 9
 Plane.023
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.00550008 0.199
@@ -158665,7 +158665,7 @@ name "RPM1.needle"
 loc 0 0.0444388 0
 data 9
 Plane.024
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.00550008 0.1452
@@ -161356,7 +161356,7 @@ name "Roll.trim"
 loc 0 0.0444388 0
 data 8
 Tube.002
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 52
 -4.4012 -0.5178 0.0595
@@ -162683,7 +162683,7 @@ name "Rtrim"
 loc 0 0.0444388 0
 data 8
 Mesh.834
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 36
 -4.6032 -0.4586 -0.0507
@@ -162932,7 +162932,7 @@ name "SR-toggle"
 loc 0 0.0444388 0
 data 8
 Cube.012
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4152 -0.5158 0.0371
@@ -163393,7 +163393,7 @@ name "ScHand1"
 loc 0 0.0444388 0
 data 8
 Mesh.798
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9189 -0.00580001 0.5284
@@ -163414,7 +163414,7 @@ name "ScHand2"
 loc 0 0.0444388 0
 data 8
 Mesh.799
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 5
 -4.9189 -0.00570011 -0.5325
@@ -163442,7 +163442,7 @@ name "Seats"
 loc 0 0.0444388 0
 data 8
 Mesh.236
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 50.000000
 numvert 120
 -4.1683 -0.4151 0.1601
@@ -165126,7 +165126,7 @@ name "TERR.fail"
 loc 0 0.0444388 0
 data 8
 Mesh.289
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.917 -0.0743001 -0.0534
@@ -165147,7 +165147,7 @@ name "TERR.inhibit-on"
 loc 0 0.0444388 0
 data 8
 Mesh.288
-texture "E:/FG/Planes/b1900d/Models/caution-panel.png"
+texture "caution-panel.png"
 crease 30.000000
 numvert 4
 -4.917 -0.0743001 -0.0354
@@ -165168,7 +165168,7 @@ name "TR.needle"
 loc 0 0.0444388 0
 data 9
 Plane.019
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.0658 0.1863
@@ -165198,7 +165198,7 @@ name "TR1.needle"
 loc 0 0.0444388 0
 data 9
 Plane.025
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 -0.0657001 0.1326
@@ -165892,7 +165892,7 @@ name "Throttle0"
 loc 0 0.0444388 0
 data 8
 Mesh.242
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 82
 -4.6159 -0.278 0.1114
@@ -166596,7 +166596,7 @@ name "Throttle1"
 loc 0 0.0444388 0
 data 8
 Mesh.003
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 45.000000
 numvert 82
 -4.616 -0.278 0.0696
@@ -167300,7 +167300,7 @@ name "Torque.needle"
 loc 0 0.0444388 0
 data 9
 Plane.021
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 0.0465 0.1949
@@ -167330,7 +167330,7 @@ name "Torque1.needle"
 loc 0 0.0444388 0
 data 9
 Plane.022
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 6
 -4.9199 0.0465 0.1411
@@ -167360,7 +167360,7 @@ name "Tube"
 loc 0 0.0444388 0
 data 8
 Tube.004
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 33
 -4.292 -0.5183 -0.0837
@@ -169551,7 +169551,7 @@ name "VS.btn"
 loc 0 0.0444388 0
 data 9
 Plane.597
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 10
 -4.9171 0.0455 0.3648
@@ -169619,7 +169619,7 @@ name "VSI1.needle"
 loc 0 0.0444388 0
 data 10
 Circle.067
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 21
 -4.9158 -0.0936999 0.2739
@@ -169740,7 +169740,7 @@ name "VSI2.needle"
 loc 0 0.0444388 0
 data 10
 Circle.068
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 21
 -4.9158 -0.0936999 -0.4586
@@ -171149,7 +171149,7 @@ name "XPDR.frq-high"
 loc 0 0.0444388 0
 data 12
 Cylinder.041
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9164 -0.1673 -0.1964
@@ -171520,7 +171520,7 @@ name "XPDR.frq-low"
 loc 0 0.0444388 0
 data 12
 Cylinder.042
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9103 -0.1694 -0.1944
@@ -171891,7 +171891,7 @@ name "XPDR.knob1"
 loc 0 0.0444388 0
 data 8
 Tube.016
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 77
 -4.9147 -0.1748 -0.1647
@@ -172472,7 +172472,7 @@ name "XPDR.knob2"
 loc 0 0.0444388 0
 data 8
 Tube.017
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 49
 -4.9096 -0.1732 -0.1621
@@ -172843,7 +172843,7 @@ name "YD-toggle"
 loc 0 0.0444388 0
 data 8
 Cube.005
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 21
 -4.4069 -0.5154 0.1181
@@ -172982,7 +172982,7 @@ name "Yoke"
 loc 0 0.0444388 0
 data 9
 Mesh.1117
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 60.000000
 numvert 474
 -4.6451 -0.1089 0.4202
@@ -176737,7 +176737,7 @@ name "Yoke1"
 loc 0 0.0444388 0
 data 9
 Mesh.1118
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 60.000000
 numvert 474
 -4.6454 -0.1089 -0.4121
@@ -180492,7 +180492,7 @@ name "Yokebase"
 loc 0 0.0444388 0
 data 12
 Cylinder.076
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 40.000000
 numvert 386
 -4.8526 -0.1954 0.3544
@@ -183192,7 +183192,7 @@ name "alerter.d0"
 loc 0 0.0444388 0
 data 9
 Plane.520
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.92 -0.0806999 0.0483
@@ -183213,7 +183213,7 @@ name "alerter.d1"
 loc 0 0.0444388 0
 data 9
 Plane.185
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9196 -0.0787001 0.0605
@@ -183234,7 +183234,7 @@ name "alerter.d2"
 loc 0 0.0444388 0
 data 9
 Plane.184
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9196 -0.0787001 0.069
@@ -183255,7 +183255,7 @@ name "alerter.d3"
 loc 0 0.0444388 0
 data 9
 Plane.186
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.92 -0.0787001 0.0775
@@ -183276,7 +183276,7 @@ name "altalert.cancel"
 loc 0 0.0444388 0
 data 9
 Plane.555
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 8
 -4.9168 -0.0764 0.1058
@@ -183329,7 +183329,7 @@ name "altalert.flg"
 loc 0 0.0444388 0
 data 9
 Plane.554
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 4
 -4.9196 -0.0824001 0.0472
@@ -183733,7 +183733,7 @@ name "altalert.light"
 loc 0 0.0444388 0
 data 10
 Circle.140
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9167 -0.0769 0.0895
@@ -183800,7 +183800,7 @@ name "altnum100"
 loc 0 0.0444388 0
 data 9
 Plane.187
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 8
 -4.9123 0.00349998 0.2567
@@ -183832,7 +183832,7 @@ name "altnum1000"
 loc 0 0.0444388 0
 data 9
 Plane.191
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 8
 -4.9124 0.00189996 0.2726
@@ -183864,7 +183864,7 @@ name "altnum10000"
 loc 0 0.0444388 0
 data 9
 Plane.190
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 30.000000
 numvert 8
 -4.9124 0.00189996 0.2799
@@ -183916,7 +183916,7 @@ name "eadi1.off"
 loc 0 0.0444388 0
 data 10
 Circle.002
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.915 -0.0188 0.3657
@@ -183983,7 +183983,7 @@ name "eadi2.off"
 loc 0 0.0444388 0
 data 10
 Circle.048
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.915 -0.0188 -0.3661
@@ -184444,7 +184444,7 @@ name "ehsi1.off"
 loc 0 0.0444388 0
 data 10
 Circle.050
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.915 -0.1271 0.3657
@@ -184511,7 +184511,7 @@ name "ehsi2.off"
 loc 0 0.0444388 0
 data 10
 Circle.049
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.915 -0.1271 -0.3661
@@ -184578,7 +184578,7 @@ name "gps-leg"
 loc 0 0.0444388 0
 data 8
 Mesh.264
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 8
 -4.918 0.0497999 0.248
@@ -184620,7 +184620,7 @@ name "gpsALT.btn"
 loc 0 0.0444388 0
 data 10
 Circle.240
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9169 -0.1078 -0.1271
@@ -184687,7 +184687,7 @@ name "gpsCLR.btn"
 loc 0 0.0444388 0
 data 10
 Circle.242
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9169 -0.1078 -0.1572
@@ -184754,7 +184754,7 @@ name "gpsDIRECT.btn"
 loc 0 0.0444388 0
 data 10
 Circle.241
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9169 -0.1078 -0.142
@@ -184821,7 +184821,7 @@ name "gpsENT.btn"
 loc 0 0.0444388 0
 data 10
 Circle.243
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9169 -0.1078 -0.1717
@@ -184888,7 +184888,7 @@ name "gpsMSG.btn"
 loc 0 0.0444388 0
 data 10
 Circle.239
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 9
 -4.9169 -0.1078 -0.1128
@@ -184955,7 +184955,7 @@ name "gyro-face"
 loc 0 0.0444388 0
 data 8
 Mesh.517
-texture "E:/FG/Planes/b1900d/Models/instruments.png"
+texture "instruments.png"
 crease 45.000000
 numvert 4
 -4.9184 -0.0146 -0.0314
@@ -187874,7 +187874,7 @@ name "magcompass"
 loc 0 0.0444388 0
 data 4
 Tube
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 50.000000
 numvert 16
 -4.6576 0.376 -0.0212
@@ -187949,7 +187949,7 @@ name "pedestal"
 loc 0 0.0444388 0
 data 9
 Plane.315
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 769
 -4.3913 -0.5183 -0.1445
@@ -192573,7 +192573,7 @@ name "slipball"
 loc 0 0.0444388 0
 data 9
 Mesh.1079
-texture "E:/FG/Planes/b1900d/Models/interior.png"
+texture "interior.png"
 crease 30.000000
 numvert 25
 -4.9135 -0.0659001 -0.3733
