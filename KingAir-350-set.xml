@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<PropertyList include="Aircraft/JPack/Interface.xml">
+<PropertyList>
 
 	<!-- 
 	************************************************************************
@@ -133,8 +133,8 @@
 	<from-model-idx type="int">0</from-model-idx>
 	<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
 	<x-offset-m archive="y"> -0.33 </x-offset-m> <!-- Right -->
-	<y-offset-m archive="y">  0.47 </y-offset-m> <!-- Up    -->
-	<z-offset-m archive="y">  2.22 </z-offset-m> <!-- Back  -->
+	<y-offset-m archive="y">  0.48 </y-offset-m> <!-- Up    -->
+	<z-offset-m archive="y"> -4.20 </z-offset-m> <!-- Back  -->
 	<pitch-offset-deg> -5 </pitch-offset-deg>
 	<heading-offset-deg> 0 </heading-offset-deg>
 	<default-field-of-view-deg> 70 </default-field-of-view-deg>
@@ -149,30 +149,12 @@
 	<from-model type="bool">true</from-model>
 	<from-model-idx type="int">0</from-model-idx>
 	<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-	<x-offset-m archive="y"> -0.33 </x-offset-m> <!-- Right -->
-	<y-offset-m archive="y"> -0.47 </y-offset-m> <!-- Up    -->
-	<z-offset-m archive="y">  2.22 </z-offset-m> <!-- Back  -->
+	<x-offset-m archive="y">  0.33 </x-offset-m> <!-- Right -->
+	<y-offset-m archive="y">  0.48 </y-offset-m> <!-- Up    -->
+	<z-offset-m archive="y"> -4.20</z-offset-m> <!-- Back  -->
 	<pitch-offset-deg> 0 </pitch-offset-deg>
 	<heading-offset-deg> 270 </heading-offset-deg>
 	<default-field-of-view-deg> 70 </default-field-of-view-deg>
-      </config>
-    </view>
-
-    <view n="107">
-      <name>Toilet</name>
-      <type>lookfrom</type>
-      <internal archive="y">true</internal>
-      <config>
-	<from-model type="bool">true</from-model>
-	<from-model-idx type="int">0</from-model-idx>
-	<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-	<pitch-offset-deg>-5</pitch-offset-deg>
-	<x-offset-m archive="y">  0.500 </x-offset-m> <!-- Right -->
-	<y-offset-m archive="y">  0.000 </y-offset-m> <!-- Up    -->
-	<z-offset-m archive="y">  8.000 </z-offset-m> <!-- Back  -->
-	<pitch-offset-deg> 0 </pitch-offset-deg>
-	<heading-offset-deg> 180 </heading-offset-deg>
-	<default-field-of-view-deg> 55 </default-field-of-view-deg>
       </config>
     </view>
 
@@ -347,15 +329,15 @@
       <brake-parking type="double">1</brake-parking>
     </gear>
   </controls>
-
+  
   <!-- Systems parallel to sim -->
   <systems>
     <electrical>
       <path>Aircraft/Generic/generic-electrical.xml</path>
     </electrical>
-    <autopilot>
+    <!--autopilot>
       <path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
-    </autopilot>
+    </autopilot-->
   </systems>
 
   <!-- #### ai submodels -->

@@ -21,6 +21,9 @@ setlistener("/sim/signals/fdm-initialized", func {
 	setprop("/instrumentation/clock/flight-meter-hour",0);
 	setprop("/instrumentation/groundradar/id",getprop("sim/tower/airport-id"));
 	settimer(update_systems,2);
+	setprop("/systems/electrical/outputs/efis", 29);
+	setprop("/systems/electrical/outputs/efis[1]", 29);
+	print("KingAir 350 Systems OK!");
 });
 
 setlistener("/sim/signals/reinit", func {
