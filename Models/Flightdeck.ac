@@ -88692,7 +88692,7 @@ name "KLN90B.screen"
 loc 0 0.0444388 0
 data 9
 Mesh.1072
-texture "E:/FG/Planes/b1900d/Models/screen.png"
+texture "screen.png"
 crease 30.000000
 numvert 4
 -4.9177 -0.0746999 -0.1054
