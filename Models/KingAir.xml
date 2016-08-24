@@ -4,6 +4,9 @@
 Beechcraft King Air for FG
 :copyright: 2016 Joshua Davidson (it0uchpods)
 :copyright: 2015 Israel Hernandez (IAHM-COL)
+:copyright: 2016 Sharath Mahadevan (SM)
+
+
 License: GPL2. See ./COPYING
 -->
 
@@ -364,5 +367,24 @@ License: GPL2. See ./COPYING
       <z> 0.0</z>
     </axis>
   </animation>
+  
+    <model>
+        <name>Flightdeck</name>
+        <path>Aircraft/b1900d/Models/Flightdeck.xml</path>
+        <offsets>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+            <pitch-deg>0</pitch-deg>
+        </offsets>
+    </model>
 
+	
+	<animation>
+        <type>range</type>
+        <object-name>Flightdeck</object-name>
+        <min-m>0</min-m>
+        <max-m>100</max-m>
+    </animation>
+	
 </PropertyList>
