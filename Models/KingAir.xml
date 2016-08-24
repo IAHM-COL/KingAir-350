@@ -63,19 +63,19 @@ License: GPL2. See ./COPYING
   </animation>
 
   <!-- Elevator -->
-  <animation>
+  <!--animation>
     <type>select</type>
     <object-name>Elevator</object-name>
     <object-name>ElevTab</object-name>
     <condition>
       <property>/sim/failure-manager/controls/flight/elevator/serviceable</property>
     </condition>
-  </animation>
+  </animation-->
 
   <animation>
     <type>rotate</type>
-    <object-name>Elevator</object-name>
-    <object-name>ElevTab</object-name>
+    <object-name>ElevatorsLeft</object-name>
+    <object-name>ElevatorsRight</object-name>
     <property>surface-positions/elevator-pos-norm</property>
     <interpolation>
       <entry>		<ind>-1</ind>	<dep>-15</dep>	</entry>
@@ -83,9 +83,9 @@ License: GPL2. See ./COPYING
       <entry>		<ind> 1</ind>	<dep> 20</dep>	</entry>
     </interpolation>
     <center>
-      <x-m>10.870</x-m>
+      <x-m> 5.90</x-m>
       <y-m> 0.000</y-m>
-      <z-m> 0.669</z-m>
+      <z-m> 2.67</z-m>
     </center>
     <axis>
       <x>0.0</x>
