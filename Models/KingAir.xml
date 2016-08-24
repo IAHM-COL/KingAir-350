@@ -370,7 +370,7 @@ License: GPL2. See ./COPYING
   
     <model>
         <name>Flightdeck</name>
-        <path>Aircraft/b1900d/Models/Flightdeck.xml</path>
+        <path>Aircraft/KingAir-350/Models/flightdeck.xml</path>
         <offsets>
             <x-m>0</x-m>
             <y-m>0</y-m>
@@ -388,7 +388,7 @@ License: GPL2. See ./COPYING
 
     <model>
         <name>Flightdeck</name>
-        <path>Aircraft/b1900d/Models/Cabin-seats.xml</path>
+        <path>Aircraft/KingAir-350/Models/Cabin-seats.xml</path>
         <offsets>
             <x-m>0</x-m>
             <y-m>0</y-m>
