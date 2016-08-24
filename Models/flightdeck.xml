@@ -58,7 +58,7 @@
 
     <model>
         <name>EFIS84 EADI-copilot</name>
-        <path>Aircraft/b1900d/Models/Instruments/EFIS-84/eadi.xml</path>
+        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/eadi.xml</path>
         <offsets>
             <x-m>-4.916</x-m>
             <y-m>0.366</y-m>
