@@ -378,7 +378,6 @@ License: GPL2. See ./COPYING
             <pitch-deg>0</pitch-deg>
         </offsets>
     </model>
-
 	
 	<animation>
         <type>range</type>
@@ -386,5 +385,16 @@ License: GPL2. See ./COPYING
         <min-m>0</min-m>
         <max-m>100</max-m>
     </animation>
+
+    <model>
+        <name>Flightdeck</name>
+        <path>Aircraft/b1900d/Models/Cabin-seats.xml</path>
+        <offsets>
+            <x-m>0</x-m>
+            <y-m>0</y-m>
+            <z-m>0</z-m>
+            <pitch-deg>0</pitch-deg>
+        </offsets>
+    </model>
 	
 </PropertyList>

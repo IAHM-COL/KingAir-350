@@ -78665,7 +78665,7 @@ name "Fdeck.001"
 loc 0 0.0444388 0
 data 8
 Mesh.558
-texture "E:/FG/Planes/b1900d/Models/cabin.png"
+texture "cabin.png"
 crease 45.000000
 numvert 4
 -4.7938 -0.208 0.6133
@@ -81164,7 +81164,7 @@ name "Fuselage.005"
 loc 0 0.0444388 0
 data 8
 Mesh.358
-texture "E:/FG/Planes/b1900d/Models/cabin.png"
+texture "cabin.png"
 crease 45.000000
 numvert 4
 -4.8233 -0.0336001 -0.6188
@@ -88692,7 +88692,7 @@ name "KLN90B.screen"
 loc 0 0.0444388 0
 data 9
 Mesh.1072
-texture "screen.png"
+texture "E:/FG/Planes/b1900d/Models/screen.png"
 crease 30.000000
 numvert 4
 -4.9177 -0.0746999 -0.1054
@@ -151254,7 +151254,7 @@ name "Plane"
 loc 0 0.0444388 0
 data 5
 Plane
-texture "E:/FG/Planes/b1900d/Models/cabin.png"
+texture "cabin.png"
 crease 30.000000
 numvert 6
 -4.2406 0.68 0.2033
