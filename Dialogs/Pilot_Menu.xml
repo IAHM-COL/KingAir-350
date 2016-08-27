@@ -24,6 +24,14 @@
 			</item>
 
 			<item>
+				<label>Yoke</label>
+				<binding>
+					<command>property-toggle</command>
+					<property>sim/model/yokes-visible</property>
+				</binding>
+			</item>
+
+			<item>
 				<label>Select Livery</label>
 				<binding>
 					<command>nasal</command>
@@ -38,6 +46,7 @@
 					<script>immat.immat_dialog.toggle()</script>
 				</binding>
 			</item>
+
 
 		</menu>
 
