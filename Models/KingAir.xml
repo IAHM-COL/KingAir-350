@@ -88,6 +88,7 @@ License: GPL2. See ./COPYING
     <object-name>WheelsLeft</object-name>
     <object-name>WheelsRight</object-name>
     <object-name>WingLightsLeft</object-name>
+    <object-name>Winglets</object-name>
     <object-name>WingLightsRight</object-name>
     <object-name>Wings</object-name>
     <object-name>WngCowl</object-name>
