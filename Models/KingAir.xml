@@ -14,12 +14,84 @@ License: GPL2. See ./COPYING
 
   <path>KingAir.ac</path>
 
-  <!-- EFFECTS
+  <!--shader-->
   <effect>
     <inherits-from>Aircraft/KingAir-350/Models/Effects/KingAir-350-combShaders</inherits-from>
-
+    <object-name>AileronsLeft</object-name>
+    <object-name>AileronsRigth</object-name>
+    <object-name>AiltrimtabLeft</object-name>
+    <object-name>AiltrimtabsRight</object-name>
+    <object-name>AxleshaftsFront</object-name>
+    <object-name>AxleshaftsLeft</object-name>
+    <object-name>AxleshaftsRight</object-name>
+    <object-name>DeicebootsHorizStab</object-name>
+    <object-name>DeicebootsWings</object-name>
+    <object-name>ElevatorsLeft</object-name>
+    <object-name>ElevatorsRight</object-name>
+    <object-name>EmergencyDoorFrame</object-name>
+    <object-name>EmergencyDoors</object-name>
+    <object-name>EngCowlStrips</object-name>
+    <object-name>Exhaust</object-name>
+    <object-name>FlapsLeft</object-name>
+    <object-name>FlapsRight</object-name>
+    <object-name>FlapstripsLeft</object-name>
+    <object-name>FlapstripsRight</object-name>
+    <object-name>FrontCargoDoorLeft</object-name>
+    <object-name>FrontCargoDoorRight</object-name>
+    <object-name>FrontCargoDoorStripsLeft</object-name>
+    <object-name>FrontCargoDoorStripsRight</object-name>
+    <object-name>FrontCowls</object-name>
+    <object-name>FrontEngineCowls</object-name>
+    <object-name>FuelCaps</object-name>
+    <object-name>Fuselage</object-name>
+    <object-name>GearDoorFront.Open1</object-name>
+    <object-name>GearDoorFront.Open2</object-name>
+    <object-name>GearDoorLeft.Open1</object-name>
+    <object-name>GearDoorLeft.Open2</object-name>
+    <object-name>GearDoorRight.Open1</object-name>
+    <object-name>GearDoorRight.Open2</object-name>
+    <object-name>GearsDoorFront.Closed</object-name>
+    <object-name>GearsDoorLeft.Closed</object-name>
+    <object-name>GearsDoorRight.Closed</object-name>
+    <object-name>Horstab</object-name>
+    <object-name>LGPistonFront</object-name>
+    <object-name>LGPistonLeft</object-name>
+    <object-name>LGPistonRight</object-name>
+    <object-name>LowerEngCowls</object-name>
+    <object-name>LowerStabFin</object-name>
+    <object-name>MainEntrance</object-name>
+    <object-name>MainEntranceTrim</object-name>
+    <object-name>MidEngineCowls</object-name>
+    <object-name>NoseCone</object-name>
+    <object-name>NoseConeStrips</object-name>
+    <object-name>NoseVents</object-name>
+    <object-name>PropCone</object-name>
+    <object-name>PropConeDisks</object-name>
+    <object-name>PropLeft</object-name>
+    <object-name>PropRight</object-name>
+    <object-name>Rudder</object-name>
+    <object-name>RudHingPoints</object-name>
+    <object-name>TailLight</object-name>
+    <object-name>TailTop</object-name>
+    <object-name>TopEngineCowl</object-name>
+    <object-name>TorqueLinkBoltsFront</object-name>
+    <object-name>TorqueLinkBoltsLeft</object-name>
+    <object-name>TorqueLinkBoltsRight</object-name>
+    <object-name>TorqueLinksFront</object-name>
+    <object-name>TorqueLinksLeft</object-name>
+    <object-name>TorqueLinksRight</object-name>
+    <object-name>TrunnionFront</object-name>
+    <object-name>TrunnionLeft</object-name>
+    <object-name>TrunnionRight</object-name>
+    <object-name>VertStab</object-name>
+    <object-name>WheelsFront</object-name>
+    <object-name>WheelsLeft</object-name>
+    <object-name>WheelsRight</object-name>
+    <object-name>WingLightsLeft</object-name>
+    <object-name>WingLightsRight</object-name>
+    <object-name>Wings</object-name>
+    <object-name>WngCowl</object-name>
   </effect>
-  -->
 
   <!-- 	CONTROL SURFACES -->
   <!-- Aileron -->
