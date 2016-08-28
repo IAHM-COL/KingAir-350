@@ -57,7 +57,7 @@
 
       <!-- String variable to hold current livery -->
       <livery>
-	<file type="string">default</file>
+	<file type="string">prototype</file>
       </livery>
 
     </model>
@@ -364,7 +364,7 @@
 		</voodoomaster -->
 		<kingair>
 			<file>Aircraft/KingAir-350/Nasal/kingair.nas</file>
-			<!-- file>Aircraft/KingAir-350/Nasal/liveries.nas</file -->
+			<file>Aircraft/KingAir-350/Nasal/liveries.nas</file>
 		</kingair>
 	</nasal>
 
