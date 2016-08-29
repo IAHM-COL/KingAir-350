@@ -2,10 +2,10 @@
 
 <!--
 Beechcraft King Air for FG
+:copyright: 2016 Sharath Mahadevan (SM)
+:copyright: 2016 D-ECHO
 :copyright: 2016 Joshua Davidson (it0uchpods)
 :copyright: 2015 Israel Hernandez (IAHM-COL)
-:copyright: 2016 Sharath Mahadevan (SM)
-
 
 License: GPL2. See ./COPYING
 -->
@@ -109,6 +109,7 @@ License: GPL2. See ./COPYING
     <object-name>Wings</object-name>
     <object-name>WngCowl</object-name>
   </effect>
+
   <effect>
       <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>Windows</object-name>
@@ -207,10 +208,7 @@ License: GPL2. See ./COPYING
         </greater-than>
     </condition>
 </animation>
-    
-      
-    
-    
+        
   <!-- Livery System -->
   <nasal>
     <load>
