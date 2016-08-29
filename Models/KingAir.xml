@@ -93,7 +93,105 @@ License: GPL2. See ./COPYING
     <object-name>Wings</object-name>
     <object-name>WngCowl</object-name>
   </effect>
-
+  <effect>
+      <inherits-from>Effects/transparent</inherits-from>
+    <object-name>LHFastprop</object-name>
+    <object-name>LHSlowprop</object-name>
+</effect>
+      
+  <!--Propeller-->
+  <!--Left-->
+  <animation>
+      <type>spin</type>
+    <object-name>PropLeft</object-name>
+    <object-name>LHFastprop</object-name>
+    <object-name>LHSlowprop</object-name>
+        <property>/engines/engine/rpm</property>
+    <factor>1</factor>
+    <axis><x>1</x></axis>
+    <center>
+        <y-m>-2.74939</y-m>
+        <z-m>-0.18085</z-m>
+    </center>
+</animation>
+<animation>
+    <type>select</type>
+    <object-name>PropLeft</object-name>
+    <condition>
+        <less-than>
+            <property>/engines/engine/rpm</property>
+            <value>510</value>
+        </less-than>
+    </condition>
+</animation>
+<animation>
+    <type>select</type>
+    <object-name>LHSlowprop</object-name>
+    <condition>
+        <greater-than>
+            <property>/engines/engine/rpm</property>
+            <value>490</value>
+        </greater-than>
+    </condition>
+</animation>
+<animation>
+    <type>select</type>
+    <object-name>LHFastprop</object-name>
+    <condition>
+        <greater-than>
+            <property>/engines/engine/rpm</property>
+            <value>990</value>
+        </greater-than>
+    </condition>
+</animation>
+  <!--Right-->
+  <animation>
+      <type>spin</type>
+    <object-name>PropRight</object-name>
+    <object-name>RHFastprop</object-name>
+    <object-name>RHSlowprop</object-name>
+    <property>/engines/engine[1]/rpm</property>
+    <factor>1</factor>
+    <axis><x>1</x></axis>
+    <center>
+        <y-m>2.74939</y-m>
+        <z-m>-0.18085</z-m>
+    </center>
+</animation>
+<animation>
+    <type>select</type>
+    <object-name>PropRight</object-name>
+    <condition>
+        <less-than>
+            <property>/engines/engine[1]/rpm</property>
+            <value>510</value>
+        </less-than>
+    </condition>
+</animation>
+<animation>
+    <type>select</type>
+    <object-name>RHSlowprop</object-name>
+    <condition>
+        <greater-than>
+            <property>/engines/engine[1]/rpm</property>
+            <value>490</value>
+        </greater-than>
+    </condition>
+</animation>
+<animation>
+    <type>select</type>
+    <object-name>RHFastprop</object-name>
+    <condition>
+        <greater-than>
+            <property>/engines/engine[1]/rpm</property>
+            <value>990</value>
+        </greater-than>
+    </condition>
+</animation>
+    
+      
+    
+    
   <!-- Livery System -->
   <nasal>
     <load>
@@ -204,31 +302,61 @@ License: GPL2. See ./COPYING
 
   <animation>
     <type>rotate</type>
-    <object-name>AileronL</object-name>
+    <object-name>AileronsLeft</object-name>
+    <object-name>AiltrimtabLeft</object-name>
     <property>surface-positions/left-aileron-pos-norm</property>
     <factor>26</factor>
     <axis>
-      <x1-m> 4.311</x1-m>
-      <y1-m>-7.874</y1-m>
-      <z1-m>-0.003</z1-m>
-      <x2-m> 4.768</x2-m>
-      <y2-m>-4.503</y2-m>
-      <z2-m>-0.284</z2-m>
+      <x1-m> -1.85922</x1-m>
+      <y1-m>-8.74654</y1-m>
+      <z1-m>0.15873</z1-m>
+      <x2-m> -1.3244</x2-m>
+      <y2-m>-5.25384</y2-m>
+      <z2-m>-0.23367</z2-m>
+    </axis>
+  </animation>
+  <animation>
+    <type>rotate</type>
+    <object-name>AiltrimtabLeft</object-name>
+    <property>controls/flight/aileron-trim</property>
+    <factor>-26</factor>
+    <axis>
+      <x1-m> -1.29431</x1-m>
+      <y1-m>-6.45392</y1-m>
+      <z1-m>-0.11355</z1-m>
+      <x2-m> -1.09392</x2-m>
+      <y2-m>-5.26009</y2-m>
+      <z2-m>-0.25226</z2-m>
     </axis>
   </animation>
 
   <animation>
     <type>rotate</type>
-    <object-name>AileronR</object-name>
+    <object-name>AileronsRigth</object-name>
+    <object-name>AiltrimtabsRight</object-name>
     <property>surface-positions/right-aileron-pos-norm</property>
     <factor>26</factor>
     <axis>
-      <x1-m> 4.311</x1-m>
-      <y1-m> 7.874</y1-m>
-      <z1-m>-0.003</z1-m>
-      <x2-m> 4.768</x2-m>
-      <y2-m> 4.503</y2-m>
-      <z2-m>-0.284</z2-m>
+      <x1-m> -1.85922</x1-m>
+      <y1-m>8.74654</y1-m>
+      <z1-m>0.15873</z1-m>
+      <x2-m> -1.3244</x2-m>
+      <y2-m>5.25384</y2-m>
+      <z2-m>-0.23367</z2-m>
+    </axis>
+  </animation>
+  <animation>
+    <type>rotate</type>
+    <object-name>AiltrimtabsRight</object-name>
+    <property>controls/flight/aileron-trim</property>
+    <factor>26</factor>
+    <axis>
+      <x1-m> -1.29431</x1-m>
+      <y1-m>6.45392</y1-m>
+      <z1-m>-0.11355</z1-m>
+      <x2-m> -1.09392</x2-m>
+      <y2-m>5.26009</y2-m>
+      <z2-m>-0.25226</z2-m>
     </axis>
   </animation>
 
@@ -361,24 +489,24 @@ License: GPL2. See ./COPYING
   </animation>
 
   <!-- GEAR -->
-  <!-- Left Main -->
   <animation>
     <type>rotate</type>
-    <object-name>GearActL</object-name>
-    <object-name>GearStrutUL</object-name>
-    <object-name>GearStrutLL</object-name>
-    <object-name>WheelMainL</object-name>
-    <object-name>BrakeLineL</object-name>
+    <object-name>TrunnionFront</object-name>
+    <object-name>WheelsFront</object-name>
+    <object-name>TiresFront</object-name>
+    <object-name>TorqueLinksFront</object-name>
+    <object-name>TorqueLinkBoltsFront</object-name>
+    <object-name>LGPistonFront</object-name>
+    <object-name>AxleshaftsFront</object-name>
     <property>gear/gear[0]/position-norm</property>
     <interpolation>
-      <entry>		<ind>0.0</ind>	<dep>-90</dep>	 </entry>
-      <entry>		<ind>0.2</ind>	<dep>-85.0</dep> </entry>
+      <entry>		<ind>0.0</ind>	<dep>-105</dep>	 </entry>
+      <entry>		<ind>0.2</ind>	<dep>-100.0</dep> </entry>
       <entry>		<ind>1.0</ind>	<dep> 0.0</dep>	 </entry>
     </interpolation>
     <center>
-      <x-m> 2.571</x-m>
-      <y-m>-2.114</y-m>
-      <z-m>-0.729</z-m>
+      <x-m> -6.5365</x-m>
+      <z-m>-0.37293</z-m>
     </center>
     <axis>
       <x> 0</x>
@@ -389,10 +517,102 @@ License: GPL2. See ./COPYING
 
   <animation>
     <type>translate</type>
-    <object-name>GearStrutLL</object-name>
-    <object-name>WheelMainL</object-name>
-    <object-name>BrakeLineL</object-name>
+    <object-name>LGPistonFront</object-name>
+    <object-name>WheelsFront</object-name>
+    <object-name>TiresFront</object-name>
     <property>gear/gear[0]/compression-norm</property>
+    <interpolation>
+      <entry>		<ind>0.0</ind>	<dep>0.000</dep>	</entry>
+      <entry>		<ind>0.5</ind>	<dep>0.075</dep>	</entry>
+      <entry>		<ind>1.0</ind>	<dep>0.219</dep>	</entry>
+    </interpolation>
+    <axis>
+      <x>	0</x>
+      <y>	0</y>
+      <z> 1.00</z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>GearDoorFront.Open1</object-name>
+    <object-name>GearDoorFront.Open2</object-name>
+    <condition>
+        <greater-than>
+    <property>gear/gear[0]/position-norm</property>
+    <value>0.1</value>
+</greater-than>
+</condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>GearDoorFront.Closed</object-name>
+    <condition>
+        <less-than>
+    <property>gear/gear[0]/position-norm</property>
+    <value>0.1</value>
+</less-than>
+</condition>
+  </animation>
+  <!-- Left Main -->
+  <animation>
+    <type>rotate</type>
+    <object-name>TrunnionLeft</object-name>
+    <object-name>WheelsLeft</object-name>
+    <object-name>TiresLeft</object-name>
+    <object-name>TorqueLinksLeft</object-name>
+    <object-name>TorqueLinksLeft2</object-name>
+    <object-name>TorqueLinksLeft3</object-name>
+    <object-name>TorqueLinkBoltsLeft</object-name>
+    <object-name>LGPistonLeft</object-name>
+    <object-name>AxleshaftsLeft</object-name>
+    <property>gear/gear[1]/position-norm</property>
+    <interpolation>
+      <entry>		<ind>0.0</ind>	<dep>105</dep>	 </entry>
+      <entry>		<ind>0.2</ind>	<dep>100.0</dep> </entry>
+      <entry>		<ind>1.0</ind>	<dep> 0.0</dep>	 </entry>
+    </interpolation>
+    <center>
+      <x-m> -1.83231</x-m>
+      <y-m>-2.114</y-m>
+      <z-m>-0.68797</z-m>
+    </center>
+    <axis>
+      <x> 0</x>
+      <y> 1</y>
+      <z> 0</z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>GearDoorLeft.Open1</object-name>
+    <object-name>GearDoorLeft.Open2</object-name>
+    <condition>
+        <greater-than>
+    <property>gear/gear[1]/position-norm</property>
+    <value>0.1</value>
+</greater-than>
+</condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>GearDoorLeft.Closed</object-name>
+    <condition>
+        <less-than>
+    <property>gear/gear[1]/position-norm</property>
+    <value>0.1</value>
+</less-than>
+</condition>
+  </animation>
+
+
+  <animation>
+    <type>translate</type>
+    <object-name>LGPistonLeft</object-name>
+    <object-name>WheelsLeft</object-name>
+    <object-name>TiresLeft</object-name>
+    <property>gear/gear[1]/compression-norm</property>
     <interpolation>
       <entry>		<ind>0.0</ind>	<dep>0.000</dep>	</entry>
       <entry>		<ind>0.5</ind>	<dep>0.075</dep>	</entry>
@@ -408,7 +628,7 @@ License: GPL2. See ./COPYING
   <animation>
     <type>spin</type>
     <object-name>WheelMainL</object-name>
-    <property>gear/gear[0]/rollspeed-ms</property>
+    <property>gear/gear[1]/rollspeed-ms</property>
     <factor>21</factor>
     <center>
       <x-m> 2.571</x-m>
@@ -425,21 +645,25 @@ License: GPL2. See ./COPYING
   <!-- Right Main -->
   <animation>
     <type>rotate</type>
-    <object-name>GearActR</object-name>
-    <object-name>GearStrutUR</object-name>
-    <object-name>GearStrutLR</object-name>
-    <object-name>WheelMainR</object-name>
-    <object-name>BrakeLineR</object-name>
-    <property>gear/gear[1]/position-norm</property>
+    <object-name>TrunnionRight</object-name>
+    <object-name>WheelsRight</object-name>
+    <object-name>TiresRight</object-name>
+    <object-name>TorqueLinksRight</object-name>
+    <object-name>TorqueLinksRight2</object-name>
+    <object-name>TorqueLinksRight3</object-name>
+    <object-name>TorqueLinkBoltsRight</object-name>
+    <object-name>LGPistonRight</object-name>
+    <object-name>AxleshaftsRight</object-name>
+    <property>gear/gear[2]/position-norm</property>
     <interpolation>
-      <entry>		<ind>0.0</ind>	<dep>-90</dep>	</entry>
-      <!--<entry>		<ind>0.2</ind>	<dep>-85.0</dep>	</entry>-->
-      <entry>		<ind>1.0</ind>	<dep> 0.0</dep>	</entry>
+      <entry>		<ind>0.0</ind>	<dep>105</dep>	 </entry>
+      <entry>		<ind>0.2</ind>	<dep>100.0</dep> </entry>
+      <entry>		<ind>1.0</ind>	<dep> 0.0</dep>	 </entry>
     </interpolation>
     <center>
-      <x-m> 2.571</x-m>
-      <y-m> 2.114</y-m>
-      <z-m>-0.729</z-m>
+      <x-m> -1.83231</x-m>
+      <y-m>-2.114</y-m>
+      <z-m>-0.68797</z-m>
     </center>
     <axis>
       <x> 0</x>
@@ -447,13 +671,34 @@ License: GPL2. See ./COPYING
       <z> 0</z>
     </axis>
   </animation>
+  <animation>
+    <type>select</type>
+    <object-name>GearDoorRight.Open1</object-name>
+    <object-name>GearDoorRight.Open2</object-name>
+    <condition>
+        <greater-than>
+    <property>gear/gear[2]/position-norm</property>
+    <value>0.1</value>
+</greater-than>
+</condition>
+  </animation>
+  <animation>
+    <type>select</type>
+    <object-name>GearDoorRight.Closed</object-name>
+    <condition>
+        <less-than>
+    <property>gear/gear[2]/position-norm</property>
+    <value>0.1</value>
+</less-than>
+</condition>
+  </animation>
 
   <animation>
     <type>translate</type>
-    <object-name>GearStrutLR</object-name>
-    <object-name>WheelMainR</object-name>
-    <object-name>BrakeLineR</object-name>
-    <property>gear/gear[1]/compression-norm</property>
+    <object-name>LGPistonRight</object-name>
+    <object-name>WheelsRight</object-name>
+    <object-name>TiresRight</object-name>
+    <property>gear/gear[2]/compression-norm</property>
     <interpolation>
       <entry>		<ind>0.0</ind>	<dep>0.000</dep>	</entry>
       <entry>		<ind>0.5</ind>	<dep>0.075</dep>	</entry>
