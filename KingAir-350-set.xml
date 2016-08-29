@@ -356,7 +356,9 @@
   </voodoomaster>
 
 	<!-- all the nasal files in their namespaces -->
-	<nasal>
+  <nasal><doors>
+          <file>Nasal/doors.nas</file>
+      </doors>
 		<!-- voodoomaster>
 			<file>Aircraft/KingAir-350/Nasal/Pushback.nas</file>
 			<file>Aircraft/KingAir-350/Nasal/ground_handling.nas</file>
@@ -366,6 +368,9 @@
 			<file>Aircraft/KingAir-350/Nasal/kingair.nas</file>
 			<file>Aircraft/KingAir-350/Nasal/liveries.nas</file>
 		</kingair>
+                <dialogs>
+                    <file>Nasal/dialogs.nas</file>
+                </dialogs>
 	</nasal>
 
 </PropertyList>

@@ -47,6 +47,14 @@
 				</binding>
 			</item>
 
+			<item>
+				<label>Config/Options</label>
+				<binding>
+					<command>dialog-show</command>
+                                        <dialog-name>options</dialog-name>
+				</binding>
+			</item>
+
 
 		</menu>
 

@@ -13,7 +13,23 @@ License: GPL2. See ./COPYING
 <PropertyList>
 
   <path>KingAir.ac</path>
+ <nasal>
+    <load>
+      var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
+      var float_1 = self.getNode("sim/multiplay/generic/float[1]", 1);
+      
+      var crew_door = self.getNode("sim/model/door-positions/crew/position-norm", 1);
+      var passenger_door = self.getNode("sim/model/door-positions/passenger/position-norm", 1);
+      
+      crew_door.alias(float_0);
+      passenger_door.alias(float_1);
+    </load>
 
+    <unload>
+      crew_door.unalias();
+      passenger_door.unalias();
+    </unload>
+  </nasal>
   <!--shader-->
   <effect>
     <inherits-from>Aircraft/KingAir-350/Models/Effects/KingAir-350-combShaders</inherits-from>
@@ -94,7 +110,10 @@ License: GPL2. See ./COPYING
     <object-name>WngCowl</object-name>
   </effect>
   <effect>
-      <inherits-from>Effects/transparent</inherits-from>
+      <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>Windows</object-name>
+    <object-name>RHFastprop</object-name>
+    <object-name>RHSlowprop</object-name>
     <object-name>LHFastprop</object-name>
     <object-name>LHSlowprop</object-name>
 </effect>
@@ -288,7 +307,58 @@ License: GPL2. See ./COPYING
     <texture-prop>texture</texture-prop>
     <texture>prototype.png</texture>
   </animation>
-
+  
+  <animation>
+    <type>material</type>
+    <object-name>Windows</object-name>
+    <ambient>
+        <r>0.1</r>
+        <g>0.1</g>
+        <b>0.1</b>
+    </ambient>
+     <transparency>
+        <alpha-prop>controls/cabin/windowshader</alpha-prop>
+        <factor>0.9</factor>
+        <offset>0.1</offset>
+  </transparency>
+        
+  </animation>
+  <!--DOORS-->
+  <!--Main-->
+   <animation>
+    <name>MainDoor</name>
+    <object-name>MainEntrance</object-name>
+    <object-name>MainEntranceTrim</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>MainDoor</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>MainDoor</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <factor> 140 </factor>
+   <axis>
+      <x1-m> 0.42057</x1-m>
+      <y1-m>-0.7659</y1-m>
+      <z1-m>-0.55186</z1-m>
+      <x2-m> 0.97302</x2-m>
+      <y2-m>-0.72215</y2-m>
+      <z2-m>-0.55283</z2-m>
+    </axis>
+  </animation>
   <!-- 	CONTROL SURFACES -->
   <!-- Aileron -->
   <animation>
@@ -416,8 +486,7 @@ License: GPL2. See ./COPYING
   <!-- RUDDER -->
   <animation>
     <type>select</type>
-    <object-name>RudderL</object-name>
-    <object-name>RudderR</object-name>
+    <object-name>Rudder</object-name>
     <condition>
       <property>/sim/failure-manager/controls/flight/rudder/serviceable</property>
     </condition>
@@ -425,66 +494,46 @@ License: GPL2. See ./COPYING
 
   <animation>
     <type>rotate</type>
-    <object-name>RudderL</object-name>
-    <property>controls/flight/rudder</property>
+    <object-name>Rudder</object-name>
+    <property>surface-positions/rudder-pos-norm</property>
     <factor>25</factor>
-    <center>
-      <x-m>10.837</x-m>
-      <y-m>-2.833</y-m>
-      <z-m>0.871</z-m>
-    </center>
     <axis>
-      <x>0</x>
-      <y>0</y>
-      <z>1</z>
+      <x1-m> 4.87803</x1-m>
+      <z1-m>1.34078</z1-m>
+      <x2-m> 5.43983</x2-m>
+      <z2-m>2.16519</z2-m>
     </axis>
   </animation>
 
-  <animation>
-    <type>rotate</type>
-    <object-name>RudderR</object-name>
-    <property>controls/flight/rudder</property>
-    <factor>25</factor>
-    <center>
-      <x-m>10.837</x-m>
-      <y-m>2.833</y-m>
-      <z-m>0.871</z-m>
-    </center>
-    <axis>
-      <x>0</x>
-      <y>0</y>
-      <z>1</z>
-    </axis>
-  </animation>
 
   <!-- FLAPS -->
   <animation>
     <type>rotate</type>
-    <object-name>FlapL</object-name>
+    <object-name>FlapsLeft</object-name>
     <property>surface-positions/flap-pos-norm</property>
     <factor>45</factor>
     <axis>
-      <x1-m> 4.57</x1-m>
-      <y1-m>-4.505</y1-m>
-      <z1-m>-0.359</z1-m>
-      <x2-m> 5.222</x2-m>
-      <y2-m>-0.734</y2-m>
-      <z2-m>-0.705</z2-m>
+      <x1-m> -1.03544</x1-m>
+      <y1-m>-3.29118</y1-m>
+      <z1-m>-0.47175</z1-m>
+      <x2-m> -1.03544</x2-m>
+      <y2-m>-0.71071</y2-m>
+      <z2-m>-0.61722</z2-m>
     </axis>
   </animation>
 
   <animation>
     <type>rotate</type>
-    <object-name>FlapR</object-name>
+    <object-name>FlapsRight</object-name>
     <property>surface-positions/flap-pos-norm</property>
     <factor>-45</factor>
     <axis>
-      <x1-m> 4.57</x1-m>
-      <y1-m> 4.505</y1-m>
-      <z1-m>-0.359</z1-m>
-      <x2-m> 5.222</x2-m>
-      <y2-m> 0.734</y2-m>
-      <z2-m>-0.705</z2-m>
+      <x1-m> -1.03544</x1-m>
+      <y1-m>3.29118</y1-m>
+      <z1-m>-0.47175</z1-m>
+      <x2-m> -1.03544</x2-m>
+      <y2-m>0.71071</y2-m>
+      <z2-m>-0.61722</z2-m>
     </axis>
   </animation>
 
