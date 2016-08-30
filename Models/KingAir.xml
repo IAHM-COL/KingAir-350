@@ -870,7 +870,7 @@ License: GPL2. See ./COPYING
   <offsets>
    <x-m>0.0265565</x-m>
    <y-m>0.000</y-m>
-   <z-m>0.995395</z-m>
+   <z-m>0.999885</z-m>
   </offsets>
  </model>
 
@@ -929,21 +929,21 @@ License: GPL2. See ./COPYING
  </model>
 
 <model>
-    <path>Aircraft/KingAir-350/Models/light/taxilight.xml</path>
+    <path>Aircraft/KingAir-350/Models/lights/taxilight.xml</path>
     <offsets>
-      <x-m> -1.86 </x-m>
-      <y-m>  0.34 </y-m>
-      <z-m> -0.38 </z-m>
+      <x-m> -7.20 </x-m>
+      <y-m>  0.18 </y-m>
+      <z-m> -0.80 </z-m>
       <pitch-deg> 0 </pitch-deg>
     </offsets>
   </model>
   
   <model>
-    <path>Aircraft/KingAir-350/Models/light/landinglight.xml</path>
+    <path>Aircraft/KingAir-350/Models/lights/landinglight.xml</path>
     <offsets>
-      <x-m> -1.86 </x-m>
-      <y-m> -0.34 </y-m>
-      <z-m> -0.38 </z-m>
+      <x-m> -6.20 </x-m>
+      <y-m> -0.18 </y-m>
+      <z-m> -0.80 </z-m>
       <pitch-deg> 1 </pitch-deg>
     </offsets>
   </model>	
