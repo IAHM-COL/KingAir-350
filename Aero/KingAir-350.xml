@@ -111,7 +111,7 @@
             <damping_coeff_rebound unit="LBS/FT/SEC"> 15.15 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
             <max_steer unit="DEG"> -2 </max_steer>
             <brake_group> NONE </brake_group>
-            <retractable>0</retractable>
+            <retractable>1</retractable>
         </contact>
 
         <contact type="BOGEY" name="left_main">
@@ -128,7 +128,7 @@
             <damping_coeff_rebound unit="LBS/FT/SEC"> 49 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
             <max_steer unit="DEG"> 0.0 </max_steer>
             <brake_group> LEFT </brake_group>
-            <retractable>0</retractable>
+            <retractable>1</retractable>
         </contact>
 
         <contact type="BOGEY" name="right_main">
@@ -145,7 +145,7 @@
             <damping_coeff_rebound unit="LBS/FT/SEC"> 49 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
             <max_steer unit="DEG"> 0.0 </max_steer>
             <brake_group> RIGHT </brake_group>
-            <retractable>0</retractable>
+            <retractable>1</retractable>
         </contact>
 
 		<contact type="STRUCTURE" name="LEFT_WING">
