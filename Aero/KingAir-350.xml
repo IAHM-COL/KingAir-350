@@ -96,13 +96,13 @@
    <ground_reactions>
 
         <contact type="BOGEY" name="nose">
-            <location unit="FT">
-                <x> -0.98 </x>
-                <y> 0.0 </y>
-            <z> -4.146 </z>  <!-- <z> -3.854 </z> -->
-            <!--         <z> -4.83 </z>   stall AoA -->
-            <!--         <z> -4.13 </z>   glide AoA -->
-         </location>
+            <location unit="IN">
+               <x>72.79</x>
+               <y> 0.0 </y>
+               <z> -67.19</z>
+               <!--         <z> -4.83 </z>   stall AoA -->
+               <!--         <z> -4.13 </z>   glide AoA -->
+           </location>
          <static_friction>  0.80 </static_friction>
          <dynamic_friction> 0.50 </dynamic_friction>
             <rolling_friction> 0.02 </rolling_friction>
@@ -115,10 +115,10 @@
         </contact>
 
         <contact type="BOGEY" name="left_main">
-           <location unit="FT">
-                <x> 3.74 </x>
-                <y> -3.28 </y>
-                <z> -4.1 </z>
+           <location unit="IN">
+                <x>352.06</x>
+                <y>-76.49</y>
+                <z>-67.19</z>
             </location>
          <static_friction>  1.0 </static_friction>
          <dynamic_friction> 0.50 </dynamic_friction>
@@ -132,10 +132,10 @@
         </contact>
 
         <contact type="BOGEY" name="right_main">
-           <location unit="FT">
-                <x> 3.74 </x>
-                <y> 3.28 </y>
-                <z> -4.1 </z>
+           <location unit="IN">
+                <x>352.06</x>
+                <y>76.49</y>
+                <z>-67.19</z>
             </location>
          <static_friction>  1.0 </static_friction>
          <dynamic_friction> 0.50 </dynamic_friction>
