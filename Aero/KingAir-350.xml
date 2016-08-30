@@ -106,9 +106,9 @@
          <static_friction>  0.80 </static_friction>
          <dynamic_friction> 0.50 </dynamic_friction>
             <rolling_friction> 0.02 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 1010 </spring_coeff> <!--  weight * 0.65 -->
-            <damping_coeff unit="LBS/FT/SEC"> 151.5 </damping_coeff> <!--  spring_coeff * 0.15 -->
-            <damping_coeff_rebound unit="LBS/FT/SEC"> 15.15 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
+            <spring_coeff unit="LBS/FT"> 6565 </spring_coeff> <!--  weight * 0.65 -->
+            <damping_coeff unit="LBS/FT/SEC"> 958 </damping_coeff> <!--  spring_coeff * 0.15 -->
+            <damping_coeff_rebound unit="LBS/FT/SEC"> 98.5 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
             <max_steer unit="DEG"> -2 </max_steer>
             <brake_group> NONE </brake_group>
             <retractable>1</retractable>
@@ -123,9 +123,9 @@
          <static_friction>  1.0 </static_friction>
          <dynamic_friction> 0.50 </dynamic_friction>
             <rolling_friction> 0.02 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 3265 </spring_coeff> <!--  weight * 2.1 -->
-            <damping_coeff unit="LBS/FT/SEC"> 490 </damping_coeff> <!--  spring_coeff * 0.15 -->
-            <damping_coeff_rebound unit="LBS/FT/SEC"> 49 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
+            <spring_coeff unit="LBS/FT"> 21210 </spring_coeff> <!--  weight * 2.1 -->
+            <damping_coeff unit="LBS/FT/SEC"> 3182 </damping_coeff> <!--  spring_coeff * 0.15 -->
+            <damping_coeff_rebound unit="LBS/FT/SEC"> 318 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
             <max_steer unit="DEG"> 0.0 </max_steer>
             <brake_group> LEFT </brake_group>
             <retractable>1</retractable>
@@ -140,9 +140,9 @@
          <static_friction>  1.0 </static_friction>
          <dynamic_friction> 0.50 </dynamic_friction>
             <rolling_friction> 0.02 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 3265 </spring_coeff> <!--  weight * 2.1 -->
-            <damping_coeff unit="LBS/FT/SEC"> 490 </damping_coeff> <!--  spring_coeff * 0.15 -->
-            <damping_coeff_rebound unit="LBS/FT/SEC"> 49 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
+            <spring_coeff unit="LBS/FT"> 21210 </spring_coeff> <!--  weight * 2.1 -->
+            <damping_coeff unit="LBS/FT/SEC"> 3182 </damping_coeff> <!--  spring_coeff * 0.15 -->
+            <damping_coeff_rebound unit="LBS/FT/SEC"> 318 </damping_coeff_rebound> <!--  damping_coeff * 0.1 -->
             <max_steer unit="DEG"> 0.0 </max_steer>
             <brake_group> RIGHT </brake_group>
             <retractable>1</retractable>
