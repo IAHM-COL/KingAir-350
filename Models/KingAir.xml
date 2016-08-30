@@ -866,7 +866,7 @@ License: GPL2. See ./COPYING
 
  <!-- Beacon -->
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/beacon.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/beacon.xml</path>
   <offsets>
    <x-m>0.0265565</x-m>
    <y-m>0.000</y-m>
@@ -875,7 +875,7 @@ License: GPL2. See ./COPYING
  </model>
 
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/beacon.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/beacon.xml</path>
   <offsets>
    <x-m>0.0265565</x-m>
    <y-m>0.000</y-m>
@@ -884,7 +884,7 @@ License: GPL2. See ./COPYING
  </model>
 
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/Rednav.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/Rednav.xml</path>
   <offsets>
    <x-m>-2.299</x-m>
    <y-m>-8.85928</y-m>
@@ -893,7 +893,7 @@ License: GPL2. See ./COPYING
  </model>
  
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/flash.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/flash.xml</path>
   <offsets>
    <x-m>-2.299</x-m>
    <y-m>-8.85928</y-m>
@@ -902,7 +902,7 @@ License: GPL2. See ./COPYING
  </model>
 
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/Greennav.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/Greennav.xml</path>
   <offsets>
    <x-m>-2.299</x-m>
    <y-m>8.85928</y-m>
@@ -911,7 +911,7 @@ License: GPL2. See ./COPYING
  </model>
  
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/flash.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/flash.xml</path>
   <offsets>
    <x-m>-2.299</x-m>
    <y-m>8.85928</y-m>
@@ -920,7 +920,7 @@ License: GPL2. See ./COPYING
  </model>
  
  <model>
-  <path>Aircraft/KingAir-350/Models/Lights/flash.xml</path>
+  <path>Aircraft/KingAir-350/Models/ligths/flash.xml</path>
   <offsets>
    <x-m>5.00</x-m>
    <y-m> 0.00000</y-m>
