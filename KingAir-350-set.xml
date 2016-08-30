@@ -15,7 +15,7 @@
 	<sim>
 
 		<description>Beechraft Super King Air 350</description>
-		<author>it0uchpods, IAHM-COL, SM</author>
+		<author>it0uchpods, IAHM-COL, SM, GabrielYV</author>
 
 		<aircraft-version>V0.00.00</aircraft-version>
 		<status>Alpha</status>
@@ -36,7 +36,75 @@
 		<flight-model>jsb</flight-model>
 		<aero>Aero/KingAir-350</aero>
 
-		<!-- Splash screen while loading -->
+		<multiplay>
+
+      <chat_display>1</chat_display>
+
+      <generic> 
+
+        <int   n="0"  type="int"> 0</int>                                          <!-- 0 immat -->
+
+        <int   n="1"  type="int"> 0</int>                                          <!-- 1 immat -->
+
+        <int   n="2"  type="int"> 0</int>                                          <!-- 2 immat -->
+
+        <int   n="3"  type="int"> 0</int>                                          <!-- 3 immat -->
+
+        <int   n="4"  type="int"> 0</int>                                          <!-- 4 immat -->
+
+        <int   n="5"  type="int"> 0</int>                                          <!-- 5 immat -->
+
+        <int   n="6"  type="bool">1</int>                                          <!-- 6 smoke/bomb/torpedo -->
+
+        <int   n="7"  type="int"> 0</int>                                          <!-- 7 color -->
+
+        <int   n="8"  alias="/systems/electrical/outputs/nav-lights">0</int>         <!-- 8 nav-lights -->
+
+        <int   n="9"  alias="/sim/model/lights/beacon/state">false</int>             <!-- 9 strobe-lights -->
+
+        <float n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
+
+        <float n="1"  alias="/sim/model/door-positions/passenger/position-norm"/>
+
+        <float n="2"  alias="/position/gear-agl-m">0</float>                       <!-- altitude for MP shadow -->
+
+        <float n="3"  alias="/position/altitude-ft">0</float>                      <!-- altitude for Smoke/Trail -->
+
+        <float n="4"  alias="/sim/model/door-positions/leftbagage/position-norm"/>
+
+        <float n="5"  alias="/sim/model/door-positions/rightbagage/position-norm"/>
+
+        <float n="6"  alias="/engines/engine[0]/rpm"/>
+
+        <float n="7"  alias="/engines/engine[0]/cranking"/>
+
+        <float n="8"  alias="/engines/engine[1]/rpm"/>
+
+        <float n="9"  alias="/engines/engine[1]/cranking"/>
+
+        <float n="10" alias="/gear/gear[0]/wow/"/>
+
+        <float n="11" alias="/gear/gear[1]/wow/"/>
+
+        <float n="12" alias="/gear/gear[2]/wow/"/>
+
+        <float n="13" alias="/gear/gear[0]/rollspeed-ms"/>
+
+        <float n="14" alias="/gear/gear[1]/rollspeed-ms"/>
+
+        <float n="15" alias="/gear/gear[2]/rollspeed-ms"/>
+
+        <!-- For Bombable -->
+
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>
+
+        <string n="9" type="string" />
+
+      </generic>
+
+    </multiplay>
+
+	        <!-- Splash screen while loading -->
 		<startup>
 			<splash-texture>Aircraft/KingAir-350/splashScreen/KingAir-350-splash1.png</splash-texture>
 		</startup>
@@ -152,11 +220,27 @@
 	<x-offset-m archive="y">  0.33 </x-offset-m> <!-- Right -->
 	<y-offset-m archive="y">  0.48 </y-offset-m> <!-- Up    -->
 	<z-offset-m archive="y"> -4.20</z-offset-m> <!-- Back  -->
-	<pitch-offset-deg> 0 </pitch-offset-deg>
-	<heading-offset-deg> 270 </heading-offset-deg>
+	<pitch-offset-deg> -5 </pitch-offset-deg>
+	<heading-offset-deg> 0 </heading-offset-deg>
 	<default-field-of-view-deg> 70 </default-field-of-view-deg>
       </config>
     </view>
+
+<view n="102">
+    <name>Rear Passanger Seat View</name>
+    <internal archive="y">true</internal>
+    <type>lookfrom</type>
+    <config>
+      <from-model type="bool">true</from-model>
+      <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
+       <x-offset-m archive="y">  0.250 </x-offset-m>	<!-- Right -->
+       <y-offset-m archive="y">  0.505 </y-offset-m>	<!-- Up    -->
+       <z-offset-m archive="y"> -0.200 </z-offset-m>	<!-- Back  -->
+      <pitch-offset-deg> -5 </pitch-offset-deg>
+      <default-field-of-view-deg> 90 </default-field-of-view-deg>
+      <dynamic-view type="bool">true</dynamic-view>
+    </config>
+  </view>
 
     <!-- #### help text, currently only copied from C-47 -->
     <help>
