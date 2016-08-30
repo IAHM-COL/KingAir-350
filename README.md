@@ -7,6 +7,7 @@ License: GPL version 2+<br>
 :copyright: 2016 SM <br>
 :copyright: 2016 D-ECHO <br>
 :copyright: 2016 it0uchpods <br>
+:copyright: 2016 GabrielYV <br>
 :copyright: 2016 IAHM-COL <br>
 :copyright: 2015-2016 JWocky <br>
 
