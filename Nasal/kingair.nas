@@ -23,6 +23,8 @@ setlistener("/sim/signals/fdm-initialized", func {
 	settimer(update_systems,2);
 	setprop("/systems/electrical/outputs/efis", 29);
 	setprop("/systems/electrical/outputs/efis[1]", 29);
+  	itaf.ap_init();			
+	var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Aircraft/KingAir-350/Systems/autopilot-dlg.xml");
 	print("KingAir 350 Systems OK!");
 });
 

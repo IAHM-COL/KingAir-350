@@ -1787,9 +1787,9 @@
         </action>
     </animation>
 
-<!-- APP-65A -->
+<!-- APP-65A Will be mapped to ITAF -->
 
-    <animation>
+    <!--animation>
         <type>pick</type>
         <object-name>AP-toggle</object-name>
         <action>
@@ -1970,7 +1970,7 @@
         <condition>
             <property>systems/electrical/outputs/fgc-65</property>
         </condition>
-    </animation>
+    </animation-->
 
 
 <!-- 

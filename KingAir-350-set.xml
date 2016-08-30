@@ -130,6 +130,17 @@
 
     </model>
 
+  <!-- Systems -->
+  <systems>
+    <electrical>
+      <path>Aircraft/Generic/generic-electrical.xml</path>
+    </electrical>
+    <autopilot>
+	  <name>IT-AUTOFLIGHT</name>
+      <path>Aircraft/KingAir-350/Systems/it-autoflight.xml</path>
+    </autopilot>
+  </systems>
+	
     <!-- Subsection for submodels -->
     <!-- submodels>
     <serviceable type="bool">1</serviceable>
@@ -304,6 +315,25 @@
 
     <menubar include="Dialogs/Pilot_Menu.xml"/>
   </sim>
+  
+<it-autoflight>
+	<settings>
+		<no-generics>1</no-generics>
+		<roll>
+			<umin>-0.15</umin>
+			<umax>0.15</umax>
+			<kp>0.01</kp>
+		</roll>
+		<pitch>
+			<umin>-0.10</umin>
+			<umax>0.10</umax>
+		</pitch>
+		<flch>
+			<umin>-0.10</umin>
+			<umax>0.10</umax>
+		</flch>
+	</settings>
+</it-autoflight>
 
 	<!-- Fuel and what anything else can be consumed, but normally fuel tanks -->
 	<consumables>
@@ -413,16 +443,7 @@
       <brake-parking type="double">1</brake-parking>
     </gear>
   </controls>
-  
-  <!-- Systems parallel to sim -->
-  <systems>
-    <electrical>
-      <path>Aircraft/Generic/generic-electrical.xml</path>
-    </electrical>
-    <!--autopilot>
-      <path>Aircraft/JPack/Voodoomaster/Systems/SYS8_0_autopilot.xml</path>
-    </autopilot-->
-  </systems>
+ 
 
   <!-- #### ai submodels -->
 
@@ -455,6 +476,9 @@
                 <dialogs>
                     <file>Nasal/dialogs.nas</file>
                 </dialogs>
+	<itaf>
+      <file>Aircraft/KingAir-350/Nasal/it-autoflight.nas</file>
+	</itaf>
 	</nasal>
 
 </PropertyList>
