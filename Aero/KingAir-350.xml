@@ -231,8 +231,8 @@
             <y>  -5.71787 </y>
             <z> -0.12133 </z>
          </location>
-         <capacity unit="LBS"> 1270.00 </capacity>
-         <contents unit="LBS"> 635.00 </contents>
+         <capacity unit="LBS"> 786.65 </capacity>
+         <contents unit="LBS"> 786.65 </contents>
       </tank>
 
       <tank type="FUEL" number="1">
