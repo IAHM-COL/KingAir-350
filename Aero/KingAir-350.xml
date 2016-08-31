@@ -50,7 +50,7 @@
    <vtailarea unit="FT2">   39.48 </vtailarea>
    <vtailarm  unit="FT" >   21.88 </vtailarm>
    <location name="AERORP" unit="M">
-     <x> -1.74085 </x>
+     <x> -2.0 </x>
      <y>   0.00 </y>
      <z>   -0.59595 </z>
    </location>
@@ -73,7 +73,7 @@
 
       <emptywt unit="LBS" >      9885 </emptywt>
       <location name="CG" unit="M">
-         <x> -3.1</x>
+         <x> -2.0</x>
          <y>   0.00 </y>
          <z> -0.57938 </z>
       </location>
@@ -82,7 +82,7 @@
          <description> 1305 LBS + full (3810 LBS) fuel should bring model up to entered max weight</description>
          <weight unit="LBS">    652.5 </weight>
          <location name="POINTMASS" unit="M">
-            <x> -3 </x>
+            <x> -2.2 </x>
             <y>   0.00 </y>
             <z> 0.0 </z>
          </location>
@@ -185,7 +185,7 @@
             <yaw>   0.00 </yaw>
          </orient>
          <feed>0</feed>
-         <thruster file="Prop_L10">
+         <thruster file="prop">
             <location unit="M">
                <x> -5.45496 </x>
                <y> -2.74939 </y>
@@ -211,7 +211,7 @@
             <yaw>   0.00 </yaw>
          </orient>
          <feed>1</feed>
-         <thruster file="Prop_L10">
+         <thruster file="prop">
             <location unit="M">
                <x> -5.45496 </x>
                <y> 2.74939 </y>
@@ -227,7 +227,7 @@
 
       <tank type="FUEL" number="0">
          <location unit="M">
-            <x> -1.97584 </x>
+            <x> -2.17584 </x>
             <y>  -5.71787 </y>
             <z> -0.12133 </z>
          </location>
@@ -237,7 +237,7 @@
 
       <tank type="FUEL" number="1">
          <location unit="M">
-            <x>-1.6858 </x>
+            <x>-2.1858 </x>
             <y>   -2.17981 </y>
             <z> -0.44779 </z>
          </location>
@@ -247,7 +247,7 @@
 
       <tank type="FUEL" number="2">
          <location unit="M">
-            <x>-1.6858 </x>
+            <x>-2.1858 </x>
             <y>   2.17981 </y>
             <z> -0.44779 </z>
          </location>
@@ -257,7 +257,7 @@
 
       <tank type="FUEL" number="3">
          <location unit="M">
-            <x> -1.97584 </x>
+            <x> -2.17584 </x>
             <y>  5.71787 </y>
             <z> -0.12133 </z>
          </location>
@@ -267,7 +267,7 @@
 
    </propulsion>
 
-   <flight_control name="FCS: unnamed">
+   <flight_control name="FCS: KingAir-350">
 
       <channel name="Pitch">
 
