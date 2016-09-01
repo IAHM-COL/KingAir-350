@@ -3,7 +3,8 @@
 
     <path>flightdeck.ac</path>
 
-    <model><!-- reg label-->
+    <!-- reg label
+    <model>
         <path>Aircraft/KingAir-350/Models/registration.xml</path>
         <offsets>
             <x-m>-4.918</x-m>
@@ -25,6 +26,7 @@
             </params>
         </overlay>
     </model>
+    -->
 
     <model>
         <name>EFIS84 EHSI-pilot</name>
