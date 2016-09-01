@@ -167,8 +167,7 @@
     <!-- Flap settings -->
     <flaps>
       <setting> 0.00 </setting>
-      <setting> 0.44 </setting>
-      <setting> 0.66 </setting>
+      <setting> 0.50 </setting>
       <setting> 1.00 </setting>
     </flaps>
 
@@ -369,12 +368,35 @@
 
 	<!-- Payload section: Whatever weights -->
 	<payload>
+
 		<weight n="0">
-			<name>Payload</name>
+			<name>Pilot</name>
 			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]" />
-			<min-lb type="double">0.00</min-lb>
-			<max-lb type="double">652.5</max-lb>
+			<min-lb type="double">100.00</min-lb>
+			<max-lb type="double">250.00</max-lb>
 		</weight>
+
+		<weight n="1">
+			<name>Copilot</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]" />
+			<min-lb type="double">100.00</min-lb>
+			<max-lb type="double">250.00</max-lb>
+		</weight>
+
+		<weight n="2">
+			<name>Passengers</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[2]" />
+			<min-lb type="double">0.00</min-lb>
+			<max-lb type="double">1960.00</max-lb>
+		</weight>
+
+		<weight n="3">
+			<name>Baggage/Freight</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[3]" />
+			<min-lb type="double">0.00</min-lb>
+			<max-lb type="double">655.00</max-lb>
+		</weight>
+
 	</payload>
 
   <controls>
