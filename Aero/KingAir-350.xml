@@ -76,7 +76,7 @@
 
 		<emptywt unit="LBS" >      9885 </emptywt>
 		<location name="CG" unit="M">
-			<x> -2.0</x>
+			<x> -2.5</x>
 			<y>   0.00 </y>
 			<z> -0.57938 </z>
 		</location>
@@ -580,7 +580,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/elevator-pos-rad</property>
-					<value>0.25</value>
+					<value>0.15</value>
 				</product>
 			</function>
 
@@ -751,7 +751,7 @@
                <property>metrics/Sw-sqft</property>
                <property>metrics/bw-ft</property>
                <property>fcs/left-aileron-pos-rad</property>
-               <value>0.15</value>
+               <value>0.05</value>
             </product>
          </function>
 
