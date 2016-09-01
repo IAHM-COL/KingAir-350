@@ -121,7 +121,8 @@ var eng2norm= func {
 }
 
 var eng1watch= func {
-	var n2=getprop("fdm/jsbsim/propulsion/engine[0]/n2");
+    var n2=getprop("fdm/jsbsim/propulsion/engine[0]/n2");
+    if(n2!=nil) {
 	if (n2<59) {
 		settimer(eng1watch, 5);
 		if (n2<1) {
@@ -132,10 +133,12 @@ var eng1watch= func {
 	} else {
 		gui.popupTip("Engine 1 running!");
 	}
+    }
 }
 
 var eng2watch= func {
-	var n2=getprop("fdm/jsbsim/propulsion/engine[1]/n2");
+    var n2=getprop("fdm/jsbsim/propulsion/engine[1]/n2");
+    if(n2!=nil) {
 	if (n2<59) {
 		settimer(eng2watch, 5);
 		if (n2<1) {
@@ -146,6 +149,7 @@ var eng2watch= func {
 	} else {
 		gui.popupTip("Engine 2 running!");
 	}
+    }
 }
 
 var Startup = func {
