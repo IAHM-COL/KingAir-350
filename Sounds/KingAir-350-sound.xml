@@ -101,7 +101,7 @@
     <crank>
       <name>crankextLeft</name>
       <mode>looped</mode>
-      <path>Aircraft/KingAir-350/eng_start_ext1_part2.wav</path>
+      <path>Aircraft/KingAir-350/Sounds/eng_start_ext1_part2.wav</path>
       <condition>
         <and>
           <property>/engines/engine[0]/cranking</property>
@@ -254,7 +254,7 @@
       </position>
     </crank>
 
-
+<!--missing file
  <engine>
       <name>engineLeft</name>
       <mode>looped</mode>
@@ -322,12 +322,12 @@
         <z>  0.021 </z>
       </position>
     </engine>
-    
+-->    
 
 <engine>
 		<name>low l out</name>
 		<mode>looped</mode>
-		<path>Aircraft/KingAir-350/Sounds/xlow.wav</path>
+		<path>Aircraft/KingAir-350/Sounds/low.wav</path>
 		<property>engines/engine[0]/n1</property>
 		<condition>
 			<not><property>sim/current-view/internal</property></not>
@@ -347,7 +347,7 @@
 	<engine>
 		<name>low r out</name>
 		<mode>looped</mode>
-		<path>Aircraft/KingAir-350/Sounds/xlow.wav</path>
+		<path>Aircraft/KingAir-350/Sounds/low.wav</path>
 		<property>engines/engine[1]/n1</property>
 		<condition>
 			<not><property>sim/current-view/internal</property></not>
@@ -972,7 +972,7 @@
 		<wind>
 			<name>wind</name>
 			<mode>looped</mode>
-			<path>Aircraft/KingAir-350/Sounds/wind.wav</path>
+			<path>Aircraft/KingAir-350/Sounds/Wind.wav</path>
 			<property>velocities/airspeed-kt</property>
 			<volume>
 				<property>velocities/airspeed-kt</property>

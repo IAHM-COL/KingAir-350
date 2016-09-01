@@ -132,6 +132,7 @@ var eng1watch= func {
 	} else {
 		gui.popupTip("Engine 1 running!");
 	}
+    }
 }
 
 var eng2watch= func {
@@ -146,6 +147,7 @@ var eng2watch= func {
 	} else {
 		gui.popupTip("Engine 2 running!");
 	}
+    }
 }
 
 var Startup = func {
