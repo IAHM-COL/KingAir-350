@@ -5,32 +5,32 @@
 	
 <fx>
 
-  <!-- IT-AUTOFLIGHT AP OFF -->
-  <apoff>
-   <name>apoff</name>
-   <path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
-   <condition>
-	 <property>/it-autoflight/apoffsound</property>
-   </condition>
-   <volume>
-    <factor>10.0</factor>
-   </volume>
-  </apoff>
+	<!-- IT-AUTOFLIGHT AP OFF -->
+	<apoff>
+		<name>apoff</name>
+		<path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
+		<condition>
+			<property>/it-autoflight/apoffsound</property>
+		</condition>
+		<volume>
+			<factor>10.0</factor>
+		</volume>
+	</apoff>
   
-  <apoff>
-   <name>apoff2</name>
-   <path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
-   <condition>
-	 <property>/it-autoflight/apoffsound2</property>
-   </condition>
-   <volume>
-    <factor>10.0</factor>
-   </volume>
-  </apoff>
+	<apoff>
+		<name>apoff2</name>
+		<path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
+		<condition>
+			<property>/it-autoflight/apoffsound2</property>
+		</condition>
+		<volume>
+			<factor>10.0</factor>
+		</volume>
+	</apoff>
   
 		<!-- ENGINE START -->
 		<crank>
-      <name>engstartLeft</name>
+			<name>engstartLeft</name>
       <path>Aircraft/KingAir-350/Sounds/eng_start_ext1_part1.wav</path>
       <condition>
         <and>
