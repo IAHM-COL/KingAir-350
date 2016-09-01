@@ -358,17 +358,8 @@ License: GPL2. See ./COPYING
       <z2-m>-0.55283</z2-m>
     </axis>
   </animation>
-  <!-- 	CONTROL SURFACES -->
-  <!-- Aileron -->
-  <animation>
-    <type>select</type>
-    <object-name>AileronL</object-name>
-    <object-name>AileronR</object-name>
-    <condition>
-      <property>/sim/failure-manager/controls/flight/aileron/serviceable</property>
-    </condition>
-  </animation>
-
+ 
+ <!-- 	CONTROL SURFACES -->
   <animation>
     <type>rotate</type>
     <object-name>AileronsLeft</object-name>
@@ -430,15 +421,6 @@ License: GPL2. See ./COPYING
   </animation>
 
   <!-- Elevator -->
-  <!--animation>
-    <type>select</type>
-    <object-name>Elevator</object-name>
-    <object-name>ElevTab</object-name>
-    <condition>
-      <property>/sim/failure-manager/controls/flight/elevator/serviceable</property>
-    </condition>
-  </animation-->
-
   <animation>
     <type>rotate</type>
     <object-name>ElevatorsLeft</object-name>
@@ -457,27 +439,6 @@ License: GPL2. See ./COPYING
     <axis>
       <x>0.0</x>
       <y>1.0</y>
-      <z>0.0</z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>ElevTab</object-name>
-    <property>surface-positions/elevator-pos-norm</property>
-    <interpolation>
-      <entry>		<ind>-1</ind>	<dep>-20</dep>	</entry>
-      <entry>		<ind> 0</ind>	<dep>  0</dep>	</entry>
-      <entry>		<ind> 1</ind>	<dep> 15</dep>	</entry>
-    </interpolation>
-    <center>
-      <x-m>11.350</x-m>
-      <y-m> 0.000</y-m>
-      <z-m> 0.661</z-m>
-    </center>
-    <axis>
-      <x>0.0</x>
-      <y>-1.0</y>
       <z>0.0</z>
     </axis>
   </animation>
@@ -594,13 +555,14 @@ License: GPL2. See ./COPYING
   </animation>
   <animation>
     <type>select</type>
-    <object-name>GearDoorFront.Closed</object-name>
+    <object-name>GearsDoorFront.Closed</object-name>
     <condition>
         <less-than>
     <property>gear/gear[0]/position-norm</property>
     <value>0.1</value>
 </less-than>
 </condition>
+
   </animation>
   <!-- Left Main -->
   <animation>
@@ -645,7 +607,7 @@ License: GPL2. See ./COPYING
   </animation>
   <animation>
     <type>select</type>
-    <object-name>GearDoorLeft.Closed</object-name>
+    <object-name>GearsDoorLeft.Closed</object-name>
     <condition>
         <less-than>
     <property>gear/gear[1]/position-norm</property>
@@ -670,23 +632,6 @@ License: GPL2. See ./COPYING
       <x>	0</x>
       <y>	0</y>
       <z> 1.00</z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>spin</type>
-    <object-name>WheelMainL</object-name>
-    <property>gear/gear[1]/rollspeed-ms</property>
-    <factor>21</factor>
-    <center>
-      <x-m> 2.571</x-m>
-      <y-m>-1.955</y-m>
-      <z-m>-2.066</z-m>
-    </center>
-    <axis>
-      <x> 0.0</x>
-      <y>-1.0</y>
-      <z> 0.0</z>
     </axis>
   </animation>
 
@@ -732,7 +677,7 @@ License: GPL2. See ./COPYING
   </animation>
   <animation>
     <type>select</type>
-    <object-name>GearDoorRight.Closed</object-name>
+    <object-name>GearsDoorRight.Closed</object-name>
     <condition>
         <less-than>
     <property>gear/gear[2]/position-norm</property>
@@ -756,78 +701,6 @@ License: GPL2. See ./COPYING
       <x>	0</x>
       <y>	0</y>
       <z> 1.00</z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>spin</type>
-    <object-name>WheelMainR</object-name>
-    <property>gear/gear[1]/rollspeed-ms</property>
-    <factor>21</factor>
-    <center>
-      <x-m> 2.571</x-m>
-      <y-m> 1.955</y-m>
-      <z-m>-2.066</z-m>
-    </center>
-    <axis>
-      <x> 0.0</x>
-      <y>-1.0</y>
-      <z> 0.0</z>
-    </axis>
-  </animation>
-
-  <!-- 	Tail Gear -->
-
-  <animation>
-    <type>translate</type>
-    <object-name>GearTStrut</object-name>
-    <object-name>WheelT</object-name>
-    <property>gear/gear[2]/compression-norm</property>
-    <interpolation>
-      <entry>		<ind>0.0</ind>	<dep> 0.000</dep>	</entry>
-      <entry>		<ind>0.5</ind>	<dep>-0.075</dep>	</entry>
-      <entry>		<ind>1.0</ind>	<dep>-0.100</dep>	</entry>
-    </interpolation>
-    <axis>
-      <x1-m>10.532</x1-m>
-      <y1-m> 0.0</y1-m>
-      <z1-m> 0.539</z1-m>
-      <x2-m>10.806</x2-m>
-      <y2-m> 0.0</y2-m>
-      <z2-m>-0.215</z2-m>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>GearTStrut</object-name>
-    <object-name>WheelT</object-name>
-    <property>gear/gear[2]/caster-angle-deg</property>
-    <factor>-1</factor>
-    <axis>
-      <x1-m>10.532</x1-m>
-      <y1-m> 0.0</y1-m>
-      <z1-m> 0.539</z1-m>
-      <x2-m>10.806</x2-m>
-      <y2-m> 0.0</y2-m>
-      <z2-m>-0.215</z2-m>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>spin</type>
-    <object-name>WheelT</object-name>
-    <property>gear/gear[2]/rollspeed-ms</property>
-    <factor>26.4</factor>
-    <center>
-      <x-m>10.995</x-m>
-      <y-m> 0.0</y-m>
-      <z-m>-0.326</z-m>
-    </center>
-    <axis>
-      <x> 0.0</x>
-      <y>-1.0</y>
-      <z> 0.0</z>
     </axis>
   </animation>
   
