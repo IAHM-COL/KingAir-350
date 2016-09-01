@@ -132,14 +132,14 @@ var eng1watch= func {
 	} else {
 		gui.popupTip("Engine 1 running!");
 	}
-    }
 }
+
 
 var eng2watch= func {
 	var n1=getprop("fdm/jsbsim/propulsion/engine[1]/n1");
 	if (n1<59) {
 		settimer(eng2watch, 5);
-		if (n2<1) {
+		if (n1<1) {
 			# re-trigger jsbsim to spin this engine up
 			setprop("controls/engines/engine[1]/cutoff", 1);
 			setprop("controls/engines/engine[1]/cutoff", 2);
@@ -147,7 +147,6 @@ var eng2watch= func {
 	} else {
 		gui.popupTip("Engine 2 running!");
 	}
-    }
 }
 
 var Startup = func {
