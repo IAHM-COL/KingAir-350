@@ -1,476 +1,473 @@
 <?xml version = '1.0' encoding = 'UTF-8' ?>
 <PropertyList>
 
-    <path>flightdeck.ac</path>
+	<path>flightdeck.ac</path>
 
-    <!-- reg label
-    <model>
-        <path>Aircraft/KingAir-350/Models/registration.xml</path>
-        <offsets>
-            <x-m>-4.918</x-m>
-            <y-m>0.153</y-m>
-            <z-m>0.099</z-m>
-            <roll-deg>0</roll-deg>
-            <pitch-deg>-10</pitch-deg>
-            <heading-deg>0</heading-deg>
-        </offsets>
-        <overlay>
-            <params>
-                <size>0.010</size>
-                <alignment>yz-plane</alignment>
-                <color>
-                    <red>0.8</red>
-                    <green>0.8</green>
-                    <blue>0.8</blue>
-                </color>
-            </params>
-        </overlay>
-    </model>
-    -->
+	<!-- reg label
+	<model>
+		<path>Aircraft/KingAir-350/Models/registration.xml</path>
+		<offsets>
+			<x-m>-4.918</x-m>
+			<y-m>0.153</y-m>
+			<z-m>0.099</z-m>
+			<roll-deg>0</roll-deg>
+			<pitch-deg>-10</pitch-deg>
+			<heading-deg>0</heading-deg>
+		</offsets>
+		<overlay>
+			<params>
+				<size>0.010</size>
+				<alignment>yz-plane</alignment>
+				<color>
+					<red>0.8</red>
+					<green>0.8</green>
+					<blue>0.8</blue>
+				</color>
+			</params>
+		</overlay>
+	</model>
+	-->
 
-    <model>
-        <name>EFIS84 EHSI-pilot</name>
-        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
-        <offsets>
-            <x-m>-4.916</x-m>
-            <y-m>-0.366</y-m>
-            <z-m>-0.127</z-m>
-        </offsets>
-    </model>
+	<model>
+		<name>EFIS84 EHSI-pilot</name>
+		<path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
+		<offsets>
+			<x-m>-4.916</x-m>
+			<y-m>-0.366</y-m>
+			<z-m>-0.127</z-m>
+		</offsets>
+	</model>
 
-    <model>
-        <name>EFIS84 EHSI-copilot</name>
-        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
-        <offsets>
-            <x-m>-4.916</x-m>
-            <y-m>0.366</y-m>
-            <z-m>-0.127</z-m>
-        </offsets>
-    </model>
+	<model>
+		<name>EFIS84 EHSI-copilot</name>
+		<path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
+		<offsets>
+			<x-m>-4.916</x-m>
+			<y-m>0.366</y-m>
+			<z-m>-0.127</z-m>
+		</offsets>
+	</model>
 
-    <model>
-        <name>EFIS84 EADI-pilot</name>
-        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/eadi.xml</path>
-        <offsets>
-            <x-m>-4.916</x-m>
-            <y-m>-0.366</y-m>
-            <z-m>-0.019</z-m>
-        </offsets>
-    </model>
+	<model>
+		<name>EFIS84 EADI-pilot</name>
+		<path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/eadi.xml</path>
+		<offsets>
+			<x-m>-4.916</x-m>
+			<y-m>-0.366</y-m>
+			<z-m>-0.019</z-m>
+		</offsets>
+	</model>
 
-    <model>
-        <name>EFIS84 EADI-copilot</name>
-        <path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/eadi.xml</path>
-        <offsets>
-            <x-m>-4.916</x-m>
-            <y-m>0.366</y-m>
-            <z-m>-0.019</z-m>
-        </offsets>
-    </model>
+	<model>
+		<name>EFIS84 EADI-copilot</name>
+		<path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/eadi.xml</path>
+		<offsets>
+			<x-m>-4.916</x-m>
+			<y-m>0.366</y-m>
+			<z-m>-0.019</z-m>
+		</offsets>
+	</model>
 
-    <animation>
-        <type>select</type>
-        <object-name>ehsi1.off</object-name>
-        <object-name>eadi1.off</object-name>
-        <condition>
-            <not>
-                <property>systems/electrical/outputs/efis[0]</property>
-            </not>
-        </condition>
-    </animation>
+	<animation>
+		<type>select</type>
+		<object-name>ehsi1.off</object-name>
+		<object-name>eadi1.off</object-name>
+		<condition>
+			<not>
+				<property>systems/electrical/outputs/efis[0]</property>
+			</not>
+		</condition>
+	</animation>
 
-    <animation>
-        <type>select</type>
-        <object-name>ehsi2.off</object-name>
-        <object-name>eadi2.off</object-name>
-        <condition>
-            <not>
-                <property>systems/electrical/outputs/efis[1]</property>
-            </not>
-        </condition>
-    </animation>
+	<animation>
+		<type>select</type>
+		<object-name>ehsi2.off</object-name>
+		<object-name>eadi2.off</object-name>
+		<condition>
+			<not>
+				<property>systems/electrical/outputs/efis[1]</property>
+			</not>
+		</condition>
+	</animation>
 
-    <animation>
-        <type>select</type>
-        <object-name>Yoke</object-name> 
-        <object-name>Yoke1</object-name>
-        <object-name>Yokebase</object-name>
-        <condition>
-            <property>sim/model/yokes-visible</property>
-        </condition>
-    </animation>
+	<animation>
+		<type>select</type>
+		<object-name>Yoke</object-name> 
+		<object-name>Yoke1</object-name>
+		<object-name>Yokebase</object-name>
+		<condition>
+			<property>sim/model/yokes-visible</property>
+		</condition>
+	</animation>
 
-<!-- 
-****************************** Levers/Controls ***********************
--->
+	<!-- 
+	****************************** Levers/Controls ***********************
+	-->
 
+	<animation>
+		<type>translate</type>
+		<object-name>RHpedal</object-name>
+		<property>controls/flight/rudder</property>
+		<factor>0.05</factor>
+		<axis>
+			<x>-1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
 
-    <animation>
-        <type>translate</type>
-        <object-name>RHpedal</object-name>
-        <property>controls/flight/rudder</property>
-        <factor>0.05</factor>
-        <axis>
-            <x>-1</x>
-            <y>0</y>
-            <z>0</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>translate</type>
+		<object-name>LHpedal</object-name>
+		<property>controls/flight/rudder</property>
+		<factor>0.05</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+			<z>0</z>
+		</axis>
+	</animation>
 
-    <animation>
-        <type>translate</type>
-        <object-name>LHpedal</object-name>
-        <property>controls/flight/rudder</property>
-        <factor>0.05</factor>
-        <axis>
-            <x>1</x>
-            <y>0</y>
-            <z>0</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>translate</type>
+		<object-name>Yoke</object-name>
+		<object-name>Yoke1</object-name>
+		<property>controls/flight/elevator</property>
+		<factor>-0.1</factor>
+		<axis>
+			<x>0.985</x>
+			<y>0.0</y>
+			<z>0.174</z>
+		</axis>
+	</animation>
 
-    <animation>
-        <type>translate</type>
-        <object-name>Yoke</object-name>
-        <object-name>Yoke1</object-name>
-        <property>controls/flight/elevator</property>
-        <factor>-0.1</factor>
-        <axis>
-            <x>0.985</x>
-            <y>0.0</y>
-            <z>0.174</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>Yoke</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>-45.0</factor>
+		<center>
+			<x-m>-4.888</x-m>
+			<y-m>-0.370</y-m>
+			<z-m>-0.218</z-m>
+		</center>
+		<axis>
+			<x>0.985</x>
+			<y>0.0</y>
+			<z>0.174</z>
+		</axis>
+	</animation>
 
-    <animation>
-        <type>rotate</type>
-        <object-name>Yoke</object-name>
-        <property>controls/flight/aileron</property>
-        <factor>-45.0</factor>
-        <center>
-            <x-m>-4.888</x-m>
-            <y-m>-0.370</y-m>
-            <z-m>-0.218</z-m>
-        </center>
-        <axis>
-            <x>0.985</x>
-            <y>0.0</y>
-            <z>0.174</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>Yoke1</object-name>
+		<property>controls/flight/aileron</property>
+		<factor>-45.0</factor>
+		<center>
+			<x-m>-4.888</x-m>
+			<y-m>0.362</y-m>
+			<z-m>-0.218</z-m>
+		</center>
+		<axis>
+			<x>0.985</x>
+			<y>0.0</y>
+			<z>0.174</z>
+		</axis>
+	</animation>
 
-    <animation>
-        <type>rotate</type>
-        <object-name>Yoke1</object-name>
-        <property>controls/flight/aileron</property>
-        <factor>-45.0</factor>
-        <center>
-            <x-m>-4.888</x-m>
-            <y-m>0.362</y-m>
-            <z-m>-0.218</z-m>
-        </center>
-        <axis>
-            <x>0.985</x>
-            <y>0.0</y>
-            <z>0.174</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>knob</type>
+		<object-name>PropP0</object-name>
+		<property>controls/engines/engine[0]/propeller-pitch</property>
+		<factor>-55.0</factor>
+		<drag-direction>vertical</drag-direction>
+		<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+		<action>
+			<button>0</button>
+			<repeatable>true</repeatable>
+			<interval-sec>0.1</interval-sec>
+			<binding>
+				<command>property-adjust</command>
+				<property>controls/engines/engine[0]/propeller-pitch</property>
+				<factor>0.05</factor>
+				<min>0</min>
+				<max>1</max>
+				<wrap>0</wrap>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<label>LH Prop: %1.0f</label>
+				<mapping>percent</mapping>
+				<tooltip-id>Prp1</tooltip-id>
+				<property>controls/engines/engine[0]/propeller-pitch</property>
+			</binding>
+		</hovered>
+	</animation>
 
-    <animation>
-        <type>knob</type>
-        <object-name>PropP0</object-name>
-        <property>controls/engines/engine[0]/propeller-pitch</property>
-        <factor>-55.0</factor>
-        <drag-direction>vertical</drag-direction>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-        <action>
-            <button>0</button>
-            <repeatable>true</repeatable>
-            <interval-sec>0.1</interval-sec>
-            <binding>
-            <command>property-adjust</command>
-            <property>controls/engines/engine[0]/propeller-pitch</property>
-            <factor>0.05</factor>
-            <min>0</min>
-            <max>1</max>
-            <wrap>0</wrap>
-            </binding>
-        </action>
-        <hovered>
-            <binding>
-                <command>set-tooltip</command>
-                <label>LH Prop: %1.0f</label>
-                <mapping>percent</mapping>
-                <tooltip-id>Prp1</tooltip-id>
-                <property>controls/engines/engine[0]/propeller-pitch</property>
-            </binding>
-        </hovered>
-    </animation>
+	<animation>
+		<type>knob</type>
+		<object-name>PropP1</object-name>
+		<property>controls/engines/engine[1]/propeller-pitch</property>
+		<factor>-55.0</factor>
+		<drag-direction>vertical</drag-direction>
+		<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+		<action>
+			<button>0</button>
+			<repeatable>true</repeatable>
+			<interval-sec>0.1</interval-sec>
+			<binding>
+				<command>property-adjust</command>
+				<property>controls/engines/engine[1]/propeller-pitch</property>
+				<factor>0.05</factor>
+				<min>0</min>
+				<max>1</max>
+				<wrap>0</wrap>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<label>RH Prop: %1.0f</label>
+				<mapping>percent</mapping>
+				<tooltip-id>Prp2</tooltip-id>
+				<property>controls/engines/engine[1]/propeller-pitch</property>
+			</binding>
+		</hovered>
+	</animation>
 
-    <animation>
-        <type>knob</type>
-        <object-name>PropP1</object-name>
-        <property>controls/engines/engine[1]/propeller-pitch</property>
-        <factor>-55.0</factor>
-        <drag-direction>vertical</drag-direction>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-        <action>
-            <button>0</button>
-            <repeatable>true</repeatable>
-            <interval-sec>0.1</interval-sec>
-            <binding>
-            <command>property-adjust</command>
-            <property>controls/engines/engine[1]/propeller-pitch</property>
-            <factor>0.05</factor>
-            <min>0</min>
-            <max>1</max>
-            <wrap>0</wrap>
-            </binding>
-        </action>
-        <hovered>
-            <binding>
-                <command>set-tooltip</command>
-                <label>RH Prop: %1.0f</label>
-                <mapping>percent</mapping>
-                <tooltip-id>Prp2</tooltip-id>
-                <property>controls/engines/engine[1]/propeller-pitch</property>
-            </binding>
-        </hovered>
-    </animation>
+	<animation>
+		<type>knob</type>
+		<object-name>Cond0</object-name>
+		<property>controls/engines/engine[0]/condition</property>
+		<factor>-55.0</factor>
+		<drag-direction>vertical</drag-direction>
+		<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+		<action>
+			<button>0</button>
+			<repeatable>true</repeatable>
+			<interval-sec>0.1</interval-sec>
+			<binding>
+				<command>property-adjust</command>
+				<property>controls/engines/engine[0]/condition</property>
+				<factor>0.05</factor>
+				<min>0</min>
+				<max>1</max>
+				<wrap>0</wrap>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<label>LH Condition: %1.0f</label>
+				<mapping>percent</mapping>
+				<tooltip-id>Cnd1</tooltip-id>
+				<property>controls/engines/engine[0]/condition</property>
+			</binding>
+		</hovered>
+	</animation>
 
-    <animation>
-        <type>knob</type>
-        <object-name>Cond0</object-name>
-        <property>controls/engines/engine[0]/condition</property>
-        <factor>-55.0</factor>
-        <drag-direction>vertical</drag-direction>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-        <action>
-            <button>0</button>
-            <repeatable>true</repeatable>
-            <interval-sec>0.1</interval-sec>
-            <binding>
-            <command>property-adjust</command>
-            <property>controls/engines/engine[0]/condition</property>
-            <factor>0.05</factor>
-            <min>0</min>
-            <max>1</max>
-            <wrap>0</wrap>
-            </binding>
-        </action>
-        <hovered>
-            <binding>
-                <command>set-tooltip</command>
-                <label>LH Condition: %1.0f</label>
-                <mapping>percent</mapping>
-                <tooltip-id>Cnd1</tooltip-id>
-                <property>controls/engines/engine[0]/condition</property>
-            </binding>
-        </hovered>
-    </animation>
+	<animation>
+        	<type>knob</type>
+        	<object-name>Cond1</object-name>
+        	<property>controls/engines/engine[1]/condition</property>
+        	<factor>-55.0</factor>
+        	<drag-direction>vertical</drag-direction>
+        	<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+		<action>
+			<button>0</button>
+			<repeatable>true</repeatable>
+			<interval-sec>0.1</interval-sec>
+			<binding>
+				<command>property-adjust</command>
+				<property>controls/engines/engine[1]/condition</property>
+				<factor>0.05</factor>
+				<min>0</min>
+				<max>1</max>
+				<wrap>0</wrap>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<label>RH Condition: %1.0f</label>
+				<mapping>percent</mapping>
+				<tooltip-id>Cnd2</tooltip-id>
+				<property>controls/engines/engine[1]/condition</property>
+			</binding>
+		</hovered>
+	</animation>
 
-<animation>
-        <type>knob</type>
-        <object-name>Cond1</object-name>
-        <property>controls/engines/engine[1]/condition</property>
-        <factor>-55.0</factor>
-        <drag-direction>vertical</drag-direction>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-        <action>
-            <button>0</button>
-            <repeatable>true</repeatable>
-            <interval-sec>0.1</interval-sec>
-            <binding>
-            <command>property-adjust</command>
-            <property>controls/engines/engine[1]/condition</property>
-            <factor>0.05</factor>
-            <min>0</min>
-            <max>1</max>
-            <wrap>0</wrap>
-            </binding>
-        </action>
-        <hovered>
-            <binding>
-                <command>set-tooltip</command>
-                <label>RH Condition: %1.0f</label>
-                <mapping>percent</mapping>
-                <tooltip-id>Cnd2</tooltip-id>
-                <property>controls/engines/engine[1]/condition</property>
-            </binding>
-        </hovered>
-    </animation>
+	<animation>
+		<type>pick</type>
+		<object-name>FlapLever</object-name>
+		<action>
+			<button>0</button>
+			<binding>
+				<command>property-adjust</command>
+				<property>/controls/flight/flaps</property>
+				<step>0.5</step>
+				<min>0</min>
+				<max>1</max>
+			</binding>
+		</action>
+		<action>
+			<button>1</button>
+			<binding>
+				<command>property-adjust</command>
+				<property>/controls/flight/flaps</property>
+				<step>-0.5</step>
+				<min>0</min>
+				<max>1</max>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<label>Flaps</label>
+				<mapping></mapping>
+				<tooltip-id>flp</tooltip-id>
+				<property>/controls/flight/flaps</property>
+			</binding>
+		</hovered>
+	</animation>
 
+	<animation>
+		<type>translate</type>
+		<object-name>FlapLever</object-name>
+		<property>controls/flight/flaps</property>
+		<factor>0.0390</factor>
+		<axis>
+			<x>0.423</x>
+			<y>0.0</y>
+			<z>-0.906</z>
+		</axis>
+	</animation>  
 
+	<animation>
+		<type>translate</type>
+		<object-name>FlapIndicator</object-name>
+		<property>surface-positions/flap-pos-norm</property>
+		<factor>0.0430</factor>
+		<axis>
+			<x>0.423</x>
+			<y>0.0</y>
+			<z>-0.906</z>
+		</axis>
+	</animation>  
 
-    <animation>
-        <type>pick</type>
-        <object-name>FlapLever</object-name>
-        <action>
-            <button>0</button>
-            <binding>
-                <command>property-adjust</command>
-                <property>/controls/flight/flaps</property>
-                <step>0.5</step>
-                <min>0</min>
-                <max>1</max>
-            </binding>
-        </action>
-        <action>
-            <button>1</button>
-            <binding>
-                <command>property-adjust</command>
-                <property>/controls/flight/flaps</property>
-                <step>-0.5</step>
-                <min>0</min>
-                <max>1</max>
-            </binding>
-        </action>
-        <hovered>
-            <binding>
-                <command>set-tooltip</command>
-                <label>Flaps</label>
-                <mapping></mapping>
-                <tooltip-id>flp</tooltip-id>
-                <property>/controls/flight/flaps</property>
-            </binding>
-        </hovered>
-    </animation>
-
-    <animation>
-        <type>translate</type>
-        <object-name>FlapLever</object-name>
-        <property>controls/flight/flaps</property>
-        <factor>0.0390</factor>
-        <axis>
-            <x>0.423</x>
-            <y>0.0</y>
-            <z>-0.906</z>
-        </axis>
-    </animation>  
-
-    <animation>
-        <type>translate</type>
-        <object-name>FlapIndicator</object-name>
-        <property>surface-positions/flap-pos-norm</property>
-        <factor>0.0430</factor>
-        <axis>
-            <x>0.423</x>
-            <y>0.0</y>
-            <z>-0.906</z>
-        </axis>
-    </animation>  
-
-    <animation>
-        <type>rotate</type>
-        <object-name>Throttle0</object-name>
-        <property>controls/engines/engine[0]/throttle</property>
-        <factor>-50</factor>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>Throttle0</object-name>
+		<property>controls/engines/engine[0]/throttle</property>
+		<factor>-50</factor>
+		<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
   
-    <animation>
-        <type>rotate</type>
-        <object-name>Throttle1</object-name>
-        <property>controls/engines/engine[1]/throttle</property>
-        <factor>-50</factor>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>1.0</y>
-            <z>0.0</z>
-        </axis>
-    </animation>
+	<animation>
+		<type>rotate</type>
+		<object-name>Throttle1</object-name>
+		<property>controls/engines/engine[1]/throttle</property>
+		<factor>-50</factor>
+		<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>1.0</y>
+			<z>0.0</z>
+		</axis>
+	</animation>
 
-<animation>
-        <type>knob</type>
-        <object-name>Etrim</object-name>
-        <property>controls/flight/elevator-trim</property>
-        <interpolation>
-            <entry><ind>-1.0</ind><dep>-77.0</dep></entry>
-            <entry><ind>1.0</ind><dep>27.0</dep></entry>
-        </interpolation>
-        <drag-direction>vertical</drag-direction>
-        <center>
-            <x-m>-4.760</x-m>
-            <y-m>0.0</y-m>
-            <z-m>-0.428</z-m>
-        </center>
-        <axis>
-            <x>0.0</x>
-            <y>-1.0</y>
-            <z>0.0</z>
-        </axis>
-        <action>
-            <button>0</button>
-            <repeatable>1</repeatable>
-            <binding>
-                <command>property-adjust</command>
-                <property>controls/flight/elevator-trim</property>
-                <factor>0.005</factor>
-                <min>-1.0</min>
-                <max>1.0</max>
-                <wrap>false</wrap>
-            </binding>
-        </action>
-        <hovered>
-            <binding>
-                <command>set-tooltip</command>
-                <label>Elevator Trim: %1.1f</label>
-                <mapping>percent</mapping>
-                <tooltip-id>etrim</tooltip-id>
-                <property>controls/flight/elevator-trim</property>
-            </binding>
-        </hovered>
-    </animation>
+	<animation>
+		<type>knob</type>
+		<object-name>Etrim</object-name>
+		<property>controls/flight/elevator-trim</property>
+		<interpolation>
+			<entry><ind>-1.0</ind><dep>-77.0</dep></entry>
+			<entry><ind>1.0</ind><dep>27.0</dep></entry>
+		</interpolation>
+		<drag-direction>vertical</drag-direction>
+		<center>
+			<x-m>-4.760</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.428</z-m>
+		</center>
+		<axis>
+			<x>0.0</x>
+			<y>-1.0</y>
+			<z>0.0</z>
+		</axis>
+		<action>
+			<button>0</button>
+			<repeatable>1</repeatable>
+			<binding>
+				<command>property-adjust</command>
+				<property>controls/flight/elevator-trim</property>
+				<factor>0.005</factor>
+				<min>-1.0</min>
+				<max>1.0</max>
+				<wrap>false</wrap>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<label>Elevator Trim: %1.1f</label>
+				<mapping>percent</mapping>
+				<tooltip-id>etrim</tooltip-id>
+				<property>controls/flight/elevator-trim</property>
+			</binding>
+		</hovered>
+	</animation>
 
     <animation>
         <type>knob</type>
@@ -2234,7 +2231,8 @@
     <animation>
         <type>rotate</type>
         <object-name>ITT.needle</object-name>
-        <property>instrumentation/eng-gauge/itt[0]</property>
+        <property>fdm/jsbsim/propulsion/engine[0]/itt-c</property>
+	<factor>0.1</factor>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>200.0</ind><dep>0.0</dep></entry>
@@ -2257,7 +2255,8 @@
     <animation>
         <type>rotate</type>
         <object-name>ITT1.needle</object-name>
-        <property>instrumentation/eng-gauge/itt[0]</property>
+        <property>fdm/jsbsim/propulsion/engine[1]/itt-c</property>
+	<factor>0.1</factor>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>200.0</ind><dep>0.0</dep></entry>
@@ -2280,12 +2279,12 @@
     <animation>
         <type>rotate</type>
         <object-name>Torque.needle</object-name>
-        <property>instrumentation/eng-gauge/torque[0]</property>
+        <property>engines/engine[0]/thruster/torque</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
-            <entry><ind>2500.0</ind><dep>165.0</dep></entry>
-            <entry><ind>4000.0</ind><dep>264.0</dep></entry>
-            <entry><ind>5000.0</ind><dep>330.0</dep></entry>
+            <entry><ind>-2500.0</ind><dep>165.0</dep></entry>
+            <entry><ind>-4000.0</ind><dep>264.0</dep></entry>
+            <entry><ind>-5000.0</ind><dep>330.0</dep></entry>
         </interpolation>
         <center>
             <x-m>-4.920</x-m>
@@ -2302,12 +2301,12 @@
     <animation>
         <type>rotate</type>
         <object-name>Torque1.needle</object-name>
-        <property>instrumentation/eng-gauge/torque[1]</property>
+        <property>engines/engine[1]/thruster/torque</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
-            <entry><ind>2500.0</ind><dep>165.0</dep></entry>
-            <entry><ind>4000.0</ind><dep>264.0</dep></entry>
-            <entry><ind>5000.0</ind><dep>330.0</dep></entry>
+            <entry><ind>-2500.0</ind><dep>165.0</dep></entry>
+            <entry><ind>-4000.0</ind><dep>264.0</dep></entry>
+            <entry><ind>-5000.0</ind><dep>330.0</dep></entry>
         </interpolation>
         <center>
             <x-m>-4.920</x-m>
@@ -2324,7 +2323,7 @@
     <animation>
         <type>rotate</type>
         <object-name>RPM.needle</object-name>
-        <property>instrumentation/eng-gauge/prop[0]</property>
+        <property>engines/engine[0]/thruster/rpm</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>500.0</ind><dep>50.0</dep></entry>
@@ -2348,7 +2347,7 @@
     <animation>
         <type>rotate</type>
         <object-name>RPM1.needle</object-name>
-        <property>instrumentation/eng-gauge/prop[1]</property>
+        <property>engines/engine[1]/thruster/rpm</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>500.0</ind><dep>50.0</dep></entry>
@@ -2372,7 +2371,7 @@
     <animation>
         <type>rotate</type>
         <object-name>TR.needle</object-name>
-        <property>instrumentation/eng-gauge/turbine[0]</property>
+        <property>engines/engine[0]/n1</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>110.0</ind><dep>250.0</dep></entry>
@@ -2399,7 +2398,7 @@
         <alignment>right-center</alignment>
         <axis-alignment>yz-plane</axis-alignment>
         <type type="string">number-value</type>
-        <property>instrumentation/eng-gauge/turbine[0]</property>
+        <property>engines/engine[0]/n1</property>
         <format>%3.1f</format>
         <font>led.txf</font>
         <character-size>0.005</character-size>
@@ -2413,7 +2412,7 @@
     <animation>
         <type>rotate</type>
         <object-name>TR1.needle</object-name>
-        <property>instrumentation/eng-gauge/turbine[1]</property>
+        <property>engines/engine[1]/n1</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>110.0</ind><dep>250.0</dep></entry>
@@ -2440,7 +2439,7 @@
         <alignment>right-center</alignment>
         <axis-alignment>yz-plane</axis-alignment>
         <type type="string">number-value</type>
-        <property>instrumentation/eng-gauge/turbine[1]</property>
+        <property>engines/engine[1]/n1</property>
         <format>%3.1f</format>
         <font>led.txf</font>
         <character-size>0.005</character-size>
@@ -2463,7 +2462,8 @@
     <animation>
         <type>rotate</type>
         <object-name>PPH.needle</object-name>
-        <property>instrumentation/eng-gauge/fuel-pph[0]</property>
+        <property>engines/engine[0]/fuel-flow_pph</property>
+	<factor>0.01</factor>
         <interpolation>
             <entry>
                 <ind>0.0</ind><dep>0.0</dep>
@@ -2487,7 +2487,8 @@
     <animation>
         <type>rotate</type>
         <object-name>PPH1.needle</object-name>
-        <property>instrumentation/eng-gauge/fuel-pph[1]</property>
+        <property>engines/engine[1]/fuel-flow_pph</property>
+	<factor>0.01</factor>
         <interpolation>
             <entry>
                 <ind>0.0</ind><dep>0.0</dep>
@@ -2511,7 +2512,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Oil.needle1</object-name>
-        <property>engines/engine/n1</property>
+        <property>engines/engine[0]/oil-pressure-psi</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>65.0</ind><dep>52.0</dep></entry>
@@ -2532,7 +2533,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Oil.needle2</object-name>
-        <property>instrumentation/eng-gauge/oil-temp-norm[0]</property>
+        <property>engines/engine[0]/oil-temperature-degf</property>
         <factor>30</factor>
         <center>
             <x-m>-4.920</x-m>
@@ -2549,7 +2550,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Oil1.needle2</object-name>
-        <property>instrumentation/eng-gauge/oil-temp-norm[1]</property>
+        <property>engines/engine[1]/oil-temperature-degf</property>
         <factor>30</factor>
         <center>
             <x-m>-4.920</x-m>
@@ -2566,7 +2567,7 @@
     <animation>
         <type>rotate</type>
         <object-name>Oil1.needle1</object-name>
-       <property>engines/engine[1]/n1</property>
+        <property>engines/engine[1]/oil-pressure-psi</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0.0</dep></entry>
             <entry><ind>65.0</ind><dep>52.0</dep></entry>
