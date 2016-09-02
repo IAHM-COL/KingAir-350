@@ -792,9 +792,9 @@ License: GPL2. See ./COPYING
 		<name>Flightdeck</name>
 		<path>Aircraft/KingAir-350/Models/flightdeck.xml</path>
 		<offsets>
-			<x-m>0.15</x-m>
+			<x-m>0</x-m>
 			<y-m>0</y-m>
-			<z-m>0.22</z-m>
+			<z-m>0</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
 	</model>

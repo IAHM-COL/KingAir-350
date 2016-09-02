@@ -5773,6 +5773,23 @@
         </hovered>
     </animation>
 
+<animation>
+        <type>rotate</type>
+        <object-name>Wiper.knob</object-name>
+        <property>controls/electric/wipers/switch-pos</property>
+        <factor>35.0</factor>
+        <center>
+            <x-m>-3.584</x-m>
+            <y-m>0.207</y-m>
+            <z-m>0.921</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>1</y>
+            <z>0</z>
+        </axis>
+    </animation>
+
 <!-- 
 ************************** lighting **********************
 -->
