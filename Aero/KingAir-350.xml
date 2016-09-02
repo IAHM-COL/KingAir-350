@@ -135,8 +135,8 @@
 			<dynamic_friction> 0.50 </dynamic_friction>
 			<rolling_friction> 0.02 </rolling_friction>
 			<spring_coeff unit="LBS/FT"> 15000 </spring_coeff> <!--  weight * 0.65 -->
-			<damping_coeff unit="LBS/FT/SEC"> 6958 </damping_coeff> <!--  spring_coeff * 0.15 --><!--958-->
-			<damping_coeff_rebound unit="LBS/FT/SEC"> 50 </damping_coeff_rebound> <!--  damping_coeff * 0.1 --><!--98.5-->
+			<damping_coeff unit="LBS/FT/SEC"> 7958 </damping_coeff> <!--  spring_coeff * 0.15 --><!--958-->
+			<damping_coeff_rebound unit="LBS/FT/SEC"> 250 </damping_coeff_rebound> <!--  damping_coeff * 0.1 --><!--98.5-->
 			<max_steer unit="DEG"> 10 </max_steer>
 			<brake_group> NONE </brake_group>
 			<retractable>1</retractable>
@@ -560,7 +560,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/flap-pos-deg</property>
-					<value> 0.03500 </value>
+					<value> 0.04500 </value>
 				</product>
 			</function>
 
@@ -639,7 +639,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/flap-pos-deg</property>
-					<value> 0.00120 </value>
+					<value> 0.00240 </value>
 				</product>
 			</function>
 
