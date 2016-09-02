@@ -47,6 +47,36 @@
 				</binding>
 			</item>
 
+			<item>
+				<label>Config/Options</label>
+				<binding>
+					<command>dialog-show</command>
+                                        <dialog-name>options</dialog-name>
+				</binding>
+			</item>
+<item>
+
+                <label>System Failures</label>
+					<binding>
+                            <command>nasal</command>
+                            <script>
+                             var failures = gui.Dialog.new("sim/gui/dialogs/failures/dialog", "Aircraft/KingAir-350/Systems/failures-dlg.xml");
+                             failures.open();
+                            </script>
+                    </binding>
+            </item>
+
+<item>
+			<name>lights</name>
+			<label>Lights</label>
+				<binding>
+				<command>nasal</command>
+					<script>
+				var lights = gui.Dialog.new("sim/gui/dialogs/lights/dialog", "Aircraft/KingAir-350/Systems/lights-dlg.xml");
+				lights.open();
+					</script>
+				</binding>
+		  </item>
 
 		</menu>
 

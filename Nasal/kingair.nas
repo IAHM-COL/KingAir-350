@@ -23,6 +23,8 @@ setlistener("/sim/signals/fdm-initialized", func {
 	settimer(update_systems,2);
 	setprop("/systems/electrical/outputs/efis", 29);
 	setprop("/systems/electrical/outputs/efis[1]", 29);
+  	itaf.ap_init();			
+	var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Aircraft/KingAir-350/Systems/autopilot-dlg.xml");
 	print("KingAir 350 Systems OK!");
 });
 
@@ -119,10 +121,10 @@ var eng2norm= func {
 }
 
 var eng1watch= func {
-	var n2=getprop("fdm/jsbsim/propulsion/engine[0]/n2");
-	if (n2<59) {
+	var n1=getprop("fdm/jsbsim/propulsion/engine[0]/n1");
+	if (n1<59) {
 		settimer(eng1watch, 5);
-		if (n2<1) {
+		if (n1<1) {
 			# re-trigger jsbsim to spin this engine up
 			setprop("controls/engines/engine[0]/cutoff", 1);
 			setprop("controls/engines/engine[0]/cutoff", 2);
@@ -132,11 +134,12 @@ var eng1watch= func {
 	}
 }
 
+
 var eng2watch= func {
-	var n2=getprop("fdm/jsbsim/propulsion/engine[1]/n2");
-	if (n2<59) {
+	var n1=getprop("fdm/jsbsim/propulsion/engine[1]/n1");
+	if (n1<59) {
 		settimer(eng2watch, 5);
-		if (n2<1) {
+		if (n1<1) {
 			# re-trigger jsbsim to spin this engine up
 			setprop("controls/engines/engine[1]/cutoff", 1);
 			setprop("controls/engines/engine[1]/cutoff", 2);
