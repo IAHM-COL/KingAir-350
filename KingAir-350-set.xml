@@ -170,12 +170,12 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m archive="y"> -0.33 </x-offset-m> <!-- Right -->
-				<y-offset-m archive="y">  0.48 </y-offset-m> <!-- Up    -->
-				<z-offset-m archive="y"> -4.20 </z-offset-m> <!-- Back  -->
+				<x-offset-m archive="y"> -0.34 </x-offset-m> <!-- Right -->
+				<y-offset-m archive="y">  0.58 </y-offset-m> <!-- Up    -->
+				<z-offset-m archive="y"> -3.70 </z-offset-m> <!-- Back  -->
 				<pitch-offset-deg> -5 </pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
-				<default-field-of-view-deg> 70 </default-field-of-view-deg>
+				<default-field-of-view-deg> 80 </default-field-of-view-deg>
 			</config>
 		</view>
 
@@ -187,17 +187,17 @@
 				<from-model type="bool">true</from-model>
 				<from-model-idx type="int">0</from-model-idx>
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-				<x-offset-m archive="y">  0.33 </x-offset-m> <!-- Right -->
-				<y-offset-m archive="y">  0.48 </y-offset-m> <!-- Up    -->
-				<z-offset-m archive="y"> -4.20</z-offset-m> <!-- Back  -->
+				<x-offset-m archive="y">  0.37 </x-offset-m> <!-- Right -->
+				<y-offset-m archive="y">  0.41 </y-offset-m> <!-- Up    -->
+				<z-offset-m archive="y"> -3.70</z-offset-m> <!-- Back  -->
 				<pitch-offset-deg> -5 </pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
-				<default-field-of-view-deg> 70 </default-field-of-view-deg>
+				<default-field-of-view-deg> 80 </default-field-of-view-deg>
 			</config>
 		</view>
 
 		<view n="102">
-			<name>Rear Passanger Seat View</name>
+			<name>Rear Passenger Seat View</name>
 			<internal archive="y">true</internal>
 			<type>lookfrom</type>
 			<config>
