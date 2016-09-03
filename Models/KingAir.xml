@@ -812,8 +812,8 @@ License: GPL2. See ./COPYING
 		<max-m>100</max-m>
 	</animation>
 
-	<!-- <model>
-		<name>Flightdeck</name>
+	<model>
+		<name>PAX Cabin</name>
 		<path>Aircraft/KingAir-350/Models/Cabin-seats.xml</path>
 		<offsets>
 			<x-m>0</x-m>
@@ -821,7 +821,7 @@ License: GPL2. See ./COPYING
 			<z-m>0</z-m>
 			<pitch-deg>0</pitch-deg>
 		</offsets>
-	</model>-->
+	</model>
 	
 	<!-- ############ -->
 	<!-- ## Lights ## -->
