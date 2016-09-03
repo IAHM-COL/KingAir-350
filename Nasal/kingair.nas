@@ -69,7 +69,7 @@ var batstart= func {
 var apustart= func {
 	setprop("controls/APU/off-start-run", 1);
 	setprop("controls/electric/APU-generator", 1);
-	gui.popupTip("Checkl thermos with coffee!");
+	gui.popupTip("Check thermos with coffee!");
 }
 
 var pump0start= func {

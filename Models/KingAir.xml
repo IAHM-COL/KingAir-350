@@ -88,6 +88,8 @@ License: GPL2. See ./COPYING
 		<object-name>NoseConeStrips</object-name>
 		<object-name>NoseVents</object-name>
 		<object-name>PropCone</object-name>
+		<object-name>PropConeLeft</object-name>
+		<object-name>PropConeRight</object-name>
 		<object-name>PropConeDisks</object-name>
 		<object-name>PropLeft</object-name>
 		<object-name>PropRight</object-name>
@@ -129,6 +131,7 @@ License: GPL2. See ./COPYING
 	<!--Left-->
 	<animation>
 		<type>spin</type>
+		<object-name>PropConeLeft</object-name>
 		<object-name>PropLeft</object-name>
 		<object-name>LHFastprop</object-name>
 		<object-name>LHSlowprop</object-name>
@@ -138,8 +141,8 @@ License: GPL2. See ./COPYING
 			<x>1</x>
 		</axis>
 		<center>
-			<y-m>-2.74939</y-m>
-			<z-m>-0.18085</z-m>
+			<y-m>-2.7494</y-m>
+			<z-m>-0.1808</z-m>
 		</center>
 	</animation>
 
@@ -179,6 +182,7 @@ License: GPL2. See ./COPYING
 	<!--Right-->
 	<animation>
 		<type>spin</type>
+		<object-name>PropConeRight</object-name>
 		<object-name>PropRight</object-name>
 		<object-name>RHFastprop</object-name>
 		<object-name>RHSlowprop</object-name>
@@ -188,8 +192,8 @@ License: GPL2. See ./COPYING
 			<x>1</x>
 		</axis>
 		<center>
-			<y-m>2.74939</y-m>
-			<z-m>-0.18085</z-m>
+			<y-m>2.7957</y-m>
+			<z-m>-0.1808</z-m>
 		</center>
 	</animation>
 
@@ -287,6 +291,8 @@ License: GPL2. See ./COPYING
 		<object-name>NoseConeStrips</object-name>
 		<object-name>NoseVents</object-name>
 		<object-name>PropCone</object-name>
+		<object-name>PropConeLeft</object-name>
+		<object-name>PropConeRight</object-name>
 		<object-name>PropConeDisks</object-name>
 		<object-name>PropLeft</object-name>
 		<object-name>PropRight</object-name>
