@@ -5,141 +5,141 @@
 	
 <fx>
 
-  <!-- IT-AUTOFLIGHT AP OFF -->
-  <apoff>
-   <name>apoff</name>
-   <path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
-   <condition>
-	 <property>/it-autoflight/apoffsound</property>
-   </condition>
-   <volume>
-    <factor>10.0</factor>
-   </volume>
-  </apoff>
+	<!-- IT-AUTOFLIGHT AP OFF -->
+	<apoff>
+		<name>apoff</name>
+		<path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
+		<condition>
+			<property>/it-autoflight/apoffsound</property>
+		</condition>
+		<volume>
+			<factor>10.0</factor>
+		</volume>
+	</apoff>
   
-  <apoff>
-   <name>apoff2</name>
-   <path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
-   <condition>
-	 <property>/it-autoflight/apoffsound2</property>
-   </condition>
-   <volume>
-    <factor>10.0</factor>
-   </volume>
-  </apoff>
+	<apoff>
+		<name>apoff2</name>
+		<path>/Aircraft/KingAir-350/Sounds/apoff.wav</path>
+		<condition>
+			<property>/it-autoflight/apoffsound2</property>
+		</condition>
+		<volume>
+			<factor>10.0</factor>
+		</volume>
+	</apoff>
   
 		<!-- ENGINE START -->
 		<crank>
-      <name>engstartLeft</name>
-      <path>Aircraft/KingAir-350/Sounds/eng_start_ext1_part1.wav</path>
-      <condition>
-        <and>
-          <property>/engines/engine[0]/cranking</property>
-          <property>/sim/current-view/internal</property>
-        </and>
-      </condition>
-      <volume>
-        <offset>0.4</offset>
-      </volume>
-      <position>
-        <x> -2.627 </x>
-        <y>  1.740 </y>
-        <z>  0.021 </z>
-      </position>
-      <reference-dist>100</reference-dist>
-      <max-dist>1000</max-dist>
-    </crank>
+			<name>engstartLeft</name>
+			<path>Aircraft/KingAir-350/Sounds/eng_start_ext1_part1.wav</path>
+			<condition>
+				<and>
+					<property>/engines/engine[0]/cranking</property>
+					<property>/sim/current-view/internal</property>
+				</and>
+			</condition>
+			<volume>
+				<offset>0.4</offset>
+			</volume>
+			<position>
+				<x> -2.627 </x>
+				<y>  1.740 </y>
+				<z>  0.021 </z>
+			</position>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+		</crank>
     
-    <crank>
-      <name>engstartextLeft</name>
-      <path>Aircraft/KingAir-350/Sounds/eng_start_int1_part1.wav</path>
-      <condition>
-        <and>
-          <property>/engines/engine[0]/cranking</property>
-          <not>
-            <property>/sim/current-view/internal</property>
-          </not>
-        </and>
-      </condition>
-      <volume>
-        <offset>0.4</offset>
-      </volume>
-      <position>
-        <x> -2.627 </x>
-        <y>  1.740 </y>
-        <z>  0.021 </z>
-      </position>
-      <reference-dist>100</reference-dist>
-      <max-dist>1000</max-dist>
-    </crank>
+		<crank>
+			<name>engstartextLeft</name>
+			<path>Aircraft/KingAir-350/Sounds/eng_start_int1_part1.wav</path>
+			<condition>
+				<and>
+					<property>/engines/engine[0]/cranking</property>
+					<not>
+						<property>/sim/current-view/internal</property>
+					</not>
+				</and>
+			</condition>
+			<volume>
+				<offset>0.4</offset>
+			</volume>
+			<position>
+				<x> -2.627 </x>
+				<y>  1.740 </y>
+				<z>  0.021 </z>
+			</position>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+		</crank>
     
-    <crank>
-      <name>crankLeft</name>
-      <mode>looped</mode>
-      <path>Aircraft/KingAir-350/Sounds/eng_start_int1_part2.wav</path>
-      <condition>
-        <and>
-          <property>/engines/engine[0]/cranking</property>
-          <property>/sim/current-view/internal</property>
-          <not>
-            <property>/engines/engine[0]/running</property>
-          </not>
-        </and>
-      </condition>
-      <volume>
-        <offset>0.5</offset>
-      </volume>
-      <reference-dist>100</reference-dist>
-      <max-dist>1000</max-dist>
-      <position>
-        <x> -2.627 </x>
-        <y>  1.740 </y>
-        <z>  0.021 </z>
-      </position>
-    </crank>
+		<crank>
+			<name>crankLeft</name>
+			<mode>looped</mode>
+			<path>Aircraft/KingAir-350/Sounds/eng_start_int1_part2.wav</path>
+			<condition>
+				<and>
+					<property>/engines/engine[0]/cranking</property>
+					<property>/sim/current-view/internal</property>
+					<not>
+						<property>/engines/engine[0]/running</property>
+					</not>
+				</and>
+			</condition>
+			<volume>
+				<offset>0.5</offset>
+			</volume>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+			<position>
+				<x> -2.627 </x>
+				<y>  1.740 </y>
+				<z>  0.021 </z>
+			</position>
+		</crank>
     
-    <crank>
-      <name>crankextLeft</name>
-      <mode>looped</mode>
-      <path>Aircraft/KingAir-350/eng_start_ext1_part2.wav</path>
-      <condition>
-        <and>
-          <property>/engines/engine[0]/cranking</property>
-          <not>
-            <property>/sim/current-view/internal</property>
-          </not>
-          <not>
-            <property>/engines/engine[0]/running</property>
-          </not>
-        </and>
-      </condition>
-      <volume>
-        <offset>0.5</offset>
-      </volume>
-      <reference-dist>100</reference-dist>
-      <max-dist>1000</max-dist>
-      <position>
-        <x> -2.627 </x>
-        <y>  1.740 </y>
-        <z>  0.021 </z>
-      </position>
-    </crank>
+		<crank>
+			<name>crankextLeft</name>
+			<mode>looped</mode>
+			<path>Aircraft/KingAir-350/Sounds/eng_start_ext1_part2.wav</path>
+			<condition>
+				<and>
+					<property>/engines/engine[0]/cranking</property>
+					<not>
+						<property>/sim/current-view/internal</property>
+					</not>
+					<not>
+						<property>/engines/engine[0]/running</property>
+					</not>
+				</and>
+			</condition>
+			<volume>
+				<offset>0.5</offset>
+			</volume>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+			<position>
+				<x> -2.627 </x>
+				<y>  1.740 </y>
+				<z>  0.021 </z>
+			</position>
+		</crank>
     
-    <crank>
-      <name>coughLeft</name>
-      <path>Sounds/coughing.wav</path>
-      <property>/engines/engine[0]/running</property>
-      <volume>
-        <offset>0.3</offset>
-      </volume>
-      <reference-dist>100</reference-dist>
-      <max-dist>1000</max-dist>
-      <position>
-        <x> -2.627 </x>
-        <y>  1.740 </y>
-        <z>  0.021 </z>
-      </position>
-    </crank>
+		<crank>
+			<name>coughLeft</name>
+			<path>Sounds/coughing.wav</path>
+			<property>/engines/engine[0]/running</property>
+			<volume>
+				<offset>0.3</offset>
+			</volume>
+			<reference-dist>100</reference-dist>
+			<max-dist>1000</max-dist>
+			<position>
+				<x> -2.627 </x>
+				<y>  1.740 </y>
+				<z>  0.021 </z>
+			</position>
+		</crank>
 
 
  <crank>
@@ -254,7 +254,7 @@
       </position>
     </crank>
 
-
+<!--missing file
  <engine>
       <name>engineLeft</name>
       <mode>looped</mode>
@@ -322,12 +322,12 @@
         <z>  0.021 </z>
       </position>
     </engine>
-    
+-->    
 
 <engine>
 		<name>low l out</name>
 		<mode>looped</mode>
-		<path>Aircraft/KingAir-350/Sounds/xlow.wav</path>
+		<path>Aircraft/KingAir-350/Sounds/low.wav</path>
 		<property>engines/engine[0]/n1</property>
 		<condition>
 			<not><property>sim/current-view/internal</property></not>
@@ -347,7 +347,7 @@
 	<engine>
 		<name>low r out</name>
 		<mode>looped</mode>
-		<path>Aircraft/KingAir-350/Sounds/xlow.wav</path>
+		<path>Aircraft/KingAir-350/Sounds/low.wav</path>
 		<property>engines/engine[1]/n1</property>
 		<condition>
 			<not><property>sim/current-view/internal</property></not>
@@ -972,7 +972,7 @@
 		<wind>
 			<name>wind</name>
 			<mode>looped</mode>
-			<path>Aircraft/KingAir-350/Sounds/wind.wav</path>
+			<path>Aircraft/KingAir-350/Sounds/Wind.wav</path>
 			<property>velocities/airspeed-kt</property>
 			<volume>
 				<property>velocities/airspeed-kt</property>

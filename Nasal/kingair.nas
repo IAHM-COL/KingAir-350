@@ -63,13 +63,13 @@ setlistener("/sim/model/start-idling", func(idle) {
 
 var batstart= func {
 	setprop("controls/electric/battery-switch",1);
-	gui.popupTip("System on battery, starting APU!");
+	gui.popupTip("System on battery, check flight readiness!");
 }
 
 var apustart= func {
 	setprop("controls/APU/off-start-run", 1);
 	setprop("controls/electric/APU-generator", 1);
-	gui.popupTip("APU starting!");
+	gui.popupTip("Check thermos with coffee!");
 }
 
 var pump0start= func {
@@ -121,10 +121,10 @@ var eng2norm= func {
 }
 
 var eng1watch= func {
-	var n2=getprop("fdm/jsbsim/propulsion/engine[0]/n2");
-	if (n2<59) {
+	var n1=getprop("fdm/jsbsim/propulsion/engine[0]/n1");
+	if (n1<59) {
 		settimer(eng1watch, 5);
-		if (n2<1) {
+		if (n1<1) {
 			# re-trigger jsbsim to spin this engine up
 			setprop("controls/engines/engine[0]/cutoff", 1);
 			setprop("controls/engines/engine[0]/cutoff", 2);
@@ -134,11 +134,12 @@ var eng1watch= func {
 	}
 }
 
+
 var eng2watch= func {
-	var n2=getprop("fdm/jsbsim/propulsion/engine[1]/n2");
-	if (n2<59) {
+	var n1=getprop("fdm/jsbsim/propulsion/engine[1]/n1");
+	if (n1<59) {
 		settimer(eng2watch, 5);
-		if (n2<1) {
+		if (n1<1) {
 			# re-trigger jsbsim to spin this engine up
 			setprop("controls/engines/engine[1]/cutoff", 1);
 			setprop("controls/engines/engine[1]/cutoff", 2);
@@ -149,8 +150,8 @@ var eng2watch= func {
 }
 
 var Startup = func {
-	settimer(batstart, 1);
 	settimer(apustart, 6);
+	settimer(batstart, 1);
 	settimer(pump0start, 8);
 	settimer(pump2start, 10);
 	settimer(pump1start, 12);
