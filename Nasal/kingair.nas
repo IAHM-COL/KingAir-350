@@ -63,13 +63,13 @@ setlistener("/sim/model/start-idling", func(idle) {
 
 var batstart= func {
 	setprop("controls/electric/battery-switch",1);
-	gui.popupTip("System on battery, starting APU!");
+	gui.popupTip("System on battery, check flight readiness!");
 }
 
 var apustart= func {
 	setprop("controls/APU/off-start-run", 1);
 	setprop("controls/electric/APU-generator", 1);
-	gui.popupTip("APU starting!");
+	gui.popupTip("Checkl thermos with coffee!");
 }
 
 var pump0start= func {
@@ -150,8 +150,8 @@ var eng2watch= func {
 }
 
 var Startup = func {
-	settimer(batstart, 1);
 	settimer(apustart, 6);
+	settimer(batstart, 1);
 	settimer(pump0start, 8);
 	settimer(pump2start, 10);
 	settimer(pump1start, 12);
