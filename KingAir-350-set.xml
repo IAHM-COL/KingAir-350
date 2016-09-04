@@ -172,7 +172,7 @@
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
 				<x-offset-m archive="y"> -0.34 </x-offset-m> <!-- Right -->
 				<y-offset-m archive="y">  0.58 </y-offset-m> <!-- Up    -->
-				<z-offset-m archive="y"> -3.66 </z-offset-m> <!-- Back  -->
+				<z-offset-m archive="y"> -4.00 </z-offset-m> <!-- Back  -->
 				<pitch-offset-deg> -5 </pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg> 73 </default-field-of-view-deg>
@@ -189,7 +189,7 @@
 				<ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
 				<x-offset-m archive="y">  0.37 </x-offset-m> <!-- Right -->
 				<y-offset-m archive="y">  0.41 </y-offset-m> <!-- Up    -->
-				<z-offset-m archive="y"> -3.66</z-offset-m> <!-- Back  -->
+				<z-offset-m archive="y"> -4.00</z-offset-m> <!-- Back  -->
 				<pitch-offset-deg> -5 </pitch-offset-deg>
 				<heading-offset-deg> 0 </heading-offset-deg>
 				<default-field-of-view-deg> 73 </default-field-of-view-deg>
@@ -204,7 +204,7 @@
 				<from-model type="bool">true</from-model>
 				<ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
 				<x-offset-m archive="y">  0.250 </x-offset-m>	<!-- Right -->
-				<y-offset-m archive="y">  0.505 </y-offset-m>	<!-- Up    -->
+				<y-offset-m archive="y">  0.500 </y-offset-m>	<!-- Up    -->
 				<z-offset-m archive="y"> -0.200 </z-offset-m>	<!-- Back  -->
 				<pitch-offset-deg> -5 </pitch-offset-deg>
 				<default-field-of-view-deg> 90 </default-field-of-view-deg>
@@ -456,6 +456,7 @@
 		<kingair>
 			<file>Aircraft/KingAir-350/Nasal/kingair.nas</file>
 			<file>Aircraft/KingAir-350/Nasal/liveries.nas</file>
+			<file>Aircraft/KingAir-350/Nasal/lighting.nas</file>
 		</kingair>
                 <dialogs>
                     <file>Nasal/dialogs.nas</file>
