@@ -911,4 +911,17 @@ License: GPL2. See ./COPYING
 		</offsets>
 	</model>	
 	
+	<!-- Lights -->
+	<animation>
+		<name>Tail Winglets light illumination</name>
+		<type>material</type>
+		<object-name>Winglets</object-name>
+		<emission>
+			<red>0.25</red>
+			<green>0.25</green>
+			<blue>0.25</blue>
+			<factor-prop>controls/lighting/logo-lights</factor-prop>
+		</emission>
+	</animation>
+	
 </PropertyList>
