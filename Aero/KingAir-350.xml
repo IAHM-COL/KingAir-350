@@ -333,8 +333,8 @@
 			<aerosurface_scale name="elevator normalization">
 				<input>fcs/elevator-pos-rad</input>
 				<domain>
-					<min> -0.35 </min>
-					<max>  0.35 </max>
+					<min> -0.32 </min>
+					<max>  0.32 </max>
 				</domain>
 				<range>
 					<min> -1 </min>
@@ -416,8 +416,8 @@
 			<aerosurface_scale name="Rudder Control">
 				<input>fcs/rudder-command-sum</input>
 				<range>
-					<min> -0.35 </min>
-					<max>  0.35 </max>
+					<min> -0.55 </min>
+					<max>  0.55 </max>
 				</range>
 				<output>fcs/rudder-pos-rad</output>
 			</aerosurface_scale>
@@ -425,8 +425,8 @@
 			<aerosurface_scale name="rudder normalization">
 				<input>fcs/rudder-pos-rad</input>
 				<domain>
-					<min> -0.35 </min>
-					<max>  0.35 </max>
+					<min> -0.55 </min>
+					<max>  0.55 </max>
 				</domain>
 				<range>
 					<min> -1 </min>

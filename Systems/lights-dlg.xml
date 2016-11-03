@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Made by GabrielYV
+Made by Gabriel Hernandez(YV3399)
     -->
 <PropertyList>
 
@@ -8,7 +8,7 @@ Made by GabrielYV
 	<layout>vbox</layout>
 
 	<text>
-		<label>KingAir-350 Light Controller</label>
+		<label>KingAir-350 Light</label>
 	</text>
 
 	<hrule />

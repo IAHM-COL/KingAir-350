@@ -67,7 +67,7 @@
             </item>
 
 <item>
-			<name>lights</name>
+			<name>Lights</name>
 			<label>Lights</label>
 				<binding>
 				<command>nasal</command>
@@ -77,6 +77,16 @@
 					</script>
 				</binding>
 		  </item>
+                <item>
+		      <label>Announcements</label>
+		      <binding>
+					<command>nasal</command>
+					<script>
+						var mal = gui.Dialog.new("/sim/gui/dialogs/announcements/menu/dialog", "Aircraft/KingAir-350/Dialogs/announcements-dialog.xml");
+						mal.open();
+		       </script>
+		      </binding>
+          </item> 
 
 		</menu>
 
