@@ -15,7 +15,7 @@
 	<sim>
 
 		<description>Beechraft Super King Air 350</description>
-		<author>it0uchpods, IAHM-COL, SM, Gabriel Hernandez</author>
+		<author>it0uchpods, IAHM-COL, SM, GabrielYV</author>
 
 		<aircraft-version>V0.00.00</aircraft-version>
 		<status>Alpha</status>
@@ -27,10 +27,10 @@
 		-->
 
 		<rating>
-			<FDM type="int">     2 </FDM>
-			<systems type="int"> 2 </systems>
-			<cockpit type="int"> 3 </cockpit>
-			<model type="int">   4 </model>
+			<FDM type="int">     0 </FDM>
+			<systems type="int"> 0 </systems>
+			<cockpit type="int"> 0 </cockpit>
+			<model type="int">   0 </model>
 		</rating>
 
 		<flight-model>jsb</flight-model>
@@ -112,27 +112,45 @@
 		<!-- Instrumentation in sim -->
 		<instrumentation include="Systems/instrumentation.xml"></instrumentation>
 
+		<!-- MP section if exists -->
 		<multiplay>
-			<generic>
-				<int n="0" alias="/systems/electrical/outputs/strobe"/>
-				<int n="1" alias="/systems/electrical/outputs/beacon"/>
-				<int n="2" alias="/systems/electrical/outputs/taxi-lights"/>
-				<int n="3" alias="/systems/electrical/outputs/logo-lights"/>
-				<int n="4" alias="/systems/electrical/outputs/landing-light[0]"/>
-				<int n="5" alias="/systems/electrical/outputs/landing-light[1]"/>
-				<int n="6" alias="/systems/electrical/outputs/landing-light[2]"/>
-				<int n="7" alias="/systems/electrical/outputs/nav-lights"/>
-				<float n="0" alias="/gear/gear[0]/compression-m"/>
-				<float n="1" alias="/gear/gear[1]/compression-m"/>
-				<float n="2" alias="/gear/gear[2]/compression-m"/>
-				<float n="3" alias="/gear/gear[1]/compression-m"/>
-				<float n="4" alias="/gear/gear[2]/compression-m"/>
-				<float n="5" alias="/surface-positions/speedbrake-norm"/>
-				<float n="6" alias="/surface-positions/reverser-norm"/>
-				<string alias="/sim/multiplay/callsign"/>
+			<chat_display>1</chat_display>
+
+			<generic> 
+				<int   n="0"  type="int"> 0</int>                                          <!-- 0 immat -->
+				<int   n="1"  type="int"> 0</int>                                          <!-- 1 immat -->
+				<int   n="2"  type="int"> 0</int>                                          <!-- 2 immat -->
+				<int   n="3"  type="int"> 0</int>                                          <!-- 3 immat -->
+				<int   n="4"  type="int"> 0</int>                                          <!-- 4 immat -->
+				<int   n="5"  type="int"> 0</int>                                          <!-- 5 immat -->
+				<int   n="6"  type="bool">1</int>                                          <!-- 6 smoke/bomb/torpedo -->
+				<int   n="7"  type="int"> 0</int>                                          <!-- 7 color -->
+				<int   n="8"  alias="/systems/electrical/outputs/nav-lights">0</int>         <!-- 8 nav-lights -->
+				<int   n="9"  alias="/sim/model/lights/beacon/state">false</int>             <!-- 9 strobe-lights -->
+
+				<float n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
+				<float n="1"  alias="/sim/model/door-positions/passenger/position-norm"/>
+				<float n="2"  alias="/position/gear-agl-m">0</float>                       <!-- altitude for MP shadow -->
+				<float n="3"  alias="/position/altitude-ft">0</float>                      <!-- altitude for Smoke/Trail -->
+				<float n="4"  alias="/sim/model/door-positions/leftbagage/position-norm"/>
+				<float n="5"  alias="/sim/model/door-positions/rightbagage/position-norm"/>
+				<float n="6"  alias="/engines/engine[0]/rpm"/>
+				<float n="7"  alias="/engines/engine[0]/cranking"/>
+				<float n="8"  alias="/engines/engine[1]/rpm"/>
+				<float n="9"  alias="/engines/engine[1]/cranking"/>
+				<float n="10" alias="/gear/gear[0]/wow/"/>
+				<float n="11" alias="/gear/gear[1]/wow/"/>
+				<float n="12" alias="/gear/gear[2]/wow/"/>
+				<float n="13" alias="/gear/gear[0]/rollspeed-ms"/>
+				<float n="14" alias="/gear/gear[1]/rollspeed-ms"/>
+				<float n="15" alias="/gear/gear[2]/rollspeed-ms"/>
+
+				<!-- For Bombable -->
+				<int type="int" n="10" alias="controls/armament/trigger">0</int>
+
+				<string n="9" type="string" />
 			</generic>
 		</multiplay>
-
     
 		<!-- #### HUD section if exists -->
     
@@ -418,38 +436,6 @@
     </gear>
   </controls>
  
-<mk-viii>  <!-- mk-viii configuration, see: http://wiki.flightgear.org/index.php/GPWS -->
-      <serviceable>true</serviceable>     <!-- EGPWS_ENABLE -->
-      <configuration-module>
-        <category-1>  255 </category-1>
-        <category-3>   2 </category-3>  <!-- POSITION_INPUT_SELECT -->		
-        <category-4>  13 </category-4>  <!-- ALTITUDE_CALLOUTS -->		
-        <category-5>   0 </category-5>  <!-- AUDIO_MENU_SELECT -->		
-        <category-6>   1 </category-6>  <!-- TERRAIN_DISPLAY_SELECT -->		
-        <category-7> 124 </category-7>  <!-- OPTIONS_SELECT_GROUP_1 -->		
-        <category-8>   4 </category-8>  <!-- RADIO_ALTITUDE_INPUT_SELECT-->
-        <category-9>   3 </category-9>  <!-- NAVIGATION_INPUT_SELECT -->		
-        <category-10>  6 </category-10> <!-- ATTITUDE_INPUT_SELECT -->		
-        <category-13>  7 </category-13> <!-- INPUT_OUTPUT_DISCRETE_TYPE_SELECT -->		
-        <category-14>  0 </category-14> <!-- AUDIO_OUTPUT_LEVEL -->
-      </configuration-module>
-      <inputs>                            <!-- Module I/O -->
-        <arinc429>
-          <decision-height-ncd> true </decision-height-ncd>
-          <decision-height> 200 </decision-height>
-        </arinc429>
-        <rs-232>		
-          <present-status>		
-            <landing-flaps type="double">0.5</landing-flaps>		
-          </present-status>		
-        </rs-232>
-      </inputs>
-      <speaker>                           <!-- Speaker Configuration -->
-        <max-dist type="double"> 200.0 </max-dist>        <!-- Max. distance where speaker is heard -->
-        <reference-dist type="double"> 2 </reference-dist> <!-- Distance to pilot -->
-        <volume type="double"> 1.0 </volume>          <!-- Volume at reference distance -->
-      </speaker>
-    </mk-viii>
 
   <!-- #### ai submodels -->
 

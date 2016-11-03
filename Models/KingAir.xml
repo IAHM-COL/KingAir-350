@@ -6,7 +6,7 @@ Beechcraft King Air for FG
 :copyright: 2016 D-ECHO
 :copyright: 2016 Joshua Davidson (it0uchpods)
 :copyright: 2015 Israel Hernandez (IAHM-COL)
-:copyright: 2016 Gabriel Hernandez (YV3399)
+:copyright: 2016 Gabriel Hernandez (GabrielYV)
 
 License: GPL2. See ./COPYING
 -->
@@ -833,7 +833,7 @@ License: GPL2. See ./COPYING
 		<offsets>
 			<x-m>0.0265565</x-m>
 			<y-m>0.000</y-m>
-			<z-m>0.999889</z-m>
+			<z-m>0.999885</z-m>
 		</offsets>
 	</model>
 
@@ -851,7 +851,7 @@ License: GPL2. See ./COPYING
 		<offsets>
 			<x-m>-2.299</x-m>
 			<y-m>-8.85928</y-m>
-			<z-m>0.301034</z-m>
+			<z-m>0.301037</z-m>
 		</offsets>
 	</model>
  
@@ -860,7 +860,7 @@ License: GPL2. See ./COPYING
 		<offsets>
 			<x-m>-2.299</x-m>
 			<y-m>-8.85928</y-m>
-			<z-m>0.301250</z-m>
+			<z-m>0.301248</z-m>
 		</offsets>
 	</model>
 
@@ -869,7 +869,7 @@ License: GPL2. See ./COPYING
 		<offsets>
 			<x-m>-2.299</x-m>
 			<y-m>8.85928</y-m>
-			<z-m>0.301034</z-m>
+			<z-m>0.301037</z-m>
 		</offsets>
 	</model>
  
@@ -878,7 +878,7 @@ License: GPL2. See ./COPYING
 		<offsets>
 			<x-m>-2.299</x-m>
 			<y-m>8.85928</y-m>
-			<z-m>0.301250</z-m>
+			<z-m>0.301248</z-m>
 		</offsets>
 	</model>
  
