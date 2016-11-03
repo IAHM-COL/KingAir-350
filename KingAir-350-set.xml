@@ -71,6 +71,10 @@
 				<name>IT-AUTOFLIGHT</name>
 				<path>Aircraft/KingAir-350/Systems/it-autoflight.xml</path>
 			</autopilot>
+			<autopilot>
+				<name>IT-AUTOTHRUST</name>
+				<path>Aircraft/KingAir-350/Systems/it-autothrust.xml</path>
+			</autopilot>
 		</systems>
 	
 		<!-- Subsection for submodels -->
@@ -279,9 +283,10 @@
 	<settings>
 		<no-generics>1</no-generics>
 		<roll>
-			<umin>-0.07</umin>
-			<umax>0.13</umax>
-			<kp>0.01</kp>
+			<umin>-0.10</umin>
+			<umax>0.30</umax>
+			<kp>0.025</kp>
+			<kp-vorloc>0.025</kp-vorloc>
 		</roll>
 		<pitch>
 			<umin>-0.13</umin>
@@ -293,6 +298,9 @@
 			<umax>0.13</umax>
 			<kp>-0.008</kp>
 		</flch>
+		<gs>
+			<kp>0.10</kp>
+		</gs>
 	</settings>
 </it-autoflight>
 
