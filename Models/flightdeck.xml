@@ -33,7 +33,7 @@
 		<path>Aircraft/KingAir-350/Models/Instruments/EFIS-84/ehsi.xml</path>
 		<offsets>
 			<x-m>-4.65</x-m>
-			<y-m>-0.43</y-m>
+			<y-m>-0.425</y-m>
 			<z-m>0.11</z-m>
 		</offsets>
 	</model>
@@ -96,7 +96,7 @@
 		<object-name>Yoke1</object-name>
 		<object-name>Yokebase</object-name>
 		<condition>
-			<property>sim/model/yokes-visible</property>
+			<property>sim/model/yokes-visible-disab</property>
 		</condition>
 	</animation>
 
@@ -141,7 +141,7 @@
 		</axis>
 	</animation>
 
-	<animation>
+	<!--animation>
 		<type>rotate</type>
 		<object-name>Yoke</object-name>
 		<property>controls/flight/aileron</property>
@@ -173,7 +173,7 @@
 			<y>0.0</y>
 			<z>0.174</z>
 		</axis>
-	</animation>
+	</animation-->
 
 	<animation>
 		<type>knob</type>
@@ -1509,10 +1509,10 @@
         <object-name>FD.bank</object-name>
         <object-name>AP.bank</object-name>
         <condition>
-            <less-than>
+            <greater-than>
                 <property>instrumentation/fgc-65/app-65a/BANK</property>
                 <value>1</value>
-            </less-than>
+            </greater-than>
         </condition>
     </animation>
 
@@ -1646,7 +1646,7 @@
     </animation>
 
 
-    <animation>
+    <!--animation>
         <type>pick</type>
         <object-name>HDG.btn</object-name>
         <action>
@@ -1764,9 +1764,9 @@
                 </binding>
             </mod-up>
         </action>
-    </animation>
+    </animation-->
 
-    <animation>
+    <!--animation>
         <type>pick</type>
         <object-name>IAS.btn</object-name>
         <action>
@@ -1784,7 +1784,7 @@
                 </binding>
             </mod-up>
         </action>
-    </animation>
+    </animation-->
 
 <!-- APP-65A Will be mapped to ITAF -->
 
@@ -3554,13 +3554,13 @@
         </condition>
     </animation>
 
-    <animation>
+    <!--animation>
         <type>select</type>
         <object-name>LGen.on</object-name>
         <condition>
             <property>controls/electric/engine/bus-tie</property>
         </condition>
-    </animation>
+    </animation-->
 
     <animation>
         <type>pick</type>
@@ -3683,13 +3683,13 @@
         </condition>
     </animation>
 
-    <animation>
+    <!--animation>
         <type>select</type>
         <object-name>LAC.on</object-name>
         <condition>
             <property>controls/electric/LH-AC-bus</property>
         </condition>
-    </animation>
+    </animation-->
 
     <animation>
         <type>pick</type>
@@ -3976,7 +3976,7 @@
     </animation>
 
 
-    <animation>
+    <!--animation>
         <type>pick</type>
         <object-name>Rland.pk</object-name>
         <action>
@@ -3999,7 +3999,7 @@
                 <property>controls/lighting/landing-lights[1]</property>
             </binding>
         </hovered>
-    </animation>
+    </animation-->
 
     <animation>
         <type>select</type>
