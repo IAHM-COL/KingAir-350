@@ -27,7 +27,7 @@ setlistener("/sim/signals/fdm-initialized", func {
 	var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Aircraft/KingAir-350/Systems/autopilot-dlg.xml");
 	setprop("/it-autoflight/settings/retard-enable", 1);  # Enable or disable automatic autothrottle retard.
 	setprop("/it-autoflight/settings/retard-ft", 50);     # Add this to change the retard altitude, default is 50ft AGL.
-	setprop("/it-autoflight/settings/land-flap", 1.0);    # Define the landing flaps here. This is needed for autoland, and retard.
+	setprop("/it-autoflight/settings/land-flap", 0.9);    # Define the landing flaps here. This is needed for autoland, and retard.
 	setprop("/it-autoflight/settings/land-enable", 0);    # Enable or disable automatic landing.
 	print("KingAir 350 Systems OK!");
 });
@@ -234,3 +234,14 @@ var update_systems = func {
 #    settimer(update_systems,0);
 }
 
+var aglgears = func {
+    var agl = getprop("/position/altitude-agl-ft") or 0;
+    var aglft = agl - 4.004;  # is the position from the KingAir-350 above ground
+    var aglm = aglft * 0.3048;
+    setprop("/position/gear-agl-ft", aglft);
+    setprop("/position/gear-agl-m", aglm);
+
+    settimer(aglgears, 0.01);
+}
+
+aglgears();
