@@ -50,7 +50,7 @@
 			<gamma>0.0</gamma>  
 			<Ti>10.0</Ti>       
 			<Td>0.00001</Td>    
-			<u_min>0.0</u_min>  
+			<u_min>0.10</u_min>  
 			<u_max>0.94</u_max>  
 		</config>
 	</pid-controller>
@@ -100,7 +100,7 @@
 			<gamma>0.0</gamma>  
 			<Ti>10.0</Ti>       
 			<Td>0.00001</Td>    
-			<u_min>0.0</u_min>  
+			<u_min>0.10</u_min>  
 			<u_max>0.94</u_max>  
 		</config>
 	</pid-controller>
@@ -152,7 +152,7 @@
 						<value>0</value>
 					</equals>
 				</condition>
-				<value>0.08</value>
+				<value>0.18</value>
 			</u_min>  
 			<u_min>
 				<condition>
@@ -205,7 +205,7 @@
 			<gamma>0.0</gamma>  
 			<Ti>10.0</Ti>       
 			<Td>0.00001</Td>    
-			<u_min>0.0</u_min>  
+			<u_min>0.10</u_min>  
 			<u_max>0.95</u_max>  
 		</config>
 	</pid-controller>

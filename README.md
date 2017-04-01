@@ -4,14 +4,16 @@ Flightgear's Beechcraft Super King Air 350
 ![Image](https://upload.wikimedia.org/wikipedia/commons/0/02/Beech_b300_kingair_350_m-five_arp.jpg)
 
 License: GPL version 2+<br>
-:copyright: 2016 SM <br>
-:copyright: 2016 D-ECHO <br>
-:copyright: 2016 Lesbof <br>
-:copyright: 2016 Bomber <br>
-:copyright: 2016 it0uchpods <br>
-:copyright: 2016 GabrielYV <br>
-:copyright: 2016 IAHM-COL <br>
-:copyright: 2015-2016 JWocky <br>
+:copyright: 2016-2017 SM <br>
+:copyright: 2016-2017 D-ECHO <br>
+:copyright: 2016-2017 Lesbof <br>
+:copyright: 2016-2017 Bomber <br>
+:copyright: 2016-2017 it0uchpods <br>
+:copyright: 2016-2017 GabrielYV <br>
+:copyright: 2016-2017 IAHM-COL <br>
+:copyright: 2015-2017 JWocky <br>
+
+IMPORTANT: DO NOT USE FLAPS with AP: FDM is not stable with flaps down, and silly things happen!<br>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
