@@ -1,7 +1,0 @@
-I plan to replace IT-AUTOFLIGHT which is meant for airliners with a custom AP built from ITAF's system base at some point soon, I need breaks from VNAV :D
-
-This is because I want to use different PIDs and logic on this, then an airliner would use.
-
-ITAF-Simple won't be released until VNAV is done, as it also contains VNAV. So in the mean time, I'll use a custom AP, maybe even forever.
-
--it0uchpods

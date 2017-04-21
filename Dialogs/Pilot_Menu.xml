@@ -12,7 +12,7 @@
 	<default>
 
 		<menu n="10">
-			<label>Super KingAir 350 </label>
+			<label>Super KingAir 350</label>
 			<enabled type="bool">true</enabled>
 
 			<item>
