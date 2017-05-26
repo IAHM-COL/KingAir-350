@@ -297,9 +297,7 @@
 			<roll-kp>-1.4</roll-kp>
 			<roll-scale>1.0</roll-scale>
 			<vorloc>-3.0</vorloc>
-			<alt>0.025</alt>
-			<vs>0.10</vs>
-			<gs>0.11</gs>
+			<vs>0.01</vs>
 		</cmd>
 	</config>
 	<settings>
