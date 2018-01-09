@@ -87,10 +87,16 @@
 		<gain>1.0</gain>
 		<enable>
 			<condition>
-				<not-equals>
-					<property>/it-autoflight/output/vert</property>
-					<value>1</value>
-				</not-equals>
+				<or>
+					<equals>
+						<property>/it-autoflight/output/vert-active</property>
+						<value>0</value>
+					</equals>
+					<not-equals>
+						<property>/it-autoflight/output/vert</property>
+						<value>1</value>
+					</not-equals>
+				</or>
 			</condition>
 		</enable>
 		<input>
@@ -272,10 +278,11 @@
 			</Kp>
 			<Ki>0.0</Ki>
 			<min>
-				<value>-15</value>
+				<property>/it-autoflight/settings/bank-limit</property>
+				<scale>-1</scale>
 			</min>
 			<max>
-				<value>15</value>
+				<property>/it-autoflight/settings/bank-limit</property>
 			</max>
 		</config>
 	</pi-simple-controller>
@@ -352,7 +359,7 @@
 						<value>0</value>
 					</equals>
 				</condition>
-				<value>0.0001</value>
+				<value>-0.0001</value>
 			</Ki>
 			<Ki>
 				<condition>
@@ -363,8 +370,13 @@
 				</condition>
 				<value>0.0</value>
 			</Ki>
-			<min>-15</min>
-			<max>15</max>
+			<min>
+				<property>/it-autoflight/settings/bank-limit</property>
+				<scale>-1</scale>
+			</min>
+			<max>
+				<property>/it-autoflight/settings/bank-limit</property>
+			</max>
 		</config>
 	</pi-simple-controller>
 	
@@ -383,8 +395,13 @@
 		</enable>
 		<input>/orientation/roll-deg</input>
 		<output>/it-autoflight/internal/target-roll-deg</output>
-		<min>-15</min>
-		<max>15</max>
+		<min>
+			<property>/it-autoflight/settings/bank-limit</property>
+			<scale>-1</scale>
+		</min>
+		<max>
+			<property>/it-autoflight/settings/bank-limit</property>
+		</max>
 	</filter>
 	
 	<filter>
@@ -857,7 +874,7 @@
 	</pid-controller>
 		
 	<filter>
-		<name>IT-CONTROLLER: PITCH TRIM CMD</name>
+		<name>IT-CONTROLLER: PITCH AUTOTRIM CMD</name>
 		<debug>false</debug>
 		<feedback-if-disabled>true</feedback-if-disabled>
 		<initialize-to>output</initialize-to>
