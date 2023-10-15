@@ -41,8 +41,8 @@
 
 
 	<metrics>
-		<wingarea  unit="FT2">  219.34 </wingarea>
-		<wingspan  unit="FT" >   54.50 </wingspan>
+		<wingarea  unit="FT2">  310.00 </wingarea>
+		<wingspan  unit="FT" >   57.95 </wingspan>
 		<wing_incidence>          2.00 </wing_incidence>
 		<chord     unit="FT" >    4.02 </chord>
 		<htailarea unit="FT2">   35.09 </htailarea>
@@ -51,9 +51,9 @@
 		<vtailarm  unit="FT" >   21.88 </vtailarm>
 
 		<location name="AERORP" unit="M">
-			<x> -2.0 </x>
+			<x>   -1.50 </x>
 			<y>   0.00 </y>
-			<z>   -0.59595 </z>
+			<z>   0.00 </z>
 		</location>
 
 		<location name="EYEPOINT" unit="M">
@@ -65,7 +65,7 @@
 		<location name="VRP" unit="IN">
 			<x>0</x>
 			<y>0</y>
-			<z>0</z>
+			<z>-1</z>
 		</location>
 	</metrics>
 
@@ -76,9 +76,9 @@
 
 		<emptywt unit="LBS" >      9885 </emptywt>
 		<location name="CG" unit="M">
-			<x> -2.5</x>
+			<x> -2.0</x>
 			<y>   0.00 </y>
-			<z> -0.57938 </z>
+			<z>   0.00 </z>
 		</location>
 
 		<pointmass name="Pilot">
@@ -137,7 +137,7 @@
 			<spring_coeff unit="LBS/FT"> 15000 </spring_coeff> <!--  weight * 0.65 -->
 			<damping_coeff unit="LBS/FT/SEC"> 7958 </damping_coeff> <!--  spring_coeff * 0.15 --><!--958-->
 			<damping_coeff_rebound unit="LBS/FT/SEC"> 250 </damping_coeff_rebound> <!--  damping_coeff * 0.1 --><!--98.5-->
-			<max_steer unit="DEG"> 10 </max_steer>
+			<max_steer unit="DEG"> 45 </max_steer>
 			<brake_group> NONE </brake_group>
 			<retractable>1</retractable>
 		</contact>
@@ -146,7 +146,7 @@
 			<location unit="M">
 				<x>-1.92038</x>
 				<y>-2.77513</y>
-				<z>-1.80603</z>
+				<z>-2.20603</z>
 			</location>
 			<static_friction>  1.0 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -163,7 +163,7 @@
 			<location unit="M">
 				<x>-1.92038</x>
 				<y>2.77513</y>
-				<z>-1.80603</z>
+				<z>-2.20603</z>
 			</location>
 			<static_friction>  1.0 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -307,6 +307,9 @@
 		</tank>
 
 	</propulsion>
+
+	<system file="NWS"/>
+	<system file="pushback"/>
 
 	<flight_control name="FCS: KingAir-350">
 
@@ -518,7 +521,6 @@
 		<!-- Lift due to ground effects to make the take off faster -->
 		<function name="aero/function/kCLge">
 			<description>Change_in_lift_due_to_ground_effect</description>
-			<product>
 				<table>
 					<independentVar>aero/h_b-mac-ft</independentVar>
 					<tableData>
@@ -530,7 +532,6 @@
 						1.5000  1.0000	
 					</tableData>
 				</table>
-			</product>
 		</function>
 
 		<axis name="LIFT">
@@ -580,7 +581,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/elevator-pos-rad</property>
-					<value>0.15</value>
+					<value>0.10</value>
 				</product>
 			</function>
 
@@ -751,7 +752,7 @@
 					<property>metrics/Sw-sqft</property>
 					<property>metrics/bw-ft</property>
 					<property>fcs/left-aileron-pos-rad</property>
-					<value>0.05</value>
+					<value>0.15</value>
 				</product>
 			</function>
 

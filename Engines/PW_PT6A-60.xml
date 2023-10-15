@@ -25,7 +25,7 @@
   <idlen1>                       60.0   </idlen1>
   <maxn1>                       104.0   </maxn1>
   <maxpower unit="HP">         1050   </maxpower>
-  <psfc unit="LBS/HR/HP">         0.421 </psfc>
+  <psfc unit="LBS/HR/HP">         0.371 </psfc>
   <n1idle_max_delay>              1     </n1idle_max_delay>
   <maxstartingtime>              20     </maxstartingtime>
   <startern1>                    20     </startern1>
