@@ -10,18 +10,37 @@
 	-->
   
 	<default>
+				<menu n="3">
+					<item>
+						<name>autopilot</name>
+						<label>Autopilot Settings</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+								var autopilot = gui.Dialog.new("sim/gui/dialogs/autopilot/dialog", "Dialogs/autopilot11.xml");
+								autopilot.open();
+							</script>
+						</binding>
+					</item>
+				</menu>
 
 		<menu n="10">
 			<label>Super KingAir 350</label>
 			<enabled type="bool">true</enabled>
 
-			<item>
-				<label>Autostart</label>
-				<binding>
-					<command>property-toggle</command>
-					<property>sim/model/start-idling</property>
-				</binding>
-			</item>
+                    			<item>
+						<label>Automatic Start/Shutdown</label>
+						<binding>
+							<command>nasal</command>
+							<script>
+								kingair.StartUp();
+							</script>
+						</binding>
+						<binding>
+							<command>property-toggle</command>
+							<property>sim/model/start-idling</property>
+						</binding>
+					</item>
 
 			<item>
 				<label>Yoke</label>
