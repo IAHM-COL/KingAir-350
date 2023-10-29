@@ -781,31 +781,33 @@ v			<turn_gain type="double">-1.5</turn_gain>
 
 	<!-- all the nasal files in their namespaces -->
   	<nasal>
-		<kingair>
-			<file>Aircraft/JH-Kingair/Systems/Settings/Settings.nas</file>
-			<file>Aircraft/JH-Kingair/Systems/Autostart/autostart-simple.nas</file>
-			<file>Aircraft/JH-Kingair/Systems/Pilots/Pilots.nas</file>
-			<file>Aircraft/JH-Kingair/Systems/Engines/Reverse-Thrust.nas</file>
-			<file>Aircraft/JH-Kingair/Nasal/electrical.nas</file>
-			<file>Aircraft/JH-Kingair/Nasal/lighting.nas</file>
-			<!--file>Aircraft/il-96-400/Nasal/flightdirector.nas</file-->
-			<!-- file>Aircraft/JH-Kingair/Nasal/systems.nas</file-->
-			<file>Aircraft/JH-Kingair/Nasal/AFDS.nas</file>
-			<file>Aircraft/JH-Kingair/Nasal/tyresmoke.nas</file>
-			<file>Systems/Generic/MainControl.nas</file>
-		</kingair>
+	  <autostart>
+	    <file>Systems/Autostart/autostart-simple.nas</file>
+	  </autostart>
+	  <kingair>
+	    <file>Aircraft/JH-Kingair/Systems/Settings/Settings.nas</file>
+	    <file>Aircraft/JH-Kingair/Systems/Pilots/Pilots.nas</file>
+	    <file>Aircraft/JH-Kingair/Systems/Engines/Reverse-Thrust.nas</file>
+	    <file>Aircraft/JH-Kingair/Nasal/electrical.nas</file>
+	    <file>Aircraft/JH-Kingair/Nasal/lighting.nas</file>
+	    <!--file>Aircraft/il-96-400/Nasal/flightdirector.nas</file-->
+	    <!-- file>Aircraft/JH-Kingair/Nasal/systems.nas</file-->
+	    <file>Aircraft/JH-Kingair/Nasal/AFDS.nas</file>
+	    <file>Aircraft/JH-Kingair/Nasal/tyresmoke.nas</file>
+	    <file>Systems/Generic/MainControl.nas</file>
+	  </kingair>
 
-		<gui2>
-			<file>Aircraft/JH-Kingair/Canvas/Style.nas</file>
-			<file>Aircraft/JH-Kingair/Canvas/Widget.nas</file>
-			<file>Aircraft/JH-Kingair/Canvas/widgets/Button.nas</file>
-			<file>Aircraft/JH-Kingair/Canvas/widgets/Label.nas</file>
-		</gui2>
+	  <gui2>
+	    <file>Aircraft/JH-Kingair/Canvas/Style.nas</file>
+	    <file>Aircraft/JH-Kingair/Canvas/Widget.nas</file>
+	    <file>Aircraft/JH-Kingair/Canvas/widgets/Button.nas</file>
+	    <file>Aircraft/JH-Kingair/Canvas/widgets/Label.nas</file>
+	  </gui2>
 
-		<canvas2>
-			<file>Aircraft/JH-Kingair/Canvas/gui.nas</file>
-			<file>Aircraft/JH-Kingair/Canvas/DefaultStyle.nas</file>
-		</canvas2>
+	  <canvas2>
+	    <file>Aircraft/JH-Kingair/Canvas/gui.nas</file>
+	    <file>Aircraft/JH-Kingair/Canvas/DefaultStyle.nas</file>
+	  </canvas2>
 	</nasal>
 
 </PropertyList>

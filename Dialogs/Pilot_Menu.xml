@@ -29,11 +29,11 @@
 			<enabled type="bool">true</enabled>
 
                     			<item>
-						<label>Automatic Start/Shutdown</label>
+						<label>Automatic Start Up</label>
 						<binding>
 							<command>nasal</command>
 							<script>
-								kingair.StartUp();
+								autostart.StartUp();
 							</script>
 						</binding>
 						<binding>
