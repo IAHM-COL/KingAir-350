@@ -5,7 +5,7 @@
 	<!-- 
 	************************************************************************
 	Flightgear's Beechcraft Super King Air 350
-	it0uchpods and IAHM-COL, 2016
+	Jwocky, it0uchpods and IAHM-COL, 2016
   
 	based on:
 	3D model taken from 3ds directory from FGDATA
@@ -15,7 +15,7 @@
 	<sim>
 
 		<description>Beechraft Super King Air 350</description>
-		<author>it0uchpods, IAHM-COL, SM, GabrielYV</author>
+		<author>JWocky, it0uchpods, IAHM-COL, SM, GabrielYV</author>
 
 		<aircraft-version>V0.00.00</aircraft-version>
 		<minimum-fg-version>2018.2.1</minimum-fg-version>
@@ -471,7 +471,7 @@
 			<min-pitch type="float">-6.0</min-pitch>
 			<min-alt-ft type="int">1000</min-alt-ft>
 			<min-alt-m type="int">305</min-alt-m>
-v			<turn_gain type="double">-4.0</turn_gain>
+v			<turn_gain type="double">-1.5</turn_gain>
 		</internal>
                 <locks>
                        <heading type="string"></heading>
@@ -783,7 +783,7 @@ v			<turn_gain type="double">-4.0</turn_gain>
   	<nasal>
 		<kingair>
 			<file>Aircraft/JH-Kingair/Systems/Settings/Settings.nas</file>
-			<file>Aircraft/JH-Kingair/Systems/Autostart/Autostart.nas</file>
+			<file>Aircraft/JH-Kingair/Systems/Autostart/autostart-simple.nas</file>
 			<file>Aircraft/JH-Kingair/Systems/Pilots/Pilots.nas</file>
 			<file>Aircraft/JH-Kingair/Systems/Engines/Reverse-Thrust.nas</file>
 			<file>Aircraft/JH-Kingair/Nasal/electrical.nas</file>
